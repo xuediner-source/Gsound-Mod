@@ -2,7 +2,7 @@
 
 《边狱公司》自制人格模组 · 希斯克利夫 · 人格 ID 107970 · v1.11.25
 
-**[展示网站](https://xuediner-source.github.io/Gsound-Mod/) · [下载模组](https://github.com/xuediner-source/Gsound-Mod/releases) · [完整 SVG 人格图](docs/identity/Gsound_完整人格图.svg)**
+**[展示网站](https://xuediner-source.github.io/Gsound-Mod/) · [下载 v1.11.25 源码包](https://github.com/xuediner-source/Gsound-Mod/archive/refs/tags/v1.11.25.zip) · [完整 SVG 人格图](docs/identity/Gsound_完整人格图.svg)**
 
 <p><img src="docs/assets/phase1.webp" width="48%" alt="双刀成章"> <img src="docs/assets/phase2.webp" width="48%" alt="空白领域"></p>
 
@@ -10,7 +10,7 @@
 
 1. 准备 BepInEx IL2CPP、Lethe、ModularSkillScripts。制作环境同时装有 motions.dll，建议保持同样的前置环境；本仓库不附带这些组件。
 2. 关闭游戏，备份旧版 Gsound 文件夹。
-3. 将 Releases 安装包中的 Gsound 放入 `BepInEx/plugins/Lethe/mods/`。从源码安装时使用 **mod/Gsound**，不要复制仓库根目录。
+3. 下载 v1.11.25 源码包，解压后将其中 **mod/Gsound** 放入 `BepInEx/plugins/Lethe/mods/`。不要复制仓库根目录。
 4. 确认没有重复的旧版活动桥接 DLL，再启动游戏。
 
 中文文本位于 `custom_limbus_locale/EN`，请保留现有目录名。
