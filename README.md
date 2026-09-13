@@ -2,7 +2,7 @@
 
 《边狱公司》自制人格模组 · 希斯克利夫 · 人格 ID 107970 · v1.11.25
 
-**[展示网站](https://xuediner-source.github.io/Gsound/) · [下载模组](https://github.com/xuediner-source/Gsound/releases) · [完整 SVG 人格图](docs/identity/Gsound_完整人格图.svg)**
+**[展示网站](https://xuediner-source.github.io/Gsound-Mod/) · [下载模组](https://github.com/xuediner-source/Gsound-Mod/releases) · [完整 SVG 人格图](docs/identity/Gsound_完整人格图.svg)**
 
 <p><img src="docs/assets/phase1.webp" width="48%" alt="双刀成章"> <img src="docs/assets/phase2.webp" width="48%" alt="空白领域"></p>
 
