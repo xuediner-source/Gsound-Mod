@@ -1,0 +1,22 @@
+{
+  "Unbreakable Coin": {
+    "id": "Unbreakable Coin",
+    "name": "[不可摧毁的硬币]"
+  },
+  "CantBreak": {
+    "id": "CantBreak",
+    "name": "[不可摧毁的硬币]"
+  },
+  "OnLoseDuel": {
+    "id": "OnLoseDuel",
+    "name": "[拼点失败]"
+  },
+  "EncounterStart": {
+    "id": "EncounterStart",
+    "name": "[登场时]"
+  },
+  "WideAreaRampage": {
+    "id": "WideAreaRampage",
+    "name": "[群体技能]"
+  }
+}

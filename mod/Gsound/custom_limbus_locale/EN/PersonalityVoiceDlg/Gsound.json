@@ -1,0 +1,30 @@
+{
+  "dataList": [
+    { "id": "get_107970_1", "desc": "Identity Acquisition", "dlg": "" },
+    { "id": "lobby_morning_107970_1", "desc": "Morning Greeting", "dlg": "" },
+    { "id": "lobby_noon_107970_1", "desc": "Afternoon Greeting", "dlg": "" },
+    { "id": "lobby_night_107970_1", "desc": "Evening Greeting", "dlg": "" },
+    { "id": "smalltalk_107970_1", "desc": "Chatter #1", "dlg": "" },
+    { "id": "smalltalk_107970_2", "desc": "Chatter #2", "dlg": "" },
+    { "id": "smalltalk_107970_3", "desc": "Chatter #3", "dlg": "" },
+    { "id": "smalltalk_107970_4", "desc": "Post-Uptie Chat 1", "dlg": "" },
+    { "id": "smalltalk_107970_5", "desc": "Post-Uptie Chat 2", "dlg": "" },
+    { "id": "neglect_107970_1", "desc": "Idle", "dlg": "" },
+    { "id": "gacksung_107970_1", "desc": "Uptying", "dlg": "" },
+    { "id": "formation_107970_1", "desc": "Deployment", "dlg": "" },
+    { "id": "battleentry_107970_1", "desc": "Stage Entry", "dlg": "" },
+    { "id": "battle_select_107970_1", "desc": "Viewed in Battle", "dlg": "" },
+    { "id": "battle_endcommand_107970_1", "desc": "Commencing Attack", "dlg": "" },
+    { "id": "battle_enemy_break_107970_1", "desc": "Enemy Stagger", "dlg": "" },
+    { "id": "battle_break_107970_1", "desc": "Staggered", "dlg": "" },
+    { "id": "battle_kill_107970_1", "desc": "Enemy Killed", "dlg": "" },
+    { "id": "battle_dead_107970_1", "desc": "Death", "dlg": "" },
+    { "id": "battle_allydead_107970_1", "desc": "Ally Death", "dlg": "" },
+    { "id": "choice_success_p_107970_1", "desc": "Check Passed", "dlg": "" },
+    { "id": "choice_success_p_107970_2", "desc": "Check Passed", "dlg": "" },
+    { "id": "choice_fail_n_107970_1", "desc": "Check Failed", "dlg": "" },
+    { "id": "battle_clear_107970_1", "desc": "Victory Cry", "dlg": "" },
+    { "id": "battle_clear_ex_107970_1", "desc": "Extra Conditions Fulfilled", "dlg": "" },
+    { "id": "battle_defeat_107970_1", "desc": "Defeat Wail", "dlg": "" }
+  ]
+}

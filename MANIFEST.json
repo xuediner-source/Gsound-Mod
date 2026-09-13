@@ -1,0 +1,527 @@
+[
+  {
+    "path": "assets/blank_domain_cg_awakened_runtime.rgba",
+    "bytes": 6293416,
+    "sha256": "e81fe2f6eb426d806a6eefdb26219d94b5bb43194aeb3ff5d37272e3473aaab9"
+  },
+  {
+    "path": "assets/blank_domain_cg_normal_runtime.rgba",
+    "bytes": 8294408,
+    "sha256": "c0baaf556d0db587a97f245d901f2fe48913a120b0e5f45babead4f36337e7f8"
+  },
+  {
+    "path": "assets/blank_domain_followthrough_runtime.rgba",
+    "bytes": 1378784,
+    "sha256": "4bb0da1e0121f5927029f7453e9d0599b3c68a666723fd65cb7794a1a907a5a1"
+  },
+  {
+    "path": "assets/blank_domain_frame_schedule.tsv",
+    "bytes": 2211,
+    "sha256": "5ce4ea0a25713ba91e9d084506f6320392560870a9e4c090f8b1afc25ddd8d79"
+  },
+  {
+    "path": "assets/blank_domain_idle_runtime.png",
+    "bytes": 306002,
+    "sha256": "87e5abd8283f7fa50ffcf9832cc9dfc071c565118063f85aac304e203a826f97"
+  },
+  {
+    "path": "assets/blank_domain_idle_runtime.rgba",
+    "bytes": 884864,
+    "sha256": "a9f15e5f6724943604fbfe9fdfbcdeb85cb7d59a65f137eab7db94337d59c526"
+  },
+  {
+    "path": "assets/blank_domain_recover_low_runtime.rgba",
+    "bytes": 1168280,
+    "sha256": "11b6de9a40f49c38e4307f39e0045d8b687ca2b8e14520f353db3d3d3389de22"
+  },
+  {
+    "path": "assets/blank_domain_recover_rise_runtime.rgba",
+    "bytes": 1077992,
+    "sha256": "346047c69b92e76861b280b631466d1a48e6f615c11c04d5258164ba1bf4a7f0"
+  },
+  {
+    "path": "assets/blank_domain_slash_runtime.rgba",
+    "bytes": 1322960,
+    "sha256": "44d37c12017410f038161a37f981484b9bf9161eca59c7dbbe865614ec6bb705"
+  },
+  {
+    "path": "assets/blank_domain_thrust_runtime.rgba",
+    "bytes": 1650604,
+    "sha256": "09625b8bf6062cddbe42ec67acea814590c98465a13078da0e17f72be707db04"
+  },
+  {
+    "path": "assets/blank_domain_timeline_frames.tsv",
+    "bytes": 3095,
+    "sha256": "1ce1ab577d26a47b77553a05879f4c2a952348094826ec7120269f6fb035a997"
+  },
+  {
+    "path": "assets/blank_domain_transform_start_runtime.rgba",
+    "bytes": 809608,
+    "sha256": "424bf9fb302dbfb4f724e425e6b37df3fc2376f1f27aef9c8d50ca5758d7942c"
+  },
+  {
+    "path": "assets/blank_domain_windup_runtime.rgba",
+    "bytes": 1606760,
+    "sha256": "f6864e429d14352022a729bacc81ee91859a4452fcc3f5c074fdabf51396c5df"
+  },
+  {
+    "path": "assets/Gsound.bundle",
+    "bytes": 30927932,
+    "sha256": "742b3c5fb2fa4a79c4e38cbeb76c7d4e75e1780367466ae1a3a8b23d8b73bf16"
+  },
+  {
+    "path": "assets/GsoundBlankCounter.bundle",
+    "bytes": 39768446,
+    "sha256": "82a0efaa014face4cc7c6148acca5b7db20806851cbcbb48577809a0c9085c98"
+  },
+  {
+    "path": "assets/GsoundBlankParry.bundle",
+    "bytes": 9988380,
+    "sha256": "8762931e310c7c9e1efda1bf280c9557eb93d074c1760af9c28a52fc3dfaf660"
+  },
+  {
+    "path": "assets/GsoundBlankShadow.bundle",
+    "bytes": 297729,
+    "sha256": "c93cbbdf0dadb78f72593c044a3daa46463b5cbb77e15eea6e62e4aeb1c1993a"
+  },
+  {
+    "path": "assets/GsoundBlankSkill1.bundle",
+    "bytes": 39778241,
+    "sha256": "5f0957f77d45df49015de641adbcac9e23e6f87ea81ed529191d169592335bb3"
+  },
+  {
+    "path": "assets/GsoundBlankSkill2.bundle",
+    "bytes": 39769038,
+    "sha256": "7030fd5fcbf2de0d83538eacc6479e60c865595fc6b8e3a4819fb2af8cffbc72"
+  },
+  {
+    "path": "assets/GsoundBlankSkill3.bundle",
+    "bytes": 10502341,
+    "sha256": "77b02919a04b6e1cd75ec7325884b8ed85e1357ddb73f9fdc830670ce110b7e0"
+  },
+  {
+    "path": "assets/GsoundBlankTransform.bundle",
+    "bytes": 9990531,
+    "sha256": "0b141d38e9e8c853428f00bbd675c12e8488e959b5f9d1b76234a25296190448"
+  },
+  {
+    "path": "assets/GsoundThumbActions.bundle",
+    "bytes": 20662296,
+    "sha256": "af25700defef589e8dc40d8cbd540b083a414a68649ea4e1a713e76475d80af6"
+  },
+  {
+    "path": "custom_appearance/Gsound.bundle",
+    "bytes": 30930974,
+    "sha256": "9ebaf58fee115f57f8261d5c02da8bfc260a353780b280fd9579c74bf180b208"
+  },
+  {
+    "path": "custom_buffs/AccelBullet.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "custom_buffs/BlankDomain.txt",
+    "bytes": 1,
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  {
+    "path": "custom_buffs/BlankDomainOneDamage.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "custom_buffs/CursedSpirit.txt",
+    "bytes": 1,
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  {
+    "path": "custom_buffs/Explicator.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "custom_buffs/ExplicatorBloodDinnerField.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "custom_buffs/Farewell.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "custom_buffs/FirePoker.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "custom_buffs/FirePokerScorchField.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "custom_buffs/Hater.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "custom_buffs/Hope.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "custom_buffs/Lover.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "custom_buffs/MindHeart.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "custom_buffs/Reunion.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "custom_buffs/SelectiveAmnesia.txt",
+    "bytes": 1,
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  {
+    "path": "custom_buffs/SpeechDraft.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "custom_buffs/UnforgettableMemory.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "custom_limbus_data/buff/Gsound-BlankDomain-Buffs.json",
+    "bytes": 1307,
+    "sha256": "f901c8c54a61159a2e793b17f3d89d6124f6909296793fb809f13b5258fc055c"
+  },
+  {
+    "path": "custom_limbus_data/buff/Gsound-Buffs.json",
+    "bytes": 8173,
+    "sha256": "5877d638d62ca799e2c329841a46c3994fec1bd4a1f5b11ec14156c29ade54b2"
+  },
+  {
+    "path": "custom_limbus_data/passive/Gsound-BlankDomain-Passives.json",
+    "bytes": 1223,
+    "sha256": "2ce64eae6bd4028c6a9bc499b844aff5e6b1ef1b2f77528084a65b31a034af21"
+  },
+  {
+    "path": "custom_limbus_data/passive/Gsound-Passives.json",
+    "bytes": 3489,
+    "sha256": "805a71a7638bb12bebee2967660c76d443d62c65a1abf95965e725b7db062563"
+  },
+  {
+    "path": "custom_limbus_data/personality/Gsound.json",
+    "bytes": 3838,
+    "sha256": "8190ff05bd6a0d7375f2eeab0173083baecd3b812cbb388e4f9fa3d96ae65a46"
+  },
+  {
+    "path": "custom_limbus_data/personality-passive/Gsound-PerPas.json",
+    "bytes": 816,
+    "sha256": "7535b1ba827c13790bd46c85ae3991327b062ec937865819742dfee776aeaf67"
+  },
+  {
+    "path": "custom_limbus_data/skill/Gsound-BlankDomain-Skills.json",
+    "bytes": 27857,
+    "sha256": "a7e28b907e2a726d7f0384af392e9cfc0af7323b003f8df760527bd3cbc9297b"
+  },
+  {
+    "path": "custom_limbus_data/skill/Gsound-Skills.json",
+    "bytes": 60127,
+    "sha256": "5d6adf51e637f05f3f3081512a699fa26498c4a24cf667a884ba018b2cbeb725"
+  },
+  {
+    "path": "custom_limbus_locale/EN/bufList/Gsound-BlankDomain-Buffs.json",
+    "bytes": 1014,
+    "sha256": "e982188d0f8d1967b19d3c36483ed9e7b696ddb7dda294fe7e238ae79cda4e15"
+  },
+  {
+    "path": "custom_limbus_locale/EN/bufList/Gsound-Buffs.json",
+    "bytes": 5454,
+    "sha256": "572436eb45277c99e6c5ffa78ef9c932e43c466dd6674756ae7b9e831eb7a21d"
+  },
+  {
+    "path": "custom_limbus_locale/EN/keywordList/Gsound-Keywords.json",
+    "bytes": 8486,
+    "sha256": "83d3afcea2996aac104037c6f1d01ffa326c02c2b0f92d8900c32b73e7765532"
+  },
+  {
+    "path": "custom_limbus_locale/EN/passiveList/Gsound-BlankDomain-Passives.json",
+    "bytes": 2291,
+    "sha256": "625d270b558d8cbf67c7fe6b0d36cf5b595f7e149e1a355772de23d3910df0df"
+  },
+  {
+    "path": "custom_limbus_locale/EN/passiveList/Gsound-Passives.json",
+    "bytes": 4062,
+    "sha256": "0b2096ac9ae8d310f1524d1695dcaf821da4be9f4aad4d537495a1a0e6594aff"
+  },
+  {
+    "path": "custom_limbus_locale/EN/personalityList/Gsound.json",
+    "bytes": 179,
+    "sha256": "5381efbd78ed739493be9daa105482eb6ce9cc240e6fd45e6b27bb7822ab113f"
+  },
+  {
+    "path": "custom_limbus_locale/EN/PersonalityVoiceDlg/Gsound.json",
+    "bytes": 1954,
+    "sha256": "317b058f4ef64ebcbce3c01de09179cee372116e76c5463925e0e77ac9be16d4"
+  },
+  {
+    "path": "custom_limbus_locale/EN/skillList/Gsound-BlankDomain-Skills.json",
+    "bytes": 11924,
+    "sha256": "da2226e85dc2b57dadf9d55702eff4501556813f01d66bbc0f3049d3c4b0c75e"
+  },
+  {
+    "path": "custom_limbus_locale/EN/skillList/Gsound-Skills.json",
+    "bytes": 18302,
+    "sha256": "88901454152b0de4d70ed61294235a62113570a5769790d3724b8cc02edaedbd"
+  },
+  {
+    "path": "custom_limbus_locale/EN/skillTagList/Gsound-SkillTags.json",
+    "bytes": 426,
+    "sha256": "35884908807475e4e149726cbdaf4f89883360fef2ec20e951a92079e17fc11e"
+  },
+  {
+    "path": "custom_sprites/_backup-skill-icons-before-v2v3-20260901-161617/skill_1079701.png",
+    "bytes": 345782,
+    "sha256": "a16b63df5602ba20edc1f525bf1ebb38fa7cdfc06384cddafa4e97b3a6356600"
+  },
+  {
+    "path": "custom_sprites/_backup-skill-icons-before-v2v3-20260901-161617/skill_1079702.png",
+    "bytes": 395922,
+    "sha256": "f1823af7d8b7993ffca90d895b78992b564573220f9b8262eff99c2929724095"
+  },
+  {
+    "path": "custom_sprites/_backup-skill-icons-before-v2v3-20260901-161617/skill_1079703.png",
+    "bytes": 311074,
+    "sha256": "e7781b71153e72e83f0f68ff86b8c2fbbc778bec4a54b751a2625d292a74bb62"
+  },
+  {
+    "path": "custom_sprites/_backup-skill-icons-before-v2v3-20260901-161617/skill_1079704.png",
+    "bytes": 372002,
+    "sha256": "813fd3f5617f80dee21c8b24e0960e76533b8d8f38439f69974edb819ae38b18"
+  },
+  {
+    "path": "custom_sprites/_backup-skill-icons-before-v2v3-20260901-161617/skill_1079705.png",
+    "bytes": 345844,
+    "sha256": "5940fc1299b909dc1e8b00bbe2d17c75e125d2847e523a713f70151f371ab5ea"
+  },
+  {
+    "path": "custom_sprites/_backup-skill-icons-before-v2v3-20260901-161617/skill_1079706.png",
+    "bytes": 344441,
+    "sha256": "a017526f6455857ff0120382699081b444fdb075c5f730a0f550f8cd28b7ac97"
+  },
+  {
+    "path": "custom_sprites/_backup-skill-icons-before-v2v3-20260901-161617/skill_1079711.png",
+    "bytes": 394547,
+    "sha256": "4911feab0a043c2c65702152dc09020d446307f5399911c818f131ca4e31f3bc"
+  },
+  {
+    "path": "custom_sprites/_backup-skill-icons-before-v2v3-20260901-161617/skill_1079712.png",
+    "bytes": 389805,
+    "sha256": "2fd932624f6fb65a090ffa3843a426156115df2f923c40583c70b2fee0dd7db5"
+  },
+  {
+    "path": "custom_sprites/_backup-skill-icons-before-v2v3-20260901-161617/skill_1079713.png",
+    "bytes": 215678,
+    "sha256": "88107dd87d5d20ab993ffc83c78e5380973d4183fc3a31877104888b851ac5f4"
+  },
+  {
+    "path": "custom_sprites/_backup-skill-icons-before-v2v3-20260901-161617/skill_1079714.png",
+    "bytes": 384136,
+    "sha256": "0ecc5b9b8ddf00fe2a69646ccebfce92bbcfc26d7894165ba4c8b09f55c2ac85"
+  },
+  {
+    "path": "custom_sprites/buffIcon_AccelBullet.png",
+    "bytes": 38339,
+    "sha256": "52c46987e62c46564ca521e75bce11635f240906e96cb182d00bc15d325b02eb"
+  },
+  {
+    "path": "custom_sprites/buffIcon_BlankDomain.png",
+    "bytes": 58949,
+    "sha256": "8700f892b671cb223b350d73e121cf9be34bbe8749e4f0dcc20bcfa33a0b401f"
+  },
+  {
+    "path": "custom_sprites/buffIcon_BlankDomainOneDamage.png",
+    "bytes": 55037,
+    "sha256": "53024c82740b50bb8bcd2dad9682273d295401948a37b375e9f984d1f9dbc5a1"
+  },
+  {
+    "path": "custom_sprites/buffIcon_CursedSpirit.png",
+    "bytes": 44769,
+    "sha256": "b7c7e7eaa86a51025fdb5da45bd76ad647f3162f6846f2911021174fc6d40479"
+  },
+  {
+    "path": "custom_sprites/buffIcon_Explicator.png",
+    "bytes": 1511,
+    "sha256": "33c9f600e6d646cfe600b2367f6d26771021396ee68c5d4389ced537031fae71"
+  },
+  {
+    "path": "custom_sprites/buffIcon_Farewell.png",
+    "bytes": 58022,
+    "sha256": "c9daea416632830c1bcb63ed83d3df78de5941ee3846bc71907eadb2a609a205"
+  },
+  {
+    "path": "custom_sprites/buffIcon_FirePoker.png",
+    "bytes": 13468,
+    "sha256": "375e538bf128d4bf58879eaf3803b1f4c9128a469f1f8deb76ce8ac413da428a"
+  },
+  {
+    "path": "custom_sprites/buffIcon_Hater.png",
+    "bytes": 34778,
+    "sha256": "cf92824766c0053cd699858020fef4a9f122a3660e9a860e7b65eb82222bc74d"
+  },
+  {
+    "path": "custom_sprites/buffIcon_Hope.png",
+    "bytes": 47496,
+    "sha256": "41dd0e546902db8a2422d4ed7a3e17472f5bf1b3a8fceb187d1e8f7fbc311792"
+  },
+  {
+    "path": "custom_sprites/buffIcon_Lover.png",
+    "bytes": 47476,
+    "sha256": "da2b48772a90e7cf71e0cf4d710c842bbcaaa24bc7c0d82b1032aaec8bc3a2b9"
+  },
+  {
+    "path": "custom_sprites/buffIcon_MindHeart.png.disabled",
+    "bytes": 51944,
+    "sha256": "865afa6cfcb5d58e7358cde39945bb5bdcb557137d0d838b0824122444c92280"
+  },
+  {
+    "path": "custom_sprites/buffIcon_Reunion.png",
+    "bytes": 52751,
+    "sha256": "23e3f6b15710bec571f97351bc6f8e6683779d073191718811f3d26c848a6f99"
+  },
+  {
+    "path": "custom_sprites/buffIcon_SelectiveAmnesia.png",
+    "bytes": 57026,
+    "sha256": "5dd6903e0f56bd6719d401c90a48a4b1ccb40cfe8a005dbef81301d46a756fcb"
+  },
+  {
+    "path": "custom_sprites/buffIcon_SpeechDraft.png",
+    "bytes": 38339,
+    "sha256": "52c46987e62c46564ca521e75bce11635f240906e96cb182d00bc15d325b02eb"
+  },
+  {
+    "path": "custom_sprites/buffIcon_UnforgettableMemory.png",
+    "bytes": 55420,
+    "sha256": "90aea9322bead2b48471f49f3ee0e64482441f0533899e8ab5983fa81d579e1a"
+  },
+  {
+    "path": "custom_sprites/cg_107970.png",
+    "bytes": 4281790,
+    "sha256": "3d98dd612686427aa2591470a8a0f52554fb35aac649e054eb6ea54af50a239a"
+  },
+  {
+    "path": "custom_sprites/cg_107970_phase2.png",
+    "bytes": 2831310,
+    "sha256": "b0078503b3109f1be8f4c243f1fd830aa5f6ef681bb49057c1c7d4121d4e87e4"
+  },
+  {
+    "path": "custom_sprites/profile_107970.png",
+    "bytes": 1642642,
+    "sha256": "12a8198f5b6ef86e99bd6beeb9f866d35d20e4623c3839c15928c1a55caf1737"
+  },
+  {
+    "path": "custom_sprites/skill_1079701.png",
+    "bytes": 477984,
+    "sha256": "bd36cd69b4dc1f62773c2a922e41f74f1be545b1e9c10de7ce2cf0f064f970d0"
+  },
+  {
+    "path": "custom_sprites/skill_1079702.png",
+    "bytes": 384277,
+    "sha256": "b3dd444ad770e4cca3fba52f09c5089c01119304cb2ac3b0172f8f12909bea47"
+  },
+  {
+    "path": "custom_sprites/skill_1079703.png",
+    "bytes": 387702,
+    "sha256": "654b47686191d979b7ecd0f3ea07fa3759c5c7d319820e3399da2768edf55d07"
+  },
+  {
+    "path": "custom_sprites/skill_1079704.png",
+    "bytes": 342759,
+    "sha256": "3581386fee61c885c1a81e0e07e0d0c0ee615b4782d9e8378a6667050384f121"
+  },
+  {
+    "path": "custom_sprites/skill_1079705.png",
+    "bytes": 334709,
+    "sha256": "829c371ad2fefec1a0e31de9fa40e6e7f74d2b34c7f1bfa708360e2e78a4d640"
+  },
+  {
+    "path": "custom_sprites/skill_1079706.png",
+    "bytes": 375725,
+    "sha256": "e6a4aafb96149033f68609fad113d6303c075d5c2be9ec2b3047589cb73557ed"
+  },
+  {
+    "path": "custom_sprites/skill_1079711.png",
+    "bytes": 434737,
+    "sha256": "50d9b464edf692ce097fbb93b7a6f1e88ee5a7b22e9f77db7f32373e0694ab95"
+  },
+  {
+    "path": "custom_sprites/skill_1079712.png",
+    "bytes": 379894,
+    "sha256": "51134e827cbd7bc0aab472940da2e2538e557a518f4fae04334c0b47c324dbcc"
+  },
+  {
+    "path": "custom_sprites/skill_1079713.png",
+    "bytes": 533289,
+    "sha256": "e9e88a8bb3a45aefb51dd1c1e9724ed27930bd1e279d04c10fdeafc500ecc0b7"
+  },
+  {
+    "path": "custom_sprites/skill_1079714.png",
+    "bytes": 446046,
+    "sha256": "017b1dd3b9dca09db4050957549a9c37fef0baf3909910511b7b3a71d9bff5f8"
+  },
+  {
+    "path": "custom_sprites/skill_1079721.png",
+    "bytes": 416584,
+    "sha256": "8f91e8c99c794ddc27d2d409a5167d9c2a2a62865562c35cde92cdcf7788429b"
+  },
+  {
+    "path": "custom_sprites/skill_1079722.png",
+    "bytes": 145381,
+    "sha256": "7347b060782eeaf629e58a9de8127e1e875a7d2c35bdedd4a7112d9466121d53"
+  },
+  {
+    "path": "custom_sprites/skill_1079723.png",
+    "bytes": 426696,
+    "sha256": "8709060db08801f2fc5d91db4677a3e53c0f98f89ed837434a3e006e9cc57932"
+  },
+  {
+    "path": "custom_sprites/skill_1079724.png",
+    "bytes": 30696,
+    "sha256": "be9fd1f335f1a714a77919f1b19161d5bf551a274900da75304928ee2d7bcb87"
+  },
+  {
+    "path": "GsoundStageFieldBridge.deps.json",
+    "bytes": 458,
+    "sha256": "1aa24fe03aacbcfde23b2fb5ac7be6e105b916f5a18c33f7d1f0d1cddc7a8a23"
+  },
+  {
+    "path": "GsoundStageFieldBridge.dll",
+    "bytes": 145408,
+    "sha256": "402b983c770779240d2d61b9ee18126c5fdcd4a6faafc75f411d6878ef0bfd8e"
+  },
+  {
+    "path": "modular_lua/gsound.before-official-stage-fields-20260820-1952.lua.bak",
+    "bytes": 33284,
+    "sha256": "733dace8208a510bddf84d67b19cf8ae48a344b2ab47cbe8129f13ba3c6c1fe0"
+  },
+  {
+    "path": "modular_lua/gsound.lua",
+    "bytes": 66474,
+    "sha256": "d5a26b45351c532a508485d9bd58206aea400f9a1560c6de1a10671739619301"
+  },
+  {
+    "path": "modular_lua/gsound.lua.bak-20260911-bgm",
+    "bytes": 66721,
+    "sha256": "7ea39469626529210dd95d56562cf65078c7428d42af8ae7392d914b853e8aec"
+  }
+]

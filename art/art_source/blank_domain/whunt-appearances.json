@@ -1,0 +1,344 @@
+[
+  {
+    "path_id": -1224232334688209548,
+    "name": "",
+    "motions": [
+      {
+        "detail": 4,
+        "timelines": []
+      },
+      {
+        "detail": 0,
+        "timelines": []
+      },
+      {
+        "detail": 2,
+        "timelines": []
+      },
+      {
+        "detail": 3,
+        "timelines": []
+      },
+      {
+        "detail": 5,
+        "timelines": []
+      },
+      {
+        "detail": 7,
+        "timelines": [
+          {
+            "file_id": 0,
+            "path_id": -6179878628026673664,
+            "name": "Heathclif_WHunt_Ride_S1_Timeline_2"
+          },
+          {
+            "file_id": 0,
+            "path_id": -7467481993789002241,
+            "name": "Heathclif_WHunt_Ride_S1_Timeline_3"
+          }
+        ]
+      },
+      {
+        "detail": 8,
+        "timelines": [
+          {
+            "file_id": 0,
+            "path_id": 8582952027895220578,
+            "name": "Heathclif_WHunt_Ride_S2_Timeline_1"
+          },
+          {
+            "file_id": 0,
+            "path_id": -302318831284042305,
+            "name": "Heathclif_WHunt_Ride_S2_Timeline_2"
+          },
+          {
+            "file_id": 0,
+            "path_id": -11338049336837690,
+            "name": "Heathclif_WHunt_Ride_S2_Timeline_3_1"
+          }
+        ]
+      },
+      {
+        "detail": 9,
+        "timelines": [
+          {
+            "file_id": 0,
+            "path_id": 2873330373341792284,
+            "name": "Heathclif_WHunt_Ride_S3_Timeline"
+          },
+          {
+            "file_id": 0,
+            "path_id": 3949527463954906500,
+            "name": "Heathclif_WHunt_Ride_S3_Timeline_2"
+          },
+          {
+            "file_id": 0,
+            "path_id": 4499007488923405123,
+            "name": "Heathclif_WHunt_Ride_S3_Timeline_2_1"
+          }
+        ]
+      },
+      {
+        "detail": 10,
+        "timelines": [
+          {
+            "file_id": 0,
+            "path_id": -1543048598728277294,
+            "name": "Heathclif_WHunt_Ride_S4_Timeline"
+          },
+          {
+            "file_id": 0,
+            "path_id": -3354779007925367462,
+            "name": "Heathclif_WHunt_Ride_S4_Timeline_2"
+          }
+        ]
+      },
+      {
+        "detail": 11,
+        "timelines": [
+          {
+            "file_id": 0,
+            "path_id": -420440981575263980,
+            "name": "Heathclif_WHunt_Ride_Summon_Timeline_1_1"
+          },
+          {
+            "file_id": 0,
+            "path_id": -1228078153299353638,
+            "name": "Heathclif_WHunt_Ride_Summon_Timeline_2_1"
+          },
+          {
+            "file_id": 0,
+            "path_id": 3788180469108485854,
+            "name": "Heathclif_WHunt_Ride_Summon_Timeline_1_2"
+          }
+        ]
+      },
+      {
+        "detail": 17,
+        "timelines": [
+          {
+            "file_id": 0,
+            "path_id": -4325276176511329981,
+            "name": "Heathclif_WHunt_Ride_Parrying_Timeline_1"
+          },
+          {
+            "file_id": 0,
+            "path_id": -3259526576583138971,
+            "name": "Heathclif_WHunt_Ride_Parrying_Timeline_2"
+          },
+          {
+            "file_id": 0,
+            "path_id": -1435108157972141533,
+            "name": "Heathclif_WHunt_Ride_Parrying_Timeline_3"
+          }
+        ]
+      },
+      {
+        "detail": 18,
+        "timelines": []
+      },
+      {
+        "detail": 20,
+        "timelines": [
+          {
+            "file_id": 0,
+            "path_id": 8330151076093878520,
+            "name": "Heathclif_WHunt_Ride_Start_Timeline"
+          }
+        ]
+      },
+      {
+        "detail": 37,
+        "timelines": [
+          {
+            "file_id": 0,
+            "path_id": -7272892722970214944,
+            "name": "Heathclif_WHunt_Ride_Parrying_Win_Timeline"
+          }
+        ]
+      },
+      {
+        "detail": 21,
+        "timelines": [
+          {
+            "file_id": 0,
+            "path_id": -8223836499149509119,
+            "name": "Heathclif_WHunt_Ride_Summon_Parrying_Timeline"
+          }
+        ]
+      },
+      {
+        "detail": 1,
+        "timelines": []
+      }
+    ]
+  },
+  {
+    "path_id": -89415606219824310,
+    "name": "",
+    "motions": [
+      {
+        "detail": 4,
+        "timelines": []
+      },
+      {
+        "detail": 0,
+        "timelines": []
+      },
+      {
+        "detail": 2,
+        "timelines": []
+      },
+      {
+        "detail": 3,
+        "timelines": []
+      },
+      {
+        "detail": 5,
+        "timelines": []
+      },
+      {
+        "detail": 7,
+        "timelines": [
+          {
+            "file_id": 0,
+            "path_id": 640604076846758240,
+            "name": "Heathclif_WHunt_S1_Timeline_2"
+          },
+          {
+            "file_id": 0,
+            "path_id": 331264545615640050,
+            "name": "Heathclif_WHunt_S1_Timeline_3"
+          }
+        ]
+      },
+      {
+        "detail": 8,
+        "timelines": [
+          {
+            "file_id": 0,
+            "path_id": -8341828900333208674,
+            "name": "Heathclif_WHunt_S2_Timeline_1"
+          },
+          {
+            "file_id": 0,
+            "path_id": 6235248713424984884,
+            "name": "Heathclif_WHunt_S2_Timeline_2_1"
+          },
+          {
+            "file_id": 0,
+            "path_id": -276558837286132571,
+            "name": "Heathclif_WHunt_S2_Timeline_3"
+          }
+        ]
+      },
+      {
+        "detail": 9,
+        "timelines": [
+          {
+            "file_id": 0,
+            "path_id": 8222612733025799740,
+            "name": "Heathclif_WHunt_S3_Timeline"
+          },
+          {
+            "file_id": 0,
+            "path_id": -4582636926726165926,
+            "name": "Heathclif_WHunt_S3_Timeline_2"
+          },
+          {
+            "file_id": 0,
+            "path_id": -1815420153503676384,
+            "name": "Heathclif_WHunt_S3_Timeline_2_1"
+          }
+        ]
+      },
+      {
+        "detail": 10,
+        "timelines": [
+          {
+            "file_id": 0,
+            "path_id": 6618153483536284851,
+            "name": "Heathclif_WHunt_S4_Timeline"
+          },
+          {
+            "file_id": 0,
+            "path_id": -646317406095265016,
+            "name": "Heathclif_WHunt_S4_Timeline_2"
+          }
+        ]
+      },
+      {
+        "detail": 11,
+        "timelines": [
+          {
+            "file_id": 0,
+            "path_id": 2053694456757168238,
+            "name": "Heathclif_WHunt_Summon_Timeline_1"
+          },
+          {
+            "file_id": 0,
+            "path_id": 335954033024596263,
+            "name": "Heathclif_WHunt_Summon_Timeline_2"
+          },
+          {
+            "file_id": 0,
+            "path_id": -5721937493079714310,
+            "name": "Heathclif_WHunt_Summon_Timeline_1_1"
+          }
+        ]
+      },
+      {
+        "detail": 17,
+        "timelines": [
+          {
+            "file_id": 0,
+            "path_id": -9142607013731547823,
+            "name": "Heathclif_WHunt_Parrying_Timeline_1"
+          },
+          {
+            "file_id": 0,
+            "path_id": -2862410121030091409,
+            "name": "Heathclif_WHunt_Parrying_Timeline_2"
+          },
+          {
+            "file_id": 0,
+            "path_id": 8474820071047205502,
+            "name": "Heathclif_WHunt_Parrying_Timeline_3"
+          }
+        ]
+      },
+      {
+        "detail": 18,
+        "timelines": []
+      },
+      {
+        "detail": 1,
+        "timelines": []
+      },
+      {
+        "detail": 37,
+        "timelines": [
+          {
+            "file_id": 0,
+            "path_id": -1060714416726022618,
+            "name": "Heathclif_WHunt_Parrying_Win_Timeline"
+          }
+        ]
+      },
+      {
+        "detail": 21,
+        "timelines": [
+          {
+            "file_id": 0,
+            "path_id": -6851283427279581352,
+            "name": "Heathclif_WHunt_Summon_Parrying_Timeline"
+          }
+        ]
+      },
+      {
+        "detail": 1,
+        "timelines": []
+      }
+    ]
+  }
+]

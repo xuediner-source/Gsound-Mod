@@ -1,0 +1,362 @@
+[
+  {
+    "clip": "MaouHeathclif_Main_S2",
+    "sprite": "skill1_3",
+    "path_id": -318604530116826052,
+    "file": "MaouHeathclif_Main_S2-skill1_3--318604530116826052.png",
+    "size": [
+      773,
+      552
+    ]
+  },
+  {
+    "clip": "MaouHeathclif_Main_S2",
+    "sprite": "skill2_1",
+    "path_id": 4001997558816775597,
+    "file": "MaouHeathclif_Main_S2-skill2_1-4001997558816775597.png",
+    "size": [
+      784,
+      631
+    ]
+  },
+  {
+    "clip": "MaouHeathclif_Main_S2",
+    "sprite": "skill2_2",
+    "path_id": 5399020840394605615,
+    "file": "MaouHeathclif_Main_S2-skill2_2-5399020840394605615.png",
+    "size": [
+      780,
+      602
+    ]
+  },
+  {
+    "clip": "MaouHeathclif_Main_S2",
+    "sprite": "skill2_1_e2",
+    "path_id": 58535453507961603,
+    "file": "MaouHeathclif_Main_S2-skill2_1_e2-58535453507961603.png",
+    "size": [
+      1772,
+      1022
+    ]
+  },
+  {
+    "clip": "MaouHeathclif_Main_S2",
+    "sprite": "skill2_1_e1",
+    "path_id": 2627082661089762514,
+    "file": "MaouHeathclif_Main_S2-skill2_1_e1-2627082661089762514.png",
+    "size": [
+      1944,
+      681
+    ]
+  },
+  {
+    "clip": "MaouHeathclif_Main_S5",
+    "sprite": "skill5_1",
+    "path_id": -6621727739381329344,
+    "file": "MaouHeathclif_Main_S5-skill5_1--6621727739381329344.png",
+    "size": [
+      913,
+      516
+    ]
+  },
+  {
+    "clip": "MaouHeathclif_Main_S5",
+    "sprite": "skill5_2",
+    "path_id": 6691799799018055990,
+    "file": "MaouHeathclif_Main_S5-skill5_2-6691799799018055990.png",
+    "size": [
+      917,
+      516
+    ]
+  },
+  {
+    "clip": "MaouHeathclif_Main_S5",
+    "sprite": "skill5_3",
+    "path_id": -6990663501831656825,
+    "file": "MaouHeathclif_Main_S5-skill5_3--6990663501831656825.png",
+    "size": [
+      1089,
+      487
+    ]
+  },
+  {
+    "clip": "MaouHeathclif_Main_S5",
+    "sprite": "skill5_4",
+    "path_id": 3061571040136367459,
+    "file": "MaouHeathclif_Main_S5-skill5_4-3061571040136367459.png",
+    "size": [
+      1083,
+      488
+    ]
+  },
+  {
+    "clip": "MaouHeathclif_Main_S5",
+    "sprite": "skill5_3_e1",
+    "path_id": 1666276978395699312,
+    "file": "MaouHeathclif_Main_S5-skill5_3_e1-1666276978395699312.png",
+    "size": [
+      1782,
+      763
+    ]
+  },
+  {
+    "clip": "MaouHeathclif_Main_S5",
+    "sprite": "skill1_2_e2",
+    "path_id": 2188559066070174063,
+    "file": "MaouHeathclif_Main_S5-skill1_2_e2-2188559066070174063.png",
+    "size": [
+      1944,
+      681
+    ]
+  },
+  {
+    "clip": "MaouHeathclif_Main_S5",
+    "sprite": "skill1_3_e1",
+    "path_id": -6904892124332169553,
+    "file": "MaouHeathclif_Main_S5-skill1_3_e1--6904892124332169553.png",
+    "size": [
+      763,
+      266
+    ]
+  },
+  {
+    "clip": "MaouHeathclif_Main_S3",
+    "sprite": "idle",
+    "path_id": 2882162069655054354,
+    "file": "MaouHeathclif_Main_S3-idle-2882162069655054354.png",
+    "size": [
+      678,
+      506
+    ]
+  },
+  {
+    "clip": "MaouHeathclif_Main_S3",
+    "sprite": "skill3_2",
+    "path_id": -3753674736891925602,
+    "file": "MaouHeathclif_Main_S3-skill3_2--3753674736891925602.png",
+    "size": [
+      609,
+      506
+    ]
+  },
+  {
+    "clip": "MaouHeathclif_Main_S3",
+    "sprite": "skill3_3",
+    "path_id": 7590825267590913482,
+    "file": "MaouHeathclif_Main_S3-skill3_3-7590825267590913482.png",
+    "size": [
+      625,
+      712
+    ]
+  },
+  {
+    "clip": "MaouHeathclif_Main_S3",
+    "sprite": "skill3_4",
+    "path_id": 5601796865688136066,
+    "file": "MaouHeathclif_Main_S3-skill3_4-5601796865688136066.png",
+    "size": [
+      746,
+      506
+    ]
+  },
+  {
+    "clip": "MaouHeathclif_Main_S3",
+    "sprite": "skill3_5",
+    "path_id": 2410391213065076455,
+    "file": "MaouHeathclif_Main_S3-skill3_5-2410391213065076455.png",
+    "size": [
+      311,
+      1017
+    ]
+  },
+  {
+    "clip": "MaouHeathclif_Main_S3",
+    "sprite": "skill3_6",
+    "path_id": 8839009189050757036,
+    "file": "MaouHeathclif_Main_S3-skill3_6-8839009189050757036.png",
+    "size": [
+      364,
+      504
+    ]
+  },
+  {
+    "clip": "MaouHeathclif_Main_S3",
+    "sprite": "skill3_7",
+    "path_id": -2489394551544414528,
+    "file": "MaouHeathclif_Main_S3-skill3_7--2489394551544414528.png",
+    "size": [
+      298,
+      413
+    ]
+  },
+  {
+    "clip": "MaouHeathclif_Main_S3",
+    "sprite": "skill3_8",
+    "path_id": -3312242097226998309,
+    "file": "MaouHeathclif_Main_S3-skill3_8--3312242097226998309.png",
+    "size": [
+      298,
+      408
+    ]
+  },
+  {
+    "clip": "MaouHeathclif_Main_S3",
+    "sprite": "skill3_9",
+    "path_id": 9090037927448365657,
+    "file": "MaouHeathclif_Main_S3-skill3_9-9090037927448365657.png",
+    "size": [
+      333,
+      636
+    ]
+  },
+  {
+    "clip": "MaouHeathclif_Main_S3",
+    "sprite": "skill3_10",
+    "path_id": -3359125050825304502,
+    "file": "MaouHeathclif_Main_S3-skill3_10--3359125050825304502.png",
+    "size": [
+      453,
+      381
+    ]
+  },
+  {
+    "clip": "MaouHeathclif_Main_S3",
+    "sprite": "skill3_11",
+    "path_id": -8541689722306622969,
+    "file": "MaouHeathclif_Main_S3-skill3_11--8541689722306622969.png",
+    "size": [
+      507,
+      963
+    ]
+  },
+  {
+    "clip": "MaouHeathclif_Main_S3",
+    "sprite": "skill3_12",
+    "path_id": -4154262479715396950,
+    "file": "MaouHeathclif_Main_S3-skill3_12--4154262479715396950.png",
+    "size": [
+      480,
+      908
+    ]
+  },
+  {
+    "clip": "MaouHeathclif_Main_S3",
+    "sprite": "skill3_13",
+    "path_id": -5296371924099854989,
+    "file": "MaouHeathclif_Main_S3-skill3_13--5296371924099854989.png",
+    "size": [
+      486,
+      663
+    ]
+  },
+  {
+    "clip": "MaouHeathclif_Main_S3",
+    "sprite": "skill3_14",
+    "path_id": 8579434669441706471,
+    "file": "MaouHeathclif_Main_S3-skill3_14-8579434669441706471.png",
+    "size": [
+      477,
+      664
+    ]
+  },
+  {
+    "clip": "MaouHeathclif_Main_S3",
+    "sprite": "skill3_7_w",
+    "path_id": 2089343081048447600,
+    "file": "MaouHeathclif_Main_S3-skill3_7_w-2089343081048447600.png",
+    "size": [
+      208,
+      533
+    ]
+  },
+  {
+    "clip": "MaouHeathclif_Main_S3",
+    "sprite": "skill3_13_e1",
+    "path_id": -7956335406331860537,
+    "file": "MaouHeathclif_Main_S3-skill3_13_e1--7956335406331860537.png",
+    "size": [
+      1267,
+      1190
+    ]
+  },
+  {
+    "clip": "MaouHeathclif_Main_S3",
+    "sprite": "skill3_13_e2",
+    "path_id": 5100062441433650335,
+    "file": "MaouHeathclif_Main_S3-skill3_13_e2-5100062441433650335.png",
+    "size": [
+      1390,
+      814
+    ]
+  },
+  {
+    "clip": "MaouHeathclif_Main_S3",
+    "sprite": "skill1_3_e1",
+    "path_id": -6904892124332169553,
+    "file": "MaouHeathclif_Main_S3-skill1_3_e1--6904892124332169553.png",
+    "size": [
+      763,
+      266
+    ]
+  },
+  {
+    "clip": "MaouHeathclif_Main_S1",
+    "sprite": "skill1_1",
+    "path_id": 6896723550108514368,
+    "file": "MaouHeathclif_Main_S1-skill1_1-6896723550108514368.png",
+    "size": [
+      659,
+      484
+    ]
+  },
+  {
+    "clip": "MaouHeathclif_Main_S1",
+    "sprite": "skill1_2",
+    "path_id": 5249936308463931651,
+    "file": "MaouHeathclif_Main_S1-skill1_2-5249936308463931651.png",
+    "size": [
+      787,
+      552
+    ]
+  },
+  {
+    "clip": "MaouHeathclif_Main_S1",
+    "sprite": "skill1_3",
+    "path_id": -318604530116826052,
+    "file": "MaouHeathclif_Main_S1-skill1_3--318604530116826052.png",
+    "size": [
+      773,
+      552
+    ]
+  },
+  {
+    "clip": "MaouHeathclif_Main_S1",
+    "sprite": "skill1_2_e1",
+    "path_id": 1893033925230447901,
+    "file": "MaouHeathclif_Main_S1-skill1_2_e1-1893033925230447901.png",
+    "size": [
+      1954,
+      610
+    ]
+  },
+  {
+    "clip": "MaouHeathclif_Main_S1",
+    "sprite": "skill1_2_e2",
+    "path_id": 2188559066070174063,
+    "file": "MaouHeathclif_Main_S1-skill1_2_e2-2188559066070174063.png",
+    "size": [
+      1944,
+      681
+    ]
+  },
+  {
+    "clip": "MaouHeathclif_Main_S1",
+    "sprite": "skill1_3_e1",
+    "path_id": -6904892124332169553,
+    "file": "MaouHeathclif_Main_S1-skill1_3_e1--6904892124332169553.png",
+    "size": [
+      763,
+      266
+    ]
+  }
+]

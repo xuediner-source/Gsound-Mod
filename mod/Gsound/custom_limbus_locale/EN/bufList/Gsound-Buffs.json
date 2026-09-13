@@ -1,0 +1,100 @@
+{
+  "AccelBullet": {
+    "id": "AccelBullet",
+    "name": "演讲稿",
+    "desc": "最大值：10\n特殊弹药\n特定技能使用时消耗",
+    "summary": "",
+    "flavor": ""
+  },
+  "SpeechDraft": {
+    "id": "SpeechDraft",
+    "name": "演讲稿",
+    "desc": "最大值：10\n特殊弹药\n特定技能使用时消耗",
+    "summary": "",
+    "flavor": ""
+  },
+  "Lover": {
+    "id": "Lover",
+    "name": "情人",
+    "desc": "最大层数：20\n每回合最多因效果减少 10 层\n自身攻击等级 +3，防御等级 -3",
+    "summary": "",
+    "flavor": ""
+  },
+  "Hater": {
+    "id": "Hater",
+    "name": "仇人",
+    "desc": "最大层数：10\n每回合最多因效果减少 4 层\n自身防御等级 +3，攻击等级 -3\n本效果降至 0 层的回合结束时，转化为 20 层 [Lover]",
+    "summary": "",
+    "flavor": ""
+  },
+  "Reunion": {
+    "id": "Reunion",
+    "name": "再会",
+    "desc": "最大层数：5\n每带有 1 层，使自身基础技能造成的伤害 +3%（最多 +15%）\n每带有 2 层，使自身基础技能拼点威力 +1\n若本效果达到 5 层，使自身基础技能硬币威力 +1\n技能结束时解除本效果",
+    "summary": "",
+    "flavor": ""
+  },
+  "Farewell": {
+    "id": "Farewell",
+    "name": "永别",
+    "desc": "最大层数：3\n每带有 1 层，使自身基础技能造成的伤害 +15%（最多 +45%）\n每获得 1 层本效果，获得 1 层 [Protection]\n若本效果达到 3 层，获得 3 层 [DefenseUp]\n[EndBattle] 解除本效果",
+    "summary": "",
+    "flavor": ""
+  },
+  "MindHeart": {
+    "id": "MindHeart",
+    "name": "心-心意",
+    "desc": "自身最低速度与最高速度 +1\n自身基础技能施加的 [Vibration]、[Combustion] 与 [Sinking] 强度和层数额外 +1\n自身每带有 3 级 [Breath] 强度，造成的伤害 +3%（最多 +100%）\n- 若自身的理智值不低于20点，则使自身的加算硬币朝向正面的概率+10%\n- 回合结束时，自身的理智值每有10点，下回合使自身获得1层[Agility](最多4层)\n- 回合结束时，自身的理智值每有20点，下回合使自身获得1层[ResultEnhancement](最多2层)",
+    "summary": "",
+    "flavor": ""
+  },
+  "Hope": {
+    "id": "Hope",
+    "name": "望",
+    "desc": "最大层数：5\n每带有 1 层，使自身技能造成的伤害 +20%",
+    "summary": "",
+    "flavor": ""
+  },
+  "UnforgettableMemory": {
+    "id": "UnforgettableMemory",
+    "name": "难忘的回忆",
+    "desc": "最大层数：3\n所有单位对自身造成的伤害不超过 1\n[WinDuel] 额外恢复（拼点次数×5）点理智值（最多 15 点）\n[OnSucceedAttack] 恢复本技能造成伤害量 10% 的体力（每个技能最多恢复自身最大体力的 50%）\n[EndBattle] 本效果层数减少 1；本效果结束时，获得[SelectiveAmnesia]",
+    "summary": "",
+    "flavor": ""
+  },
+  "SelectiveAmnesia": {
+    "id": "SelectiveAmnesia",
+    "name": "选择性失忆",
+    "desc": "自身每失去最大体力的 20%，获得 1 层[AttackUp]与 1 层[DefenseUp]\n[OnSucceedAttack] 恢复本次造成体力伤害量 50% 的体力（每个技能最多恢复 25 点体力）",
+    "summary": "",
+    "flavor": ""
+  },
+  "Explicator": {
+    "id": "Explicator",
+    "name": "阐释者",
+    "desc": "最大层数：10\n每带有 1 层，使自身暴击造成的伤害 +2%\n每次技能使用结束后，与等量的 [FirePoker] 成对消耗（每回合最多 3 对）；每消耗 1 对，获得 3 级 [Breath] 强度与 2 层 [Breath]\n若自身在战斗中登场，或即将登场的单位包括自身，则从第 1 回合起，根据全体单位受到的 [Laceration] 伤害，相应获得 [BloodDinner]\n攻击技能消耗 [BloodDinner] 时，获得 [BloodArmorPersonalityFirst]\n[BloodDinner] 每有 10 层，攻击技能造成的伤害 +3%（最多 +50%）；每有 1 层 [BloodArmorPersonalityFirst]，攻击技能造成的伤害 +3%（最多 +50%）",
+    "summary": "",
+    "flavor": ""
+  },
+  "FirePoker": {
+    "id": "FirePoker",
+    "name": "烧火棍",
+    "desc": "最大层数：10\n每带有 1 层，使自身造成的伤害 +2%\n每次技能使用结束后，与等量的 [Explicator] 成对消耗（每回合最多 3 对）；每消耗 1 对，获得 3 级 [Breath] 强度与 2 层 [Breath]\n[OnSucceedAttack] 若目标的 [Combustion] 强度不低于 30，对目标施加 1 层 [DarkFlame]（仅限基础攻击技能；每回合最多 2 次）\n[RoundStart] 使场上所有单位增加 5 级 [Combustion] 强度\n隔热大衣：自身不会因 [Combustion] 伤害陷入混乱，且 [Combustion] 伤害不会使自身的体力降至 1 以下；自身受到的 [Combustion] 伤害 -50%（向下取整）\n- 若自身现有体力低于最大体力的 50%，改为受到的 [Combustion] 伤害 -75%（向下取整）",
+    "summary": "",
+    "flavor": ""
+  },
+  "ExplicatorBloodDinnerField": {
+    "id": "ExplicatorBloodDinnerField",
+    "name": "血宴",
+    "desc": "攻击带有 [Laceration] 的目标时，[BloodDinner] 每有 2 层，造成的伤害 +1%（最多 +100%）",
+    "summary": "对带有流血的目标造成更多伤害",
+    "flavor": ""
+  },
+  "FirePokerScorchField": {
+    "id": "FirePokerScorchField",
+    "name": "灼热地带",
+    "desc": "攻击带有 [Combustion] 的目标时，[FireField] 每有 2 层，造成的伤害 +1%（最多 +100%）",
+    "summary": "对带有烧伤的目标造成更多伤害",
+    "flavor": ""
+  }
+}

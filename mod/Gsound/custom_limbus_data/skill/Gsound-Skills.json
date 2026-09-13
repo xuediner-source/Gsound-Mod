@@ -1,0 +1,1914 @@
+{
+  "list": [
+    {
+      "id": 1079701,
+      "skillTier": 1,
+      "skillData": [
+        {
+          "skillTargetType": "FRONT",
+          "iconID": 1079701,
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "attributeType": "SHAMROCK",
+          "atkType": "SLASH",
+          "defType": "ATTACK",
+          "skillMotion": "S1",
+          "viewType": "BATTLE",
+          "parryingCloseType": "NEAR",
+          "targetNum": 1,
+          "range": 8,
+          "defaultValue": 3,
+          "skillLevelCorrection": 2,
+          "abilityScriptList": [
+            {
+              "scriptName": "ChangeSkillOnBeforeTurnViaBuffCheck",
+              "value": 1079721,
+              "buffData": {
+                "buffKeyword": "BlankDomain",
+                "buffOwner": "Self",
+                "stack": 1,
+                "turn": 0
+              }
+            },
+            {
+              "scriptName": "GiveBuffOnUseWithBloodDinnerGainBuffStackIfFailed_Laceration5[5:50:5]",
+              "buffData": {
+                "buffKeyword": "BloodArmorPersonalityFirst",
+                "target": "Self",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "AttackDmgUpByRatioOnUseViaBuffCheckDevideByStackWithLimit50",
+              "buffData": {
+                "buffKeyword": "BloodDinner",
+                "buffOwner": "Self",
+                "stack": 10,
+                "turn": 0,
+                "value": 0.03
+              }
+            },
+            {
+              "scriptName": "AttackDmgUpByRatioOnUseViaBuffCheckDevideByStackWithLimit50",
+              "buffData": {
+                "buffKeyword": "BloodArmorPersonalityFirst",
+                "buffOwner": "Self",
+                "stack": 1,
+                "turn": 0,
+                "value": 0.03
+              }
+            },
+            {
+              "scriptName": "Modular/TIMING:ExpectedBasePower/EXPECTED/LUA:gsound/LUAMAIN:gsound_s1_power"
+            },
+            {
+              "scriptName": "Modular/TIMING:WhenUse/LUA:gsound/LUAMAIN:gsound_s1_power"
+            },
+            {
+              "scriptName": "Modular/TIMING:WhenUse/LUA:gsound/LUAMAIN:gsound_s1_start"
+            },
+            {
+              "scriptName": "Modular/TIMING:EndSkill/LUA:gsound/LUAMAIN:gsound_other_skill_end"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "stack": 0,
+                    "turn": 5,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Combustion",
+                    "target": "Target",
+                    "stack": 0,
+                    "turn": 5,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "stack": 10,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Combustion",
+                    "target": "Target",
+                    "stack": 10,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Sinking",
+                    "target": "Target",
+                    "stack": 10,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Sinking",
+                    "target": "Target",
+                    "stack": 0,
+                    "turn": 5,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "UseBullet[optional:AccelBullet:1]"
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Vibration",
+                    "target": "Target",
+                    "stack": 10,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Vibration",
+                    "target": "Target",
+                    "stack": 0,
+                    "turn": 10,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "PileUpVibrationOSA_VibrationNesting",
+                  "buffData": {
+                    "buffKeyword": "VibrationNesting",
+                    "buffOwner": "Target"
+                  }
+                },
+                {
+                  "scriptName": "Modular/TIMING:OnSucceedAttack/LUA:gsound/LUAMAIN:gsound_s1_last_coin"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1079702,
+      "skillTier": 2,
+      "skillData": [
+        {
+          "skillTargetType": "FRONT",
+          "iconID": 1079702,
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "attributeType": "AZURE",
+          "atkType": "SLASH",
+          "defType": "ATTACK",
+          "skillMotion": "S2",
+          "viewType": "BATTLE",
+          "parryingCloseType": "NEAR",
+          "targetNum": 3,
+          "range": 8,
+          "defaultValue": 8,
+          "skillLevelCorrection": 3,
+          "abilityScriptList": [
+            {
+              "scriptName": "ChangeSkillOnBeforeTurnViaBuffCheck",
+              "value": 1079722,
+              "buffData": {
+                "buffKeyword": "BlankDomain",
+                "buffOwner": "Self",
+                "stack": 1,
+                "turn": 0
+              }
+            },
+            {
+              "scriptName": "GiveBuffOnUseWithBloodDinnerGainBuffStackIfFailed_Laceration5[8:50:8]",
+              "buffData": {
+                "buffKeyword": "BloodArmorPersonalityFirst",
+                "target": "Self",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "AttackDmgUpByRatioOnUseViaBuffCheckDevideByStackWithLimit50",
+              "buffData": {
+                "buffKeyword": "BloodDinner",
+                "buffOwner": "Self",
+                "stack": 10,
+                "turn": 0,
+                "value": 0.03
+              }
+            },
+            {
+              "scriptName": "AttackDmgUpByRatioOnUseViaBuffCheckDevideByStackWithLimit50",
+              "buffData": {
+                "buffKeyword": "BloodArmorPersonalityFirst",
+                "buffOwner": "Self",
+                "stack": 1,
+                "turn": 0,
+                "value": 0.03
+              }
+            },
+            {
+              "scriptName": "Modular/TIMING:WhenUse/LUA:gsound/LUAMAIN:gsound_s2_start"
+            },
+            {
+              "scriptName": "Modular/TIMING:EndSkill/LUA:gsound/LUAMAIN:gsound_other_skill_end"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 10,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Vibration",
+                    "target": "Target",
+                    "stack": 5,
+                    "turn": 5,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "PileUpVibrationOSA_VibrationNesting",
+                  "buffData": {
+                    "buffKeyword": "VibrationContinue",
+                    "target": "Target",
+                    "buffOwner": "Target"
+                  }
+                },
+                {
+                  "scriptName": "SwitchVibrationOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "VibrationEcho",
+                    "buffOwner": "Target"
+                  }
+                },
+                {
+                  "scriptName": "SwitchVibrationOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "VibrationChain",
+                    "buffOwner": "Target"
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "VibrationAssimilation",
+                    "target": "Target",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 1
+                  }
+                },
+                {
+                  "scriptName": "SwitchVibrationOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "VibrationCrack",
+                    "buffOwner": "Target"
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Combustion",
+                    "target": "Target",
+                    "stack": 5,
+                    "turn": 5,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "stack": 5,
+                    "turn": 5,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Sinking",
+                    "target": "Target",
+                    "stack": 5,
+                    "turn": 5,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "VibrationExplosionOnSucceedAttackAndLoseTargetVibrationTurn1"
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "TimeSuspend",
+                    "target": "Target",
+                    "stack": 0,
+                    "turn": 2,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "Modular/TIMING:OnSucceedAttack/LUA:gsound/LUAMAIN:gsound_s2_reroll"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1079703,
+      "skillTier": 3,
+      "skillData": [
+        {
+          "skillTargetType": "FRONT",
+          "iconID": 1079703,
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "attributeType": "CRIMSON",
+          "atkType": "SLASH",
+          "defType": "ATTACK",
+          "skillMotion": "S3",
+          "viewType": "ENCOUNTER",
+          "parryingCloseType": "NEAR",
+          "targetNum": 1,
+          "range": 8,
+          "defaultValue": 5,
+          "skillLevelCorrection": 5,
+          "abilityScriptList": [
+            {
+              "scriptName": "ChangeSkillOnBeforeTurnViaBuffCheck",
+              "value": 1079723,
+              "buffData": {
+                "buffKeyword": "BlankDomain",
+                "buffOwner": "Self",
+                "stack": 1,
+                "turn": 0
+              }
+            },
+            {
+              "scriptName": "GiveBuffOnUseWithBloodDinnerGainBuffStackIfFailed_Laceration10[10:50:10]",
+              "buffData": {
+                "buffKeyword": "BloodArmorPersonalityFirst",
+                "target": "Self",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "AttackDmgUpByRatioOnUseViaBuffCheckDevideByStackWithLimit50",
+              "buffData": {
+                "buffKeyword": "BloodDinner",
+                "buffOwner": "Self",
+                "stack": 10,
+                "turn": 0,
+                "value": 0.03
+              }
+            },
+            {
+              "scriptName": "AttackDmgUpByRatioOnUseViaBuffCheckDevideByStackWithLimit50",
+              "buffData": {
+                "buffKeyword": "BloodArmorPersonalityFirst",
+                "buffOwner": "Self",
+                "stack": 1,
+                "turn": 0,
+                "value": 0.03
+              }
+            },
+            {
+              "scriptName": "Modular/TIMING:ExpectedBasePower/EXPECTED/LUA:gsound/LUAMAIN:gsound_s3_power"
+            },
+            {
+              "scriptName": "Modular/TIMING:WhenUse/LUA:gsound/LUAMAIN:gsound_s3_start"
+            },
+            {
+              "scriptName": "Modular/TIMING:WhenUse/LUA:gsound/LUAMAIN:gsound_s3_power"
+            },
+            {
+              "scriptName": "AttackDmgUpIfTargetVibrationConvertedOrMerged",
+              "value": 0.5
+            },
+            {
+              "scriptName": "VibrationExplosionOnWinDuelAndLoseTargetVibrationTurn1"
+            },
+            {
+              "scriptName": "Modular/TIMING:EndSkill/LUA:gsound/LUAMAIN:gsound_other_skill_end"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "grade": 2,
+              "color": "GREY",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "SuperCoin"
+                },
+                {
+                  "scriptName": "UseBullet[optional:AccelBullet:1]"
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "stack": 0,
+                    "turn": 5,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Combustion",
+                    "target": "Target",
+                    "stack": 0,
+                    "turn": 5,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Sinking",
+                    "target": "Target",
+                    "stack": 0,
+                    "turn": 5,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "SwitchVibrationOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "VibrationIgnition",
+                    "buffOwner": "Target"
+                  }
+                },
+                {
+                  "scriptName": "VibrationExplosionOnSucceedAttackAndLoseTargetVibrationTurn1"
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "grade": 2,
+              "color": "GREY",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "SuperCoin"
+                },
+                {
+                  "scriptName": "UseBullet[optional:AccelBullet:1]"
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "stack": 10,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Combustion",
+                    "target": "Target",
+                    "stack": 10,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Sinking",
+                    "target": "Target",
+                    "stack": 10,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "SwitchVibrationOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "VibrationBleeding",
+                    "buffOwner": "Target"
+                  }
+                },
+                {
+                  "scriptName": "VibrationExplosionOnSucceedAttackAndLoseTargetVibrationTurn1"
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "grade": 2,
+              "color": "GREY",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "SuperCoin"
+                },
+                {
+                  "scriptName": "UseBullet[optional:AccelBullet:1]"
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Vibration",
+                    "target": "Target",
+                    "stack": 10,
+                    "turn": 10,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "VibrationExplosionOnSucceedAttackAndLoseTargetVibrationTurn1"
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "grade": 2,
+              "color": "GREY",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "SuperCoin"
+                },
+                {
+                  "scriptName": "Modular/TIMING:OnCoinToss/LUA:gsound/LUAMAIN:gsound_s3_coin4_start"
+                },
+                {
+                  "scriptName": "UseBullet[optional:AccelBullet:1]"
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Burst",
+                    "target": "Target",
+                    "stack": 10,
+                    "turn": 10,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "SwitchVibrationOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "VibrationCollapse",
+                    "buffOwner": "Target"
+                  }
+                },
+                {
+                  "scriptName": "VibrationExplosionOnSucceedAttackAndLoseTargetVibrationTurn1"
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "grade": 2,
+              "color": "GREY",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "SuperCoin"
+                },
+                {
+                  "scriptName": "Modular/TIMING:OnCoinToss/LUA:gsound/LUAMAIN:gsound_s3_coin5_start"
+                },
+                {
+                  "scriptName": "UseBullet[optional:AccelBullet:1]"
+                },
+                {
+                  "scriptName": "Modular/TIMING:OnSucceedAttack/LUA:gsound/LUAMAIN:gsound_s3_coin5_burst"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1079704,
+      "skillTier": 1,
+      "skillData": [
+        {
+          "skillTargetType": "FRONT",
+          "iconID": 1079704,
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "attributeType": "AMBER",
+          "atkType": "NONE",
+          "defType": "EVADE",
+          "skillMotion": "Default",
+          "viewType": "BATTLE",
+          "parryingCloseType": "NEAR",
+          "targetNum": 1,
+          "range": 8,
+          "defaultValue": 10,
+          "skillLevelCorrection": 2,
+          "abilityScriptList": [
+            {
+              "scriptName": "ChangeSkillOnBeforeDefenseViaBuffCheck",
+              "value": 1079724,
+              "buffData": {
+                "buffKeyword": "BlankDomain",
+                "buffOwner": "Self",
+                "stack": 1,
+                "turn": 0
+              }
+            },
+            {
+              "scriptName": "ChangeSkillOnBeforeTurnViaBuffCheck",
+              "value": 1079724,
+              "buffData": {
+                "buffKeyword": "BlankDomain",
+                "buffOwner": "Self",
+                "stack": 1,
+                "turn": 0
+              }
+            },
+            {
+              "scriptName": "GiveBuffOnUse",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "GiveBuffOnSucceedEvade",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "HealMpOnSucceedEvadeSelf5"
+            },
+            {
+              "scriptName": "Modular/TIMING:ExpectedBasePower/EXPECTED/LUA:gsound/LUAMAIN:gsound_future_power"
+            },
+            {
+              "scriptName": "Modular/TIMING:WhenUse/LUA:gsound/LUAMAIN:gsound_future_power"
+            },
+            {
+              "scriptName": "Modular/TIMING:WhenUse/LUA:gsound/LUAMAIN:gsound_future_start"
+            },
+            {
+              "scriptName": "Modular/TIMING:OnSucceedEvade/LUA:gsound/LUAMAIN:gsound_future_success"
+            },
+            {
+              "scriptName": "Modular/TIMING:OnDefeatEvade/LUA:gsound/LUAMAIN:gsound_future_fail"
+            },
+            {
+              "scriptName": "Modular/TIMING:EndSkill/LUA:gsound/LUAMAIN:gsound_future_end"
+            },
+            {
+              "scriptName": "Modular/TIMING:EndSkill/LUA:gsound/LUAMAIN:gsound_other_skill_end"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1079705,
+      "skillTier": 1,
+      "skillData": [
+        {
+          "skillTargetType": "FRONT",
+          "iconID": 1079705,
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "attributeType": "VIOLET",
+          "atkType": "SLASH",
+          "defType": "COUNTER",
+          "skillMotion": "S4",
+          "viewType": "BATTLE",
+          "parryingCloseType": "NEAR",
+          "additionalSkillKeywordList": [
+            "CommonReload"
+          ],
+          "targetNum": 1,
+          "range": 8,
+          "defaultValue": 5,
+          "skillLevelCorrection": 1,
+          "abilityScriptList": [
+            {
+              "scriptName": "ChangeSkillOnBeforeDefenseViaBuffCheck",
+              "value": 1079724,
+              "buffData": {
+                "buffKeyword": "BlankDomain",
+                "buffOwner": "Self",
+                "stack": 1,
+                "turn": 0
+              }
+            },
+            {
+              "scriptName": "ChangeSkillOnBeforeTurnViaBuffCheck",
+              "value": 1079724,
+              "buffData": {
+                "buffKeyword": "BlankDomain",
+                "buffOwner": "Self",
+                "stack": 1,
+                "turn": 0
+              }
+            },
+            {
+              "scriptName": "Reload1091604",
+              "turnLimit": 1,
+              "buffData": {
+                "buffKeyword": "AccelBullet",
+                "target": "Self",
+                "stack": -1,
+                "turn": 0,
+                "activeRound": 0,
+                "limit": 5
+              }
+            },
+            {
+              "scriptName": "GiveBuffOnUse",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "stack": 3,
+                "turn": 2,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "Modular/TIMING:BeforeAttack/LUA:gsound/LUAMAIN:gsound_past_start"
+            },
+            {
+              "scriptName": "Modular/TIMING:DefeatDuel/LUA:gsound/LUAMAIN:gsound_past_lose"
+            },
+            {
+              "scriptName": "Modular/TIMING:EndSkill/LUA:gsound/LUAMAIN:gsound_past_end"
+            },
+            {
+              "scriptName": "Modular/TIMING:EndSkill/LUA:gsound/LUAMAIN:gsound_other_skill_end"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "stack": 5,
+                    "turn": 5,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Sinking",
+                    "target": "Target",
+                    "stack": 2,
+                    "turn": 3,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Sinking",
+                    "target": "Target",
+                    "stack": 4,
+                    "turn": 3,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Vibration",
+                    "target": "Target",
+                    "stack": 5,
+                    "turn": 5,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Sinking",
+                    "target": "Target",
+                    "stack": 4,
+                    "turn": 4,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1079706,
+      "skillTier": 1,
+      "skillData": [
+        {
+          "skillTargetType": "FRONT",
+          "iconID": 1079706,
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "attributeType": "AZURE",
+          "atkType": "NONE",
+          "defType": "GUARD",
+          "skillMotion": "Default",
+          "viewType": "BATTLE",
+          "parryingCloseType": "NEAR",
+          "targetNum": 1,
+          "range": 999,
+          "defaultValue": 3,
+          "skillLevelCorrection": 5,
+          "abilityScriptList": [
+            {
+              "scriptName": "ChangeSkillOnBeforeDefenseViaBuffCheck",
+              "value": 1079724,
+              "buffData": {
+                "buffKeyword": "BlankDomain",
+                "buffOwner": "Self",
+                "stack": 1,
+                "turn": 0
+              }
+            },
+            {
+              "scriptName": "ChangeSkillOnBeforeTurnViaBuffCheck",
+              "value": 1079724,
+              "buffData": {
+                "buffKeyword": "BlankDomain",
+                "buffOwner": "Self",
+                "stack": 1,
+                "turn": 0
+              }
+            },
+            {
+              "scriptName": "ChangeSkillOnBeforeDefenseViaBuffCheck",
+              "value": 1079714,
+              "buffData": {
+                "buffKeyword": "Hope",
+                "buffOwner": "Self",
+                "stack": 3,
+                "turn": 0
+              }
+            },
+            {
+              "scriptName": "ChangeSkillOnBeforeTurnViaBuffCheck",
+              "value": 1079714,
+              "buffData": {
+                "buffKeyword": "Hope",
+                "buffOwner": "Self",
+                "stack": 3,
+                "turn": 0
+              }
+            },
+            {
+              "scriptName": "GiveBuffOnUse",
+              "buffData": {
+                "buffKeyword": "VibrationDistribution",
+                "target": "Self",
+                "stack": 1,
+                "turn": 1,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "GiveBuffOnUse",
+              "buffData": {
+                "buffKeyword": "VibrationSpring",
+                "target": "Self",
+                "stack": 1,
+                "turn": 1,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "Modular/TIMING:StartBattle/LUA:gsound/LUAMAIN:gsound_present_start"
+            },
+            {
+              "scriptName": "GiveBuffOnWinDuel",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "stack": 10,
+                "turn": 10,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "GiveBuffOnUse",
+              "buffData": {
+                "buffKeyword": "Binding",
+                "target": "Target",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            },
+            {
+              "scriptName": "GiveBuffOnUse",
+              "buffData": {
+                "buffKeyword": "ParryingResultDown",
+                "target": "Target",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            },
+            {
+              "scriptName": "GiveBuffOnUse",
+              "buffData": {
+                "buffKeyword": "SinkingVulnerable",
+                "target": "Target",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            },
+            {
+              "scriptName": "GiveBuffOnUse",
+              "buffData": {
+                "buffKeyword": "Vulnerable",
+                "target": "Target",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            },
+            {
+              "scriptName": "GiveBuffOnUse",
+              "buffData": {
+                "buffKeyword": "PlusCoinValueDown",
+                "target": "Target",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            },
+            {
+              "scriptName": "Modular/TIMING:WinDuel/LUA:gsound/LUAMAIN:gsound_present_win"
+            },
+            {
+              "scriptName": "GiveBuffOnLoseDuel",
+              "buffData": {
+                "buffKeyword": "Protection",
+                "target": "Self",
+                "stack": 5,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "grade": 2,
+              "color": "GREY",
+              "scale": 12,
+              "abilityScriptList": [
+                {
+                  "scriptName": "SuperCoin"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1079711,
+      "skillTier": 3,
+      "skillData": [
+        {
+          "skillTargetType": "FRONT",
+          "iconID": 1079711,
+          "canTeamKill": false,
+          "canDuel": false,
+          "canChangeTarget": true,
+          "attributeType": "SCARLET",
+          "atkType": "SLASH",
+          "defType": "ATTACK",
+          "skillMotion": "S5",
+          "viewType": "BATTLE",
+          "parryingCloseType": "NEAR",
+          "targetNum": 1,
+          "range": 8,
+          "defaultValue": 10,
+          "skillLevelCorrection": 4,
+          "abilityScriptList": [
+            {
+              "scriptName": "GiveBuffOnUseWithBloodDinnerGainBuffStackIfFailed_Laceration5[5:50:5]",
+              "buffData": {
+                "buffKeyword": "BloodArmorPersonalityFirst",
+                "target": "Self",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "AttackDmgUpByRatioOnUseViaBuffCheckDevideByStackWithLimit50",
+              "buffData": {
+                "buffKeyword": "BloodDinner",
+                "buffOwner": "Self",
+                "stack": 10,
+                "turn": 0,
+                "value": 0.03
+              }
+            },
+            {
+              "scriptName": "AttackDmgUpByRatioOnUseViaBuffCheckDevideByStackWithLimit50",
+              "buffData": {
+                "buffKeyword": "BloodArmorPersonalityFirst",
+                "buffOwner": "Self",
+                "stack": 1,
+                "turn": 0,
+                "value": 0.03
+              }
+            },
+            {
+              "scriptName": "IgnoreDefenseSkill"
+            },
+            {
+              "scriptName": "CannotReusedSkill"
+            },
+            {
+              "scriptName": "Modular/TIMING:ExpectedBasePower/EXPECTED/LUA:gsound/LUAMAIN:gsound_followup_future_power"
+            },
+            {
+              "scriptName": "Modular/TIMING:WhenUse/LUA:gsound/LUAMAIN:gsound_followup_future_start"
+            },
+            {
+              "scriptName": "Modular/TIMING:WhenUse/LUA:gsound/LUAMAIN:gsound_followup_future_power"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Combustion",
+                    "target": "Target",
+                    "stack": 0,
+                    "turn": 5,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Vibration",
+                    "target": "Target",
+                    "stack": 0,
+                    "turn": 5,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Sinking",
+                    "target": "Target",
+                    "stack": 4,
+                    "turn": 3,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Sinking",
+                    "target": "Target",
+                    "stack": 6,
+                    "turn": 7,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "VibrationExplosionOnSucceedAttackAndLoseTargetVibrationTurn1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1079712,
+      "skillTier": 3,
+      "skillData": [
+        {
+          "skillTargetType": "FRONT",
+          "iconID": 1079712,
+          "canTeamKill": false,
+          "canDuel": false,
+          "canChangeTarget": true,
+          "attributeType": "INDIGO",
+          "atkType": "SLASH",
+          "defType": "ATTACK",
+          "skillMotion": "S6",
+          "viewType": "BATTLE",
+          "parryingCloseType": "NEAR",
+          "targetNum": 1,
+          "range": 8,
+          "defaultValue": 12,
+          "skillLevelCorrection": 4,
+          "abilityScriptList": [
+            {
+              "scriptName": "GiveBuffOnUseWithBloodDinnerGainBuffStackIfFailed_Laceration5[8:50:8]",
+              "buffData": {
+                "buffKeyword": "BloodArmorPersonalityFirst",
+                "target": "Self",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "AttackDmgUpByRatioOnUseViaBuffCheckDevideByStackWithLimit50",
+              "buffData": {
+                "buffKeyword": "BloodDinner",
+                "buffOwner": "Self",
+                "stack": 10,
+                "turn": 0,
+                "value": 0.03
+              }
+            },
+            {
+              "scriptName": "AttackDmgUpByRatioOnUseViaBuffCheckDevideByStackWithLimit50",
+              "buffData": {
+                "buffKeyword": "BloodArmorPersonalityFirst",
+                "buffOwner": "Self",
+                "stack": 1,
+                "turn": 0,
+                "value": 0.03
+              }
+            },
+            {
+              "scriptName": "IgnoreDefenseSkill"
+            },
+            {
+              "scriptName": "CannotReusedSkill"
+            },
+            {
+              "scriptName": "Modular/TIMING:ExpectedBasePower/EXPECTED/LUA:gsound/LUAMAIN:gsound_followup_past_power"
+            },
+            {
+              "scriptName": "Modular/TIMING:WhenUse/LUA:gsound/LUAMAIN:gsound_followup_past_start"
+            },
+            {
+              "scriptName": "Modular/TIMING:WhenUse/LUA:gsound/LUAMAIN:gsound_followup_past_power"
+            },
+            {
+              "scriptName": "Modular/TIMING:WhenUse/LUA:gsound/LUAMAIN:gsound_mark_past_attack"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "stack": 5,
+                    "turn": 5,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "Modular/TIMING:ChangeMotion/LUA:gsound/LUAMAIN:gsound_pastattack_coin1_motion"
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Vibration",
+                    "target": "Target",
+                    "stack": 5,
+                    "turn": 5,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "Modular/TIMING:ChangeMotion/LUA:gsound/LUAMAIN:gsound_pastattack_coin2_motion"
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "ForceToActivateBuffOSAValueTimes",
+                  "value": 10,
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "stack": 0,
+                    "turn": 1,
+                    "limit": 99
+                  }
+                },
+                {
+                  "scriptName": "VibrationExplosionOnSucceedAttackAndLoseTargetVibrationTurn1"
+                },
+                {
+                  "scriptName": "Modular/TIMING:ChangeMotion/LUA:gsound/LUAMAIN:gsound_pastattack_coin3_motion"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1079713,
+      "skillTier": 3,
+      "skillData": [
+        {
+          "skillTargetType": "RANDOM",
+          "iconID": 1079713,
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "attributeType": "AMBER",
+          "atkType": "SLASH",
+          "defType": "ATTACK",
+          "skillMotion": "S7",
+          "viewType": "ENCOUNTER",
+          "parryingCloseType": "NEAR",
+          "targetNum": 7,
+          "range": 0,
+          "arearange": 10,
+          "isRandomAreaAttack": true,
+          "defaultValue": 3,
+          "skillLevelCorrection": 5,
+          "abilityScriptList": [
+            {
+              "scriptName": "GiveBuffOnUseWithBloodDinnerGainBuffStackIfFailed_Laceration10[15:50:15]",
+              "buffData": {
+                "buffKeyword": "BloodArmorPersonalityFirst",
+                "target": "Self",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "AttackDmgUpByRatioOnUseViaBuffCheckDevideByStackWithLimit50",
+              "buffData": {
+                "buffKeyword": "BloodDinner",
+                "buffOwner": "Self",
+                "stack": 10,
+                "turn": 0,
+                "value": 0.03
+              }
+            },
+            {
+              "scriptName": "AttackDmgUpByRatioOnUseViaBuffCheckDevideByStackWithLimit50",
+              "buffData": {
+                "buffKeyword": "BloodArmorPersonalityFirst",
+                "buffOwner": "Self",
+                "stack": 1,
+                "turn": 0,
+                "value": 0.03
+              }
+            },
+            {
+              "scriptName": "DealRandomTargetAmongTargetsMTFirst"
+            },
+            {
+              "scriptName": "EmptyBody"
+            },
+            {
+              "scriptName": "IgnoreDefenseSkill"
+            },
+            {
+              "scriptName": "CannotReusedSkill"
+            },
+            {
+              "scriptName": "GiveBuffOnUse",
+              "buffData": {
+                "buffKeyword": "AccelBullet",
+                "target": "Self",
+                "stack": 10,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "GiveBuffOnUse",
+              "buffData": {
+                "buffKeyword": "TimeAcceleration",
+                "target": "Self",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "Modular/TIMING:WhenUse/LUA:gsound/LUAMAIN:gsound_white_paper_start"
+            },
+            {
+              "scriptName": "Modular/TIMING:EndSkill/LUA:gsound/LUAMAIN:gsound_white_paper_end"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "grade": 2,
+              "color": "GREY",
+              "scale": 3,
+              "abilityScriptList": [
+                {
+                  "scriptName": "SuperCoin"
+                },
+                {
+                  "scriptName": "UseBullet[optional:AccelBullet:1]"
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "stack": 5,
+                    "turn": 5,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Combustion",
+                    "target": "Target",
+                    "stack": 5,
+                    "turn": 5,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Sinking",
+                    "target": "Target",
+                    "stack": 5,
+                    "turn": 5,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Vibration",
+                    "target": "Target",
+                    "stack": 5,
+                    "turn": 5,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "grade": 2,
+              "color": "GREY",
+              "scale": 3,
+              "abilityScriptList": [
+                {
+                  "scriptName": "SuperCoin"
+                },
+                {
+                  "scriptName": "UseBullet[optional:AccelBullet:1]"
+                },
+            {
+              "scriptName": "ForceToActivateBuffOSAValueTimes",
+              "value": 10,
+              "buffData": {
+                "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "stack": 0,
+                    "turn": 1,
+                    "limit": 99
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "grade": 2,
+              "color": "GREY",
+              "scale": 3,
+              "abilityScriptList": [
+                {
+                  "scriptName": "SuperCoin"
+                },
+                {
+                  "scriptName": "UseBullet[optional:AccelBullet:1]"
+                },
+                {
+                  "scriptName": "PileUpVibrationOSA_VibrationNesting",
+                  "buffData": {
+                    "buffKeyword": "VibrationContinue",
+                    "target": "Target",
+                    "buffOwner": "Target"
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "grade": 2,
+              "color": "GREY",
+              "scale": 3,
+              "abilityScriptList": [
+                {
+                  "scriptName": "SuperCoin"
+                },
+                {
+                  "scriptName": "UseBullet[optional:AccelBullet:1]"
+                },
+                {
+                  "scriptName": "Modular/TIMING:OnSucceedAttack/LUA:gsound/LUAMAIN:gsound_white_paper_burst3"
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "grade": 2,
+              "color": "GREY",
+              "scale": 3,
+              "abilityScriptList": [
+                {
+                  "scriptName": "SuperCoin"
+                },
+                {
+                  "scriptName": "UseBullet[optional:AccelBullet:1]"
+                },
+                {
+                  "scriptName": "SwitchVibrationOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "VibrationEcho",
+                    "buffOwner": "Target"
+                  }
+                },
+                {
+                  "scriptName": "Modular/TIMING:OnSucceedAttack/LUA:gsound/LUAMAIN:gsound_white_paper_burst3"
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "grade": 2,
+              "color": "GREY",
+              "scale": 3,
+              "abilityScriptList": [
+                {
+                  "scriptName": "SuperCoin"
+                },
+                {
+                  "scriptName": "UseBullet[optional:AccelBullet:1]"
+                },
+                {
+                  "scriptName": "SwitchVibrationOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "VibrationCrack",
+                    "buffOwner": "Target"
+                  }
+                },
+                {
+                  "scriptName": "Modular/TIMING:OnSucceedAttack/LUA:gsound/LUAMAIN:gsound_white_paper_burst3"
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "grade": 2,
+              "color": "GREY",
+              "scale": 3,
+              "abilityScriptList": [
+                {
+                  "scriptName": "SuperCoin"
+                },
+                {
+                  "scriptName": "UseBullet[optional:AccelBullet:1]"
+                },
+                {
+                  "scriptName": "ForceToActivateBuffOSAValueTimes",
+                  "value": 5,
+                  "buffData": {
+                    "buffKeyword": "Combustion",
+                    "target": "Target",
+                    "stack": 0,
+                    "turn": 1,
+                    "limit": 99
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Sinking",
+                    "target": "Target",
+                    "stack": 5,
+                    "turn": 5,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "grade": 2,
+              "color": "GREY",
+              "scale": 3,
+              "abilityScriptList": [
+                {
+                  "scriptName": "SuperCoin"
+                },
+                {
+                  "scriptName": "UseBullet[optional:AccelBullet:1]"
+                },
+                {
+                  "scriptName": "ForceToActivateBuffOSAValueTimes",
+                  "value": 10,
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "stack": 0,
+                    "turn": 1,
+                    "limit": 99
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "grade": 2,
+              "color": "GREY",
+              "scale": 3,
+              "cutsceneStart": true,
+              "abilityScriptList": [
+                {
+                  "scriptName": "SuperCoin"
+                },
+            {
+              "scriptName": "UseBullet[optional:AccelBullet:::ThumbFatherRodionFive1]"
+            },
+            {
+              "scriptName": "ForceToActivateBuffOSAValueTimes",
+              "value": 10,
+              "buffData": {
+                "buffKeyword": "Combustion",
+                "target": "Target",
+                "stack": 0,
+                "turn": 1,
+                "limit": 99
+              }
+            },
+            {
+              "scriptName": "Modular/TIMING:OnSucceedAttack/LUA:gsound/LUAMAIN:gsound_white_paper_finale"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1079714,
+      "skillTier": 3,
+      "skillData": [
+        {
+          "skillTargetType": "FRONT",
+          "iconID": 1079714,
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "attributeType": "AZURE",
+          "atkType": "SLASH",
+          "defType": "ATTACK",
+          "skillMotion": "S6",
+          "viewType": "ENCOUNTER",
+          "parryingCloseType": "NEAR",
+          "targetNum": 1,
+          "range": 8,
+          "defaultValue": 4,
+          "skillLevelCorrection": 4,
+          "abilityScriptList": [
+            {
+              "scriptName": "GiveBuffOnUseWithBloodDinnerGainBuffStackIfFailed_Laceration10[10:50:10]",
+              "buffData": {
+                "buffKeyword": "BloodArmorPersonalityFirst",
+                "target": "Self",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "AttackDmgUpByRatioOnUseViaBuffCheckDevideByStackWithLimit50",
+              "buffData": {
+                "buffKeyword": "BloodDinner",
+                "buffOwner": "Self",
+                "stack": 10,
+                "turn": 0,
+                "value": 0.03
+              }
+            },
+            {
+              "scriptName": "AttackDmgUpByRatioOnUseViaBuffCheckDevideByStackWithLimit50",
+              "buffData": {
+                "buffKeyword": "BloodArmorPersonalityFirst",
+                "buffOwner": "Self",
+                "stack": 1,
+                "turn": 0,
+                "value": 0.03
+              }
+            },
+            {
+              "scriptName": "IgnoreDefenseSkill"
+            },
+            {
+              "scriptName": "CannotReusedSkill"
+            },
+            {
+              "scriptName": "GiveBuffOnUse",
+              "buffData": {
+                "buffKeyword": "TimeAcceleration",
+                "target": "Self",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "Modular/TIMING:ExpectedBasePower/EXPECTED/LUA:gsound/LUAMAIN:gsound_rooftop_power"
+            },
+            {
+              "scriptName": "Modular/TIMING:WhenUse/LUA:gsound/LUAMAIN:gsound_rooftop_start"
+            },
+            {
+              "scriptName": "Modular/TIMING:EndSkill/LUA:gsound/LUAMAIN:gsound_rooftop_end"
+            },
+            {
+              "scriptName": "Modular/TIMING:EndSkill/LUA:gsound/LUAMAIN:gsound_other_skill_end"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "grade": 2,
+              "color": "GREY",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "SuperCoin"
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Sinking",
+                    "target": "Target",
+                    "stack": 5,
+                    "turn": 5,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Binding",
+                    "target": "Target",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 1
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "grade": 2,
+              "color": "GREY",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "SuperCoin"
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Vibration",
+                    "target": "Target",
+                    "stack": 5,
+                    "turn": 5,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "TimeSuspend",
+                    "target": "Target",
+                    "stack": 0,
+                    "turn": 2,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "grade": 2,
+              "color": "GREY",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "SuperCoin"
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Sinking",
+                    "target": "Target",
+                    "stack": 5,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "VibrationExplosionOnSucceedAttackAndLoseTargetVibrationTurn1"
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "grade": 2,
+              "color": "GREY",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "SuperCoin"
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "TimeSuspend",
+                    "target": "Target",
+                    "stack": 0,
+                    "turn": 2,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "grade": 2,
+              "color": "GREY",
+              "scale": 4,
+              "cutsceneStart": true,
+              "abilityScriptList": [
+                {
+                  "scriptName": "SuperCoin"
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Sinking",
+                    "target": "Target",
+                    "stack": 5,
+                    "turn": 5,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "SinkingSurgeOnSucceedAttack"
+                },
+                {
+                  "scriptName": "VibrationExplosionOnSucceedAttackAndLoseTargetVibrationTurn1"
+                },
+                {
+                  "scriptName": "VibrationExplosionOnSucceedAttackAndLoseTargetVibrationTurn1"
+                },
+                {
+                  "scriptName": "VibrationExplosionOnSucceedAttackAndLoseTargetVibrationTurn1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

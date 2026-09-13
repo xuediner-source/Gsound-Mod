@@ -1,0 +1,58 @@
+{
+  "10797001": {
+    "a": 0,
+    "id": "10797001",
+    "name": "情圣/渣男",
+    "desc": "[EncounterStart] 自身获得 20 层 [Lover]\n若自身 [Lover] 层数为 0，在回合结束时将其转化为 10 层 [Hater]，并将 [SpeechDraft] 装填至 10 发\n\n带有 [Lover] 时：\n- 每次拼点时，获得 1 层 [Reunion]，并使 [Lover] 层数减少 1\n- 受到单方面攻击或 [Unbreakable Coin] 攻击时，使用“未来”，并使 [Lover] 层数减少 3\n- 与攻击技能拼点失败时，使用“未来”，并使 [Lover] 层数减少 5\n\n带有 [Hater] 时：\n- 每次拼点时，获得 1 层 [Farewell]\n- 受到单方面攻击或 [Unbreakable Coin] 攻击时，使用“过去”，并使 [Hater] 层数减少 2\n- 与攻击技能拼点失败时，使用“过去”，并使 [Hater] 层数减少 3\n- 若本回合没有使用过“没有时间了……”，则回合结束时使 [Hater] 层数减少 2\n\n若自身 [Hater] 层数为 0，在回合结束时将其转化为 20 层 [Lover]，并将 [SpeechDraft] 装填至 10 发\n战斗中，若自身 [Lover] 层数降至 0，或自身陷入混乱，下回合获得 [MindHeart]\n[EndBattle] 若自身在本场战斗中首次陷入混乱，解除自身的混乱（强制混乱除外）",
+    "summary": "",
+    "flavor": ""
+  },
+  "10797002": {
+    "a": 0,
+    "id": "10797002",
+    "name": "第二名的演讲",
+    "desc": "掷出消耗 [SpeechDraft] 的硬币时，即使自身已耗尽所有 [SpeechDraft]，该攻击也不会取消\n本场战斗中首次耗尽 [SpeechDraft] 的回合结束时，将其装填至 10 发\n自身仅视为施加 [Laceration]、[Combustion]、[Sinking] 与 [Vibration] 的人格\n[StartBattle] 无条件使用“小陆”进行单方面攻击（每回合最多 1 次）",
+    "summary": "",
+    "flavor": ""
+  },
+  "10797003": {
+    "a": 0,
+    "id": "10797003",
+    "name": "望-陆",
+    "desc": "[EndBattle] 将自身超过 25 级的 [Breath] 强度每 15 级转化为 1 层 [Hope]（每回合最多转化 1 层）\n[StartBattle] 自身获得等同于 [Hope] 层数的 [SlashResultUp]（最多 2 层）\n若自身的[Hope]层数不低于3层，装备守备技能“现在”时，将其转化为“天台”",
+    "summary": "",
+    "flavor": ""
+  },
+  "10797004": {
+    "a": 0,
+    "id": "10797004",
+    "name": "不肯忘却的回忆",
+    "desc": "若自身现有体力不高于最大体力的 20%，获得 3 层 [UnforgettableMemory]（每场战斗最多触发 1 次）\n[UnforgettableMemory]效果结束时，获得[SelectiveAmnesia]",
+    "summary": "",
+    "flavor": ""
+  },
+  "10797005": {
+    "a": 0,
+    "id": "10797005",
+    "name": "双刀成章",
+    "desc": "自身每消耗 1 发 [SpeechDraft]，交替获得 1 层 [Explicator] 或 [FirePoker]（优先获得 [Explicator]）\n每次技能使用结束后，成对消耗等量的 [Explicator] 与 [FirePoker]（每回合最多 3 对）；每消耗 1 对，获得 5 级 [Breath] 强度与 5 层 [Breath]\n攻击带有 [Laceration] 的目标时，[BloodDinner] 每有 2 层，造成的伤害 +1%（最多 +100%）；攻击带有 [Combustion] 的目标时，[FireField] 每有 2 层，造成的伤害 +1%（最多 +100%）\n若双刀层数之和不低于 9，且两者层数均不低于 3，下回合使仪表盘上位于最左侧行动槽下方一行的 1 个基础技能转化为‘白纸’，并将 [SpeechDraft] 装填至 10 发",
+    "summary": "",
+    "flavor": ""
+  },
+  "10797012": {
+    "a": 0,
+    "id": "10797012",
+    "name": "那又怎么样？",
+    "desc": "战斗开始时，将自身的 [SpeechDraft] 装填至 10 发；获得 1 层 [Explicator] 与 1 层 [FirePoker]、3 级 [Breath] 强度与 2 层 [Breath]，并获得 2 层 [SlashResultUp]",
+    "summary": "",
+    "flavor": ""
+  },
+  "10797021": {
+    "a": 0,
+    "id": "10797021",
+    "name": "对不起......",
+    "desc": "战斗开始时，全体友方获得 5 级 [Breath] 强度与 5 层 [Breath]、2 层 [SlashResultUp]、3 层 [AttackDmgUp] 与 2 层 [Protection]",
+    "summary": "",
+    "flavor": ""
+  }
+}

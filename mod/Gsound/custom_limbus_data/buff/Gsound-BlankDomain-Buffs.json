@@ -1,0 +1,48 @@
+{
+  "list": [
+    {
+      "id": "BlankDomain",
+      "iconId": "BlankDomain",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Positive",
+      "maxStack": 1,
+      "canBeDespelled": false,
+      "destroyableOnRetreat": false,
+      "destroyableOnDie": true,
+      "destroyableOnZero": false,
+      "list": [
+        { "ability": "AttackLevelAdder", "value": 10 },
+        { "ability": "DefenseLevelAdder", "value": 10 },
+        { "ability": "AtkDamageMultiplierByStack", "value": 1.0 },
+        { "ability": "TakeDamageToValue", "value": 26 }
+      ],
+      "categoryKeywordList": []
+    },
+    {
+      "id": "CursedSpirit",
+      "iconId": "CursedSpirit",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Positive",
+      "maxStack": 100,
+      "canBeDespelled": false,
+      "destroyableOnRetreat": false,
+      "destroyableOnDie": true,
+      "destroyableOnZero": true,
+      "list": [],
+      "categoryKeywordList": []
+    },
+    {
+      "id": "BlankDomainOneDamage",
+      "iconId": "BlankDomainOneDamage",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Positive",
+      "maxStack": 1,
+      "canBeDespelled": false,
+      "destroyableOnZero": true,
+      "list": [
+        { "ability": "TakeDamageToValue", "value": 1 }
+      ],
+      "categoryKeywordList": []
+    }
+  ]
+}

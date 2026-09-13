@@ -1,0 +1,152 @@
+{
+  "idle": {
+    "file": "idle.png",
+    "source": "D:\\limbus\\BepInEx\\plugins\\Lethe\\mods\\Gsound\\art_source\\blank_domain\\redraw_20260910_final\\idle-accepted-green.png",
+    "source_sha256": "f3c0b02583acfca19d4dbcc38765d835c018432c7b978012ee1d9d9737165e0c",
+    "size": [
+      322,
+      687
+    ],
+    "pivot": [
+      0.6505175983436853,
+      0.03367297428432803
+    ],
+    "head_pixels": 112,
+    "ppu": 100,
+    "scale": 0.5333333333333333,
+    "source_crop": [
+      242,
+      170,
+      808,
+      1420
+    ],
+    "source_ground_anchor": [
+      616.0,
+      1396.0
+    ],
+    "source_head_top_y": 494.0,
+    "source_chin_y": 704.0,
+    "source_head_height": 210.0,
+    "green_pixel_residue": 0
+  },
+  "windup": {
+    "file": "windup.png",
+    "source": "D:\\limbus\\BepInEx\\plugins\\Lethe\\mods\\Gsound\\art_source\\blank_domain\\redraw_20260910_final\\windup-accepted-green.png",
+    "source_sha256": "f23838cc53eff41ae68ecc07d47e24ec21faa7f1cefe742af597a938987ee71e",
+    "size": [
+      504,
+      797
+    ],
+    "pivot": [
+      0.47742200328407225,
+      0.013455631030156234
+    ],
+    "head_pixels": 112,
+    "ppu": 100,
+    "scale": 0.5517241379310345,
+    "source_crop": [
+      115,
+      19,
+      992,
+      1428
+    ],
+    "source_ground_anchor": [
+      533.0,
+      1426.0
+    ],
+    "source_head_top_y": 729.0,
+    "source_chin_y": 932.0,
+    "source_head_height": 203.0,
+    "green_pixel_residue": 0
+  },
+  "slash": {
+    "file": "slash.png",
+    "source": "D:\\limbus\\BepInEx\\plugins\\Lethe\\mods\\Gsound\\art_source\\blank_domain\\redraw_20260910_final\\slash-accepted-green.png",
+    "source_sha256": "f6406c5625e579d480cf521840d22ffeae189c811cf4f4c3f65cdfcf720f6b28",
+    "size": [
+      831,
+      398
+    ],
+    "pivot": [
+      0.6601903511650803,
+      0.030881681132937433
+    ],
+    "head_pixels": 112,
+    "ppu": 100,
+    "scale": 0.509090909090909,
+    "source_crop": [
+      27,
+      130,
+      1620,
+      872
+    ],
+    "source_ground_anchor": [
+      1085.0,
+      868.0
+    ],
+    "source_head_top_y": 193.0,
+    "source_chin_y": 413.0,
+    "source_head_height": 220.0,
+    "green_pixel_residue": 0
+  },
+  "followthrough": {
+    "file": "followthrough.png",
+    "source": "D:\\limbus\\BepInEx\\plugins\\Lethe\\mods\\Gsound\\art_source\\blank_domain\\redraw_20260910_final\\followthrough-accepted-green.png",
+    "source_sha256": "cbf4d5d5d0c0f059abdebda743475cc4d701bac725b754f623057c36bac1c651",
+    "size": [
+      849,
+      406
+    ],
+    "pivot": [
+      0.6543561685474372,
+      0.02701414269823621
+    ],
+    "head_pixels": 112,
+    "ppu": 100,
+    "scale": 0.5161290322580645,
+    "source_crop": [
+      39,
+      133,
+      1646,
+      881
+    ],
+    "source_ground_anchor": [
+      1096.0,
+      879.0
+    ],
+    "source_head_top_y": 271.0,
+    "source_chin_y": 488.0,
+    "source_head_height": 217.0,
+    "green_pixel_residue": 0
+  },
+  "thrust": {
+    "file": "thrust.png",
+    "source": "D:\\limbus\\BepInEx\\plugins\\Lethe\\mods\\Gsound\\art_source\\blank_domain\\redraw_20260910_final\\thrust-accepted-green.png",
+    "source_sha256": "ad9d3a2a948129d2ffacca8d977991990174ac06edd2a1e3b2f3c6824791a8f4",
+    "size": [
+      953,
+      433
+    ],
+    "pivot": [
+      0.2997352239179248,
+      0.03339755172372538
+    ],
+    "head_pixels": 112,
+    "ppu": 100,
+    "scale": 0.5803108808290155,
+    "source_crop": [
+      45,
+      141,
+      1653,
+      852
+    ],
+    "source_ground_anchor": [
+      520.0,
+      845.0
+    ],
+    "source_head_top_y": 143.0,
+    "source_chin_y": 336.0,
+    "source_head_height": 193.0,
+    "green_pixel_residue": 0
+  }
+}

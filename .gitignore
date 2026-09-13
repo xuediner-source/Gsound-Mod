@@ -1,0 +1,7 @@
+**/bin/
+**/obj/
+**/__pycache__/
+*.pdb
+*.log
+*.dmp
+*.disabled

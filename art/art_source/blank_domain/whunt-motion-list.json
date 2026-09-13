@@ -1,0 +1,186 @@
+[
+  {
+    "detail": 4,
+    "motion": "Damaged",
+    "timeline_assets": []
+  },
+  {
+    "detail": 0,
+    "motion": "Default",
+    "timeline_assets": []
+  },
+  {
+    "detail": 2,
+    "motion": "Evade",
+    "timeline_assets": []
+  },
+  {
+    "detail": 3,
+    "motion": "Guard",
+    "timeline_assets": []
+  },
+  {
+    "detail": 5,
+    "motion": "Move",
+    "timeline_assets": []
+  },
+  {
+    "detail": 7,
+    "motion": "S1",
+    "timeline_assets": [
+      {
+        "file_id": 0,
+        "path_id": -6179878628026673664,
+        "name": "Heathclif_WHunt_Ride_S1_Timeline_2"
+      },
+      {
+        "file_id": 0,
+        "path_id": -7467481993789002241,
+        "name": "Heathclif_WHunt_Ride_S1_Timeline_3"
+      }
+    ]
+  },
+  {
+    "detail": 8,
+    "motion": "S2",
+    "timeline_assets": [
+      {
+        "file_id": 0,
+        "path_id": 8582952027895220578,
+        "name": "Heathclif_WHunt_Ride_S2_Timeline_1"
+      },
+      {
+        "file_id": 0,
+        "path_id": -302318831284042305,
+        "name": "Heathclif_WHunt_Ride_S2_Timeline_2"
+      },
+      {
+        "file_id": 0,
+        "path_id": -11338049336837690,
+        "name": "Heathclif_WHunt_Ride_S2_Timeline_3_1"
+      }
+    ]
+  },
+  {
+    "detail": 9,
+    "motion": "S3",
+    "timeline_assets": [
+      {
+        "file_id": 0,
+        "path_id": 2873330373341792284,
+        "name": "Heathclif_WHunt_Ride_S3_Timeline"
+      },
+      {
+        "file_id": 0,
+        "path_id": 3949527463954906500,
+        "name": "Heathclif_WHunt_Ride_S3_Timeline_2"
+      },
+      {
+        "file_id": 0,
+        "path_id": 4499007488923405123,
+        "name": "Heathclif_WHunt_Ride_S3_Timeline_2_1"
+      }
+    ]
+  },
+  {
+    "detail": 10,
+    "motion": "S4",
+    "timeline_assets": [
+      {
+        "file_id": 0,
+        "path_id": -1543048598728277294,
+        "name": "Heathclif_WHunt_Ride_S4_Timeline"
+      },
+      {
+        "file_id": 0,
+        "path_id": -3354779007925367462,
+        "name": "Heathclif_WHunt_Ride_S4_Timeline_2"
+      }
+    ]
+  },
+  {
+    "detail": 11,
+    "motion": "S5",
+    "timeline_assets": [
+      {
+        "file_id": 0,
+        "path_id": -420440981575263980,
+        "name": "Heathclif_WHunt_Ride_Summon_Timeline_1_1"
+      },
+      {
+        "file_id": 0,
+        "path_id": -1228078153299353638,
+        "name": "Heathclif_WHunt_Ride_Summon_Timeline_2_1"
+      },
+      {
+        "file_id": 0,
+        "path_id": 3788180469108485854,
+        "name": "Heathclif_WHunt_Ride_Summon_Timeline_1_2"
+      }
+    ]
+  },
+  {
+    "detail": 17,
+    "motion": "Parrying",
+    "timeline_assets": [
+      {
+        "file_id": 0,
+        "path_id": -4325276176511329981,
+        "name": "Heathclif_WHunt_Ride_Parrying_Timeline_1"
+      },
+      {
+        "file_id": 0,
+        "path_id": -3259526576583138971,
+        "name": "Heathclif_WHunt_Ride_Parrying_Timeline_2"
+      },
+      {
+        "file_id": 0,
+        "path_id": -1435108157972141533,
+        "name": "Heathclif_WHunt_Ride_Parrying_Timeline_3"
+      }
+    ]
+  },
+  {
+    "detail": 18,
+    "motion": "Idle",
+    "timeline_assets": []
+  },
+  {
+    "detail": 20,
+    "motion": "Special1",
+    "timeline_assets": [
+      {
+        "file_id": 0,
+        "path_id": 8330151076093878520,
+        "name": "Heathclif_WHunt_Ride_Start_Timeline"
+      }
+    ]
+  },
+  {
+    "detail": 37,
+    "motion": "Duel_Win",
+    "timeline_assets": [
+      {
+        "file_id": 0,
+        "path_id": -7272892722970214944,
+        "name": "Heathclif_WHunt_Ride_Parrying_Win_Timeline"
+      }
+    ]
+  },
+  {
+    "detail": 21,
+    "motion": "Special2",
+    "timeline_assets": [
+      {
+        "file_id": 0,
+        "path_id": -8223836499149509119,
+        "name": "Heathclif_WHunt_Ride_Summon_Parrying_Timeline"
+      }
+    ]
+  },
+  {
+    "detail": 1,
+    "motion": "Dead",
+    "timeline_assets": []
+  }
+]

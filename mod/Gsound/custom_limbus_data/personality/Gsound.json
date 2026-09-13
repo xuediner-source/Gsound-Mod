@@ -1,0 +1,188 @@
+{
+  "list": [
+    {
+      "id": 107970,
+      "appearance": "!custom_10916_Rodion_Thumb_FatherAppearance",
+      "unitScriptID": "BloodDinner",
+      "mp": 45,
+      "associationList": [
+        "THUMB_FINGER",
+        "INDEX_FINGER",
+        "SPIDER_HOUSE"
+      ],
+      "unitKeywordList": [
+        "SMALL",
+        "FINGER",
+        "TRUST_AGENT",
+        "SPIDER_HOUSE_FATHER"
+      ],
+      "skillKeywordList": [
+        "Laceration",
+        "Vibration",
+        "Combustion",
+        "Sinking",
+        "BloodDinner"
+      ],
+      "characterId": 7,
+      "season": 5,
+      "panicType": 9999,
+      "panicSkillOnErosion": 1000104,
+      "defenseSkillIDList": [
+        1079706,
+        1079704,
+        1079705,
+        1079724,
+        1079725,
+        1079726
+      ],
+      "slotWeightConditionList": [
+        "Default1"
+      ],
+      "rank": 3,
+      "hp": {
+        "defaultStat": 83,
+        "incrementByLevel": 2.95
+      },
+      "defCorrection": 2,
+      "minSpeedList": [
+        3,
+        3,
+        4,
+        4
+      ],
+      "maxSpeedList": [
+        5,
+        6,
+        7,
+        7
+      ],
+      "uniqueAttribute": "CRIMSON",
+      "initBuffList": [
+        {
+          "level": 1,
+          "list": [
+            {
+              "buff": "AccelBullet",
+              "stack": 10
+            }
+          ]
+        }
+      ],
+      "mentalConditionInfo": {
+        "add": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+              },
+              {
+                "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+              }
+            ]
+          }
+        ],
+        "min": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnDieAllyAsLevelRatio10"
+              }
+            ]
+          }
+        ]
+      },
+      "breakSection": {
+        "sectionList": [
+          25
+        ]
+      },
+      "resistInfo": {
+        "atkResistList": [
+          {
+            "type": "SLASH",
+            "value": 0.5
+          },
+          {
+            "type": "PENETRATE",
+            "value": 1
+          },
+          {
+            "type": "HIT",
+            "value": 2
+          }
+        ]
+      },
+      "attributeList": [
+        {
+          "skillId": 1079701,
+          "number": 3
+        },
+        {
+          "skillId": 1079702,
+          "number": 2
+        },
+        {
+          "skillId": 1079703,
+          "number": 1
+        },
+        {
+          "skillId": 1079704,
+          "number": 0
+        },
+        {
+          "skillId": 1079705,
+          "number": 0
+        },
+        {
+          "skillId": 1079706,
+          "number": 0
+        },
+        {
+          "skillId": 1079711,
+          "number": 0
+        },
+        {
+          "skillId": 1079712,
+          "number": 0
+        },
+        {
+          "skillId": 1079713,
+          "number": 0
+        },
+        {
+          "skillId": 1079714,
+          "number": 0
+        },
+        {
+          "skillId": 1079721,
+          "number": 0
+        },
+        {
+          "skillId": 1079722,
+          "number": 0
+        },
+        {
+          "skillId": 1079723,
+          "number": 0
+        },
+        {
+          "skillId": 1079724,
+          "number": 0
+        },
+        {
+          "skillId": 1079725,
+          "number": 0
+        },
+        {
+          "skillId": 1079726,
+          "number": 0
+        }
+      ]
+    }
+  ]
+}

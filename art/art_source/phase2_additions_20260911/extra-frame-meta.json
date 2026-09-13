@@ -1,0 +1,50 @@
+{
+  "recover_low": {
+    "size": [
+      427,
+      684
+    ],
+    "pivot": [
+      0.542604936,
+      0.0556305293
+    ],
+    "head_pixels": 112,
+    "source_head_height": 156,
+    "source_crop": [
+      148,
+      56,
+      710,
+      975
+    ]
+  },
+  "recover_rise": {
+    "size": [
+      394,
+      684
+    ],
+    "pivot": [
+      0.6372510738,
+      0.0430349378
+    ],
+    "head_pixels": 112,
+    "source_head_height": 156,
+    "source_crop": [
+      114,
+      56,
+      630,
+      975
+    ]
+  },
+  "transform_start": {
+    "size": [
+      400,
+      506
+    ],
+    "pivot": [
+      0.4467640817165375,
+      0.08871791511774063
+    ],
+    "source_sprite": -8412986075178202136,
+    "source_ppu": 100.0
+  }
+}

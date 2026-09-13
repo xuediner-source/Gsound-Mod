@@ -1,0 +1,326 @@
+{
+  "1079701": {
+    "a": 0,
+    "id": "1079701",
+    "levelList": [
+      {
+        "level": 1,
+        "name": "次女的阴阳师",
+          "desc": "[WhenUse] 消耗 [BloodDinner] 并获得 1 层 [BloodArmorPersonalityFirst]\n[WhenUse] [BloodDinner] 每 10 层，本技能伤害 +3%（最多 +50%）；每有 1 层 [BloodArmorPersonalityFirst]，伤害 +3%（最多 +50%）\n[WhenUse] 若自身 [Breath] 强度与层数之和不低于 5，本技能最终威力 +1\n[WhenUse] 目标的 [Laceration]、[Combustion] 与 [Sinking] 强度之和每有 5，本技能硬币威力 +1（最多 +3）",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                  "desc": "[OnSucceedAttack] 施加 5 层 [Laceration] 与 5 层 [Combustion]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                  "desc": "[OnSucceedAttack] 施加 10 级 [Laceration] 与 10 级 [Combustion]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                  "desc": "[OnSucceedAttack] 施加 10 级 [Sinking] 与 5 层 [Sinking]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] 消耗 1 发 [SpeechDraft]\n[OnSucceedAttack] 施加 10 级 [Vibration] 与 10 层 [Vibration]\n[OnSucceedAttack] 将目标的 [Vibration] 振幅纠缠为 [VibrationNesting]\n[OnSucceedAttack] 若目标的 [Vibration] 强度与层数之和不低于 5，重复使用本硬币（每个技能最多 1 次）",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "1079702": {
+    "a": 0,
+    "id": "1079702",
+    "levelList": [
+      {
+        "level": 1,
+        "name": "后桌的化学课代表",
+          "desc": "[WhenUse] 消耗 [BloodDinner] 并获得 1 层 [BloodArmorPersonalityFirst]\n[WhenUse] [BloodDinner] 每 10 层，本技能伤害 +3%（最多 +50%）；每有 1 层 [BloodArmorPersonalityFirst]，伤害 +3%（最多 +50%）\n[WhenUse] 消耗 1 发 [SpeechDraft]\n[OnSucceedAttack] 以 40% 的概率重复使用本硬币；目标每带有 1 种负面效果，重复使用概率 +20%（每个技能最多重复使用 3 次）",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                  "desc": "[OnSucceedAttack] 施加 5 级 [Vibration] 与 5 层 [Vibration]\n[OnSucceedAttack] 使目标以[VibrationContinue][FusionVibration]\n[OnSucceedAttack] 使目标[Switch_Vibration]为[VibrationEcho]\n[OnSucceedAttack] 使目标[Switch_Vibration]为[VibrationChain]\n[OnSucceedAttack] 下回合对目标施加 1 层[VibrationAssimilation]\n[OnSucceedAttack] 使目标振幅转换 为[VibrationCrack]\n[OnSucceedAttack] 施加 5 级 [Combustion] 与 5 层 [Combustion]\n[OnSucceedAttack] 施加 5 级 [Laceration] 与 5 层 [Laceration]\n[OnSucceedAttack] 施加 5 级 [Sinking] 与 5 层 [Sinking]\n[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数减少1层\n[OnSucceedAttack] 对目标施加2层[TimeSuspend]",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "1079703": {
+    "a": 0,
+    "id": "1079703",
+    "levelList": [
+      {
+        "level": 1,
+        "name": "爷爷的班长小马",
+          "desc": "[WhenUse] 消耗 [BloodDinner] 并获得 1 层 [BloodArmorPersonalityFirst]\n[WhenUse] [BloodDinner] 每 10 层，本技能伤害 +3%（最多 +50%）；每有 1 层 [BloodArmorPersonalityFirst]，伤害 +3%（最多 +50%）\n[WhenUse] 自身 [Breath] 强度与层数之和每有 5，本技能拼点威力 +1（最多 +3）\n[WhenUse] 若目标处于振幅转换或振幅纠缠状态，本技能造成的伤害 +50%\n[WhenUse] 目标的 [Combustion] 强度与层数之和每有 5，本技能最终威力 +1（最多 +3）\n[WhenUse] 目标的 [Laceration] 强度与层数之和每有 5，本技能基础威力 +1（最多 +3）\n[WhenUse] 目标的 [Sinking] 强度与层数之和每有 5，本技能硬币威力 +1（最多 +3）\n[WinDuel] 使目标[VibrationExplosion]，并使其[Vibration]层数减少1层",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[Unbreakable Coin]\n[OnSucceedAttack] 消耗 1 发 [SpeechDraft]\n[OnSucceedAttack] 施加 5 层 [Laceration]、5 层 [Combustion] 与 5 层 [Sinking]\n[OnSucceedAttack] 将目标的 [Vibration] 振幅转换为 [VibrationIgnition]\n[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数减少1层",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[Unbreakable Coin]\n[OnSucceedAttack] 消耗 1 发 [SpeechDraft]\n[OnSucceedAttack] 施加 10 级 [Laceration]、10 级 [Combustion] 与 10 级 [Sinking]\n[OnSucceedAttack] 将目标的 [Vibration] 振幅转换为 [VibrationBleeding]\n[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数减少1层",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[Unbreakable Coin]\n[OnSucceedAttack] 消耗 1 发 [SpeechDraft]\n[OnSucceedAttack] 施加 10 级 [Vibration] 与 10 层 [Vibration]\n[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数减少1层",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[Unbreakable Coin]\n[WhenUse] 消耗 1 发 [SpeechDraft]\n[WhenUse] 自身获得 10 级 [Charge] 与 10 层 [Charge]\n[OnSucceedAttack] 施加 10 级 [Burst] 与 10 层 [Burst]\n[OnSucceedAttack] 将目标的 [Vibration] 振幅转换为 [VibrationCollapse]\n[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数减少1层",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[Unbreakable Coin]\n[WhenUse] 消耗 1 发 [SpeechDraft]，并消耗自身所有 [Charge] 强度；每消耗 1 级 [Charge] 强度，本技能最终威力 +1\n[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数减少1层；目标的[Burst]强度与层数之和每有5，本效果重复触发1次",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "1079704": {
+    "a": 0,
+    "id": "1079704",
+    "levelList": [
+      {
+        "level": 1,
+        "name": "未来",
+        "desc": "成功闪避一个技能的所有硬币时，对该技能的使用者使用“还有大把时间可以用来浪费”进行单方面攻击，并获得 1 层 [Explicator]\n自身每带有 2 层 [Lover]，本技能硬币威力 +1\n自身每带有 2 层超过 10 层的 [Lover]，本技能基础威力 +1\n[WhenUse] 自身获得 2 层 [Breath]\n[OnSucceedEvade] 自身获得 3 级 [Breath]，并恢复 5 点理智值\n[EndSkill] 自身 [Lover] 层数减少 2",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "1079705": {
+    "a": 0,
+    "id": "1079705",
+    "levelList": [
+      {
+        "level": 1,
+        "name": "过去",
+        "desc": "自身每有 3 层 [Hater]，本技能就有 1 颗硬币转化为 [Unbreakable Coin]，并对该技能的使用者使用“没有时间了……”进行单方面攻击；技能结束时获得 1 层 [FirePoker]\n[OnLoseDuel] 本技能最终威力 +5\n[WhenUse] 自身获得 3 级 [Breath] 与 2 层 [Breath]",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] 施加 5 级 [Laceration] 与 5 层 [Laceration]\n[OnSucceedAttack] 使目标增加2级[Sinking]强度并对其施加3层[Sinking]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] 使目标增加4级[Sinking]强度并对其施加3层[Sinking]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] 施加 5 级 [Vibration] 与 5 层 [Vibration]\n[OnSucceedAttack] 使目标增加4级[Sinking]强度并对其施加4层[Sinking]",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "1079706": {
+    "a": 0,
+    "id": "1079706",
+    "levelList": [
+      {
+        "level": 1,
+        "name": "现在",
+          "desc": "[StartBattle] 自身获得 5 层 [DefenseUp]\n[BeforeUse] 若自身的[Hope]层数不低于3层，则改为使用“天台”\n[WhenUse] 自身获得 1 级与 1 层[VibrationDistribution]和[VibrationSpring]\n[WinDuel] 使目标增加10级[Sinking]强度并对其施加10层[Sinking]\n[WhenUse] 下回合对目标施加1层[Binding]、1层[ParryingResultDown]、1层[SinkingVulnerable]、1层[Vulnerable]、1层[PlusCoinValueDown]\n[WinDuel] 使目标[VibrationExplosion]，并使其[Vibration]层数减少1层\n[WinDuel] 自身获得 1 层 [Explicator] 与 1 层 [FirePoker]\n[OnLoseDuel] 自身获得 5 层 [Protection]\n[EndBattle] 若自身的 [SpeechDraft] 数量低于 5 发，将其装填至 5 发（每回合最多 1 次）",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[Unbreakable Coin]",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "1079711": {
+    "a": 0,
+    "id": "1079711",
+    "levelList": [
+      {
+        "level": 1,
+        "name": "还有大把时间可以用来浪费",
+        "desc": "无法拼点\n本技能不会触发守备技能，且不会因外部效果重复使用\n[WhenUse] 消耗 [BloodDinner] 并获得 1 层 [BloodArmorPersonalityFirst]\n[WhenUse] [BloodDinner] 每 10 层，本技能伤害 +3%（最多 +50%）；每有 1 层 [BloodArmorPersonalityFirst]，伤害 +3%（最多 +50%）\n[WhenUse] 若自身 [Breath] 强度不低于 5，本技能最终威力 +1\n[WhenUse] 目标的 [Combustion] 与 [Vibration] 强度之和每有 5，本技能基础威力 +1（最多 +3）",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] 施加 5 层 [Combustion] 与 5 层 [Vibration]\n[OnSucceedAttack] 使目标增加4级[Sinking]强度并对其施加3层[Sinking]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] 使目标增加6级[Sinking]强度并对其施加7层[Sinking]\n[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数减少1层",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "1079712": {
+    "a": 0,
+    "id": "1079712",
+    "levelList": [
+      {
+        "level": 1,
+        "name": "没有时间了……",
+        "desc": "无法拼点\n本技能不会触发守备技能，且不会因外部效果重复使用\n[WhenUse] 消耗 [BloodDinner] 并获得 1 层 [BloodArmorPersonalityFirst]\n[WhenUse] [BloodDinner] 每 10 层，本技能伤害 +3%（最多 +50%）；每有 1 层 [BloodArmorPersonalityFirst]，伤害 +3%（最多 +50%）\n[WhenUse] 若自身 [Breath] 强度不低于 5，本技能硬币威力 +1\n[WhenUse] 目标的 [Laceration] 与 [Vibration] 强度之和每有 5，本技能最终威力 +1（最多 +3）",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] 施加 5 级 [Laceration] 与 5 层 [Laceration]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] 施加 5 级 [Vibration] 与 5 层 [Vibration]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] 触发目标的 [Laceration] 10 次，并使其层数减少 10\n[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数减少1层",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "1079713": {
+    "a": 0,
+    "id": "1079713",
+    "levelList": [
+      {
+        "level": 1,
+        "name": "白纸",
+      "desc": "[WideAreaRampage]\n本技能不会触发守备技能，且不会因外部效果重复使用\n[WhenUse] 消耗 [BloodDinner] 并获得 2 层 [BloodArmorPersonalityFirst]\n[WhenUse] [BloodDinner] 每 10 层，本技能伤害 +3%（最多 +50%）；每有 1 层 [BloodArmorPersonalityFirst]，伤害 +3%（最多 +50%）\n[WhenUse] 消耗自身全部 [Explicator] 与 [FirePoker]\n- 使用前由双刀生成的 [BloodDinner] 与 [FireField] 维持至本技能结束\n[WhenUse] 自身获得 [TimeAcceleration]\n双刀层数之和每有 1，本技能造成的伤害 +5%（最多 +50%）\n若使用前两种双刀层数相同，本技能造成的伤害额外 +30%\n攻击带有 [Laceration] 的目标时，[BloodDinner] 每有 2 层，造成的伤害 +1%（最多 +100%）\n攻击带有 [Combustion] 的目标时，[FireField] 每有 2 层，造成的伤害 +1%（最多 +100%）\n每枚硬币掷出时，消耗 1 发 [SpeechDraft]\n使用本技能后，重新开始积攒双刀\n[EndSkill] 将 [SpeechDraft] 装填至 10 发",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          { "coindescs": [{ "desc": "[Unbreakable Coin]\n[OnSucceedAttack] 施加 5 级与 5 层 [Laceration]、[Combustion]、[Sinking] 和 [Vibration]", "summary": "" }] },
+          { "coindescs": [{ "desc": "[Unbreakable Coin]\n[OnSucceedAttack] 触发目标的 [Laceration] 10 次", "summary": "" }] },
+          { "coindescs": [{ "desc": "[Unbreakable Coin]\n[OnSucceedAttack] 使目标以[VibrationContinue][FusionVibration]", "summary": "" }] },
+          { "coindescs": [{ "desc": "[Unbreakable Coin]\n[OnSucceedAttack] 使目标[VibrationExplosion]3次，并使其[Vibration]层数减少3层", "summary": "" }] },
+          { "coindescs": [{ "desc": "[Unbreakable Coin]\n[OnSucceedAttack] 使目标[Switch_Vibration]为[VibrationEcho]，并使其[VibrationExplosion]3次", "summary": "" }] },
+          { "coindescs": [{ "desc": "[Unbreakable Coin]\n[OnSucceedAttack] 使目标[Switch_Vibration]为[VibrationCrack]，并使其[VibrationExplosion]3次", "summary": "" }] },
+          { "coindescs": [{ "desc": "[Unbreakable Coin]\n[OnSucceedAttack] 触发目标的 [Combustion] 5 次，并施加 5 级与 5 层 [Sinking]", "summary": "" }] },
+          { "coindescs": [{ "desc": "[Unbreakable Coin]\n[OnSucceedAttack] 触发目标的 [Laceration] 10 次", "summary": "" }] },
+          { "coindescs": [{ "desc": "[Unbreakable Coin]\n[OnSucceedAttack] 触发目标的 [Combustion] 10 次\n[OnSucceedAttack] 使目标增加5级[Sinking]强度并对其施加5层[Sinking]，随后使目标[SinkingSurge]\n[OnSucceedAttack] 使目标[VibrationExplosion]10次，并使其[Vibration]层数减少10层", "summary": "" }] }
+        ]
+      }
+    ]
+  },
+  "1079714": {
+    "a": 0,
+    "id": "1079714",
+    "levelList": [
+      {
+        "level": 1,
+        "name": "天台",
+        "desc": "本技能不会触发守备技能，且不会因外部效果重复使用\n[WhenUse] 消耗 [BloodDinner] 并获得 1 层 [BloodArmorPersonalityFirst]\n[WhenUse] [BloodDinner] 每 10 层，本技能伤害 +3%（最多 +50%）；每有 1 层 [BloodArmorPersonalityFirst]，伤害 +3%（最多 +50%）\n[WhenUse] 共用消耗[BloodDinner]总数每有 100 层，本技能造成的伤害 +20%（最多 +100%）\n[WhenUse] 消耗3层[Hope]\n[WhenUse] 消耗最多5发[SpeechDraft]；每消耗1发，本技能造成的伤害+10%\n[WhenUse] 自身获得[TimeAcceleration]\n[WhenUse] 目标每带有5级[Sinking]强度，本技能最终威力+1（最多+3）\n[WhenUse] 目标每带有5级[Vibration]强度，本技能硬币威力+1（最多+3）",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          { "coindescs": [{ "desc": "[Unbreakable Coin]\n[OnSucceedAttack] 使目标增加5级[Sinking]强度并对其施加5层[Sinking]\n[OnSucceedAttack] 下回合对目标施加1层[Binding]", "summary": "" }] },
+          { "coindescs": [{ "desc": "[Unbreakable Coin]\n[OnSucceedAttack] 使目标增加5级[Vibration]强度并对其施加5层[Vibration]\n[OnSucceedAttack] 对目标施加2层[TimeSuspend]", "summary": "" }] },
+          { "coindescs": [{ "desc": "[Unbreakable Coin]\n[OnSucceedAttack] 使目标增加5级[Sinking]强度\n[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数减少1层", "summary": "" }] },
+          { "coindescs": [{ "desc": "[Unbreakable Coin]\n[OnSucceedAttack] 对目标施加2层[TimeSuspend]", "summary": "" }] },
+          { "coindescs": [{ "desc": "[Unbreakable Coin]\n[OnSucceedAttack] 使目标增加5级[Sinking]强度并对其施加5层[Sinking]，随后使目标[SinkingSurge]\n[OnSucceedAttack] 使目标[VibrationExplosion]3次，并使其[Vibration]层数减少3层", "summary": "" }] }
+        ]
+      }
+    ]
+  }
+}

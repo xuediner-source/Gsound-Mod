@@ -1,0 +1,14 @@
+# Gsound phase-2 additions, 2026-09-11
+
+Scope authorized this turn: items 1, 5, 6, 7. Items 2–4, original skill icons, Lua mechanics, and localization are unchanged.
+
+Art uses the built-in image-generation tool; no particular underlying model version is claimed. Python chroma removal, resizing, slicing and RGBA packaging follow the user's earlier explicit authorization.
+
+- `phase2-illustration.png`: original generated output `exec-2cba0d01-61a8-478d-b955-3bcd3a953346.png`. References: installed phase-2 idle, first CG `cg_107970.png`, and the user's `file_000000006b5881f59a78efbd9f8f0240.png` greatsword sheet. Prompt requested a single landscape awakened character illustration: white hair, blue eyes, glasses, long black buckled coat, full adult proportions, giant organic grey-purple sword of skulls and hands, purple eye and ring pommel, destroyed classroom opening into a blank void, black spectral tendrils, no labels or watermark. Normal CG remains unchanged.
+- `recovery-sheet.png`: generated `exec-0c0e7aed-2abb-4ecb-87df-155d5ebd72d6.png`, reference installed idle. Prompt requested two separate right-facing battle SD sprites on green: kneeling and bracing on the greatsword, then rising into existing idle. Exact costume, eye/hair/glasses and weapon continuity, approximately four-head proportions, same head size and sword dimensions, no motion blur or other characters.
+- `recover_low.png`, `recover_rise.png`: cut from this sheet, green removed, head height normalized to 112px, 100 PPU; actual foot pivots in `extra-frame-meta.json`. `recovery-review.jpg` aligns both at the same scale with the installed idle. Recovery is a 1.65-second presentation, not a new combat effect.
+- `transform_start.png`: decoded existing first-phase idle Sprite `-8412986075178202136` from the installed `custom_appearance/Gsound.bundle`, original 100 PPU and pivot. No replacement of first-phase art or appearance bundle. It replaces only the early transform schedule's incorrect phase-2 idle.
+
+BlackNightmare donor: enemy Index Father effect root `8126597018000598074`, originally in `common-a1c9p3.bundle` / cache CAB-63dbf32d167f855695acb686a4126487. The original external Splash material and shader/noise/dissolve dependencies come from cache `bb7922b2da6f79f99800cab305f9a032/11cf58f88cd67c04a559b62ef0639dfc/__data`. The private bundle contains 29 objects, including AssetBundle metadata, with all references local and all textures inlined; it carries no donor character or behavior scripts. Root scene parent removed, original enemy-facing sign removed, native local attachment and scale handled by bridge. Main1's original two-second particle in a six-second loop now repeats every two seconds with 0.25 seconds overlap.
+
+Build scripts, actual-method C# test harnesses, source diff, dependency closure audit, install receipt and rollback originals are in `D:\limbus\_codex_work\gsound-1.11.22`. Tested offline; no claim of live combat verification.

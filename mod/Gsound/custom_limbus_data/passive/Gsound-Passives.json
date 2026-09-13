@@ -1,0 +1,94 @@
+{
+  "list": [
+    {
+      "id": 10797001,
+      "attributeStockCondition": [],
+      "requireIDList": [
+        "Modular/TIMING:EncounterStart/LUA:gsound/LUAMAIN:gsound_lover_init",
+        "Modular/TIMING:RoundStart/LUA:gsound/LUAMAIN:gsound_round_start",
+        "Modular/TIMING:DuelClash/LUA:gsound/LUAMAIN:gsound_clash",
+        "Modular/TIMING:DefeatDuel/LUA:gsound/LUAMAIN:gsound_clash_lost",
+        "Modular/TIMING:EndSkill/LUA:gsound/LUAMAIN:gsound_clear_clash_buffs",
+        "Modular/TIMING:EnemyStartBehaviour/LUA:gsound/LUAMAIN:gsound_capture_reaction_target",
+        "Modular/TIMING:EnemyEndSkill/LUA:gsound/LUAMAIN:gsound_finish_future_reaction",
+        "Modular/TIMING:BeforeWhenHit/LUA:gsound/LUAMAIN:gsound_before_hit",
+        "Modular/TIMING:OnBreak/LUA:gsound/LUAMAIN:gsound_on_break",
+        "Modular/TIMING:EndBattle/LUA:gsound/LUAMAIN:gsound_lover_round_end"
+      ]
+    },
+    {
+      "id": 10797002,
+      "attributeStockCondition": [],
+      "requireIDList": [
+        "Modular/TIMING:StartBattle/LUA:gsound/LUAMAIN:gsound_start_battle_attack",
+        "Modular/TIMING:BeforeAttack/LUA:gsound/LUAMAIN:gsound_mindheart_damage",
+        "Modular/TIMING:BeforeAttack/LUA:gsound/LUAMAIN:gsound_blade_field_damage",
+        "Modular/TIMING:EndBattle/LUA:gsound/LUAMAIN:gsound_turn_end_reload"
+      ]
+    },
+    {
+      "id": 10797003,
+      "attributeStockCondition": [],
+      "requireIDList": [
+        "Modular/TIMING:StartBattle/LUA:gsound/LUAMAIN:gsound_hope_start",
+        "Modular/TIMING:EndBattle/LUA:gsound/LUAMAIN:gsound_hope_end"
+      ]
+    },
+    {
+      "id": 10797004,
+      "attributeStockCondition": [],
+      "requireIDList": [
+        "Modular/TIMING:RoundStart/LUA:gsound/LUAMAIN:gsound_memory_check",
+        "Modular/TIMING:AfterChangeHP/LUA:gsound/LUAMAIN:gsound_memory_check",
+        "Modular/TIMING:EndBattle/LUA:gsound/LUAMAIN:gsound_memory_round_end",
+        "Modular/TIMING:RoundStart/LUA:gsound/LUAMAIN:gsound_selective_amnesia_round_start",
+        "Modular/TIMING:AfterChangeHP/LUA:gsound/LUAMAIN:gsound_selective_amnesia_hp_changed",
+        "Modular/TIMING:OnUseBuf/LUA:gsound/LUAMAIN:gsound_selective_amnesia_skill_start",
+        "Modular/TIMING:OnSucceedAttack/LUA:gsound/LUAMAIN:gsound_selective_amnesia_hit"
+      ]
+    },
+    {
+      "id": 10797005,
+      "attributeStockCondition": [],
+      "requireIDList": [
+        "Modular/TIMING:EncounterStart/LUA:gsound/LUAMAIN:gsound_bloodfeast_init",
+        "Modular/TIMING:OnUseBuf/LUA:gsound/LUAMAIN:gsound_dual_blade_gain",
+        "Modular/TIMING:EndSkill/LUA:gsound/LUAMAIN:gsound_dual_blade_convert",
+        "Modular/TIMING:RoundStart/LUA:gsound/LUAMAIN:gsound_fire_poker_round_start",
+        "Modular/TIMING:OnSucceedAttack/LUA:gsound/LUAMAIN:gsound_fire_poker_dark_flame"
+      ]
+    },
+    {
+      "id": 10797012,
+      "attributeStockCondition": [
+        {
+          "type": "AZURE",
+          "value": 1
+        },
+        {
+          "type": "SHAMROCK",
+          "value": 1
+        },
+        {
+          "type": "CRIMSON",
+          "value": 1
+        }
+      ],
+      "requireIDList": [
+        "Modular/TIMING:StartBattle/LUA:gsound/LUAMAIN:gsound_resource_passive_start"
+      ]
+    },
+    {
+      "id": 10797021,
+      "attributeStockCondition": [
+        {
+          "type": "AMBER",
+          "value": 4
+        }
+      ],
+      "requireIDList": [
+        "Modular/TIMING:StartBattle/LUA:gsound/LUAMAIN:gsound_support_passive_start"
+      ]
+    }
+  ]
+}

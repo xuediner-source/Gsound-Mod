@@ -1,0 +1,82 @@
+{
+  "reference": {
+    "idle": "D:\\limbus\\_codex_work\\gsound-1.11.14\\whunt-original-reference\\5527427115391067765.png",
+    "windup": "D:\\limbus\\_codex_work\\gsound-1.11.14\\whunt-original-reference\\8607357809516602556.png",
+    "slash": "D:\\limbus\\_codex_work\\gsound-1.11.14\\whunt-original-reference\\-2883733082552254189.png",
+    "followthrough": "D:\\limbus\\_codex_work\\gsound-1.11.14\\whunt-original-reference\\-4820405511268454571.png"
+  },
+  "staged": {
+    "idle": {
+      "status": "offline_reviewed_and_installed_1.11.19",
+      "head_pixels": 112,
+      "pivot": [
+        0.6505175983436853,
+        0.03367297428432803
+      ],
+      "size": [
+        322,
+        687
+      ],
+      "green_pixel_residue": 0
+    },
+    "windup": {
+      "status": "offline_reviewed_and_installed_1.11.19",
+      "head_pixels": 112,
+      "pivot": [
+        0.47742200328407225,
+        0.013455631030156234
+      ],
+      "size": [
+        504,
+        797
+      ],
+      "green_pixel_residue": 0
+    },
+    "slash": {
+      "status": "offline_reviewed_and_installed_1.11.19",
+      "head_pixels": 112,
+      "pivot": [
+        0.6601903511650803,
+        0.030881681132937433
+      ],
+      "size": [
+        831,
+        398
+      ],
+      "green_pixel_residue": 0
+    },
+    "followthrough": {
+      "status": "offline_reviewed_and_installed_1.11.19",
+      "head_pixels": 112,
+      "pivot": [
+        0.6543561685474372,
+        0.02701414269823621
+      ],
+      "size": [
+        849,
+        406
+      ],
+      "green_pixel_residue": 0
+    },
+    "thrust": {
+      "status": "offline_reviewed_and_installed_1.11.19",
+      "head_pixels": 112,
+      "pivot": [
+        0.2997352239179248,
+        0.03339755172372538
+      ],
+      "size": [
+        953,
+        433
+      ],
+      "green_pixel_residue": 0
+    }
+  },
+  "install_policy": "Five reviewed frames installed together; gameplay visual acceptance pending.",
+  "review_notes": [
+    "Followthrough redrawn to trail left/back like the official recovery silhouette.",
+    "Thrust redrawn to correct excessive weapon/limb length; original two authored timing entries preserved.",
+    "Slash head landmarks corrected from erroneous 143px to 220px before normalization.",
+    "Original reference comparison preserves original exported pixel scale; five major poses, not every original Sprite separately redrawn."
+  ]
+}

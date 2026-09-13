@@ -1,0 +1,271 @@
+{
+  "list": [
+    {
+      "id": "AccelBullet",
+      "iconId": "AccelBullet",
+      "subIdList": ["Bullet"],
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Neutral",
+      "maxStack": 10,
+      "canBeDespelled": false,
+      "destroyableOnDie": false,
+      "destroyableOnRetreat": false,
+      "destroyableOnZero": false,
+      "list": [],
+      "categoryKeywordList": ["BULLET","RESOURCE"]
+    },
+    {
+      "id": "SpeechDraft",
+      "iconId": "SpeechDraft",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Neutral",
+      "maxStack": 1,
+      "canBeDespelled": false,
+      "destroyableOnDie": false,
+      "destroyableOnRetreat": false,
+      "destroyableOnZero": false,
+      "list": [],
+      "categoryKeywordList": []
+    },
+    {
+      "id": "Lover",
+      "iconId": "Lover",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Positive",
+      "maxStack": 20,
+      "canBeDespelled": false,
+      "destroyableOnRetreat": false,
+      "destroyableOnDie": false,
+      "destroyableOnZero": false,
+      "list": [
+        { "ability": "AttackLevelAdder", "value": 3 },
+        { "ability": "DefenseLevelAdder", "value": -3 }
+      ],
+      "categoryKeywordList": []
+    },
+    {
+      "id": "Hater",
+      "iconId": "Hater",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Negative",
+      "maxStack": 10,
+      "canBeDespelled": false,
+      "destroyableOnRetreat": false,
+      "destroyableOnDie": false,
+      "destroyableOnZero": false,
+      "list": [
+        { "ability": "DefenseLevelAdder", "value": 3 },
+        { "ability": "AttackLevelAdder", "value": -3 }
+      ],
+      "categoryKeywordList": []
+    },
+    {
+      "id": "Reunion",
+      "iconId": "Reunion",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Positive",
+      "maxStack": 5,
+      "canBeDespelled": false,
+      "destroyableOnRetreat": false,
+      "destroyableOnDie": false,
+      "destroyableOnZero": true,
+      "list": [
+        {
+          "ability": "DefaultSkillDmgMultiplierViaBuffCheckDevideByStack",
+          "value": 0.03,
+          "buffData": { "buffKeyword": "Reunion", "buffOwner": "Self", "stack": 1, "turn": 0, "limit": 15 }
+        },
+        { "ability": "DefaultSkillParryingResultAdderDevideByStack", "buffData": { "stack": 2, "value": 1 } },
+        { "ability": "DefaultSkillCoinScaleAdderDivideByStack", "buffData": { "stack": 5, "value": 1, "limit": 1 } }
+      ],
+      "categoryKeywordList": []
+    },
+    {
+      "id": "Farewell",
+      "iconId": "Farewell",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Positive",
+      "maxStack": 3,
+      "canBeDespelled": false,
+      "destroyableOnRetreat": false,
+      "destroyableOnDie": false,
+      "destroyableOnZero": true,
+      "list": [
+        { "ability": "DefaultAtkSkillAtkDamageMultiplierByStack", "value": 0.15 }
+      ],
+      "categoryKeywordList": []
+    },
+    {
+      "id": "MindHeart",
+      "iconId": "ObsessionAndGreedRodion",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Positive",
+      "maxStack": 1,
+      "canBeDespelled": false,
+      "destroyableOnRetreat": false,
+      "destroyableOnDie": false,
+      "destroyableOnZero": false,
+      "list": [
+        { "ability": "MinSpeedAdder", "value": 1 },
+        { "ability": "MaxSpeedAdder", "value": 1 },
+        { "ability": "GiveBuffStackAdderIfDefaultSkill", "buffData": { "buffKeyword": "Vibration", "stack": 1 } },
+        { "ability": "GiveBuffTurnAdderIfDefaultSkillNotZero", "buffData": { "buffKeyword": "Vibration", "turn": 1 } },
+        { "ability": "GiveBuffStackAdderIfDefaultSkill", "buffData": { "buffKeyword": "Combustion", "stack": 1 } },
+        { "ability": "GiveBuffTurnAdderIfDefaultSkillNotZero", "buffData": { "buffKeyword": "Combustion", "turn": 1 } },
+        { "ability": "GiveBuffStackAdderIfDefaultSkill", "buffData": { "buffKeyword": "Sinking", "stack": 1 } },
+        { "ability": "GiveBuffTurnAdderIfDefaultSkillNotZero", "buffData": { "buffKeyword": "Sinking", "turn": 1 } },
+        { "ability": "ForceCoinResultHeadViaMpCondition", "value": 40 },
+        {
+          "ability": "GiveBuffOnRoundEndDivideMp400013",
+          "buffData": {
+            "buffKeyword": "Agility",
+            "target": "Self",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 1,
+            "value": 10,
+            "limit": 4
+          }
+        },
+        {
+          "ability": "GiveBuffOnRoundEndDivideMp400013",
+          "buffData": {
+            "buffKeyword": "ResultEnhancement",
+            "target": "Self",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 1,
+            "value": 20,
+            "limit": 2
+          }
+        },
+        { "ability": "ShinEffect" }
+      ],
+      "categoryKeywordList": []
+    },
+    {
+      "id": "Hope",
+      "iconId": "Hope",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Positive",
+      "maxStack": 5,
+      "canBeDespelled": false,
+      "destroyableOnRetreat": false,
+      "destroyableOnDie": false,
+      "destroyableOnZero": true,
+      "list": [
+        { "ability": "AtkDamageMultiplierByStack", "value": 0.2 }
+      ],
+      "categoryKeywordList": []
+    },
+    {
+      "id": "UnforgettableMemory",
+      "iconId": "UnforgettableMemory",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Positive",
+      "maxStack": 3,
+      "canBeDespelled": false,
+      "destroyableOnRetreat": false,
+      "destroyableOnDie": true,
+      "destroyableOnZero": true,
+      "list": [
+        { "ability": "TakeDamageToValue", "value": 1 },
+        { "ability": "RecoverSelfMpOnWinDuelDivideByParryingCount_15", "value": 5 },
+        { "ability": "HealSelfOnSucceedAttackByDmgRatio", "value": 0.1 }
+      ],
+      "categoryKeywordList": []
+    },
+    {
+      "id": "SelectiveAmnesia",
+      "iconId": "SelectiveAmnesia",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Positive",
+      "maxStack": 1,
+      "canBeDespelled": false,
+      "destroyableOnRetreat": false,
+      "destroyableOnDie": true,
+      "destroyableOnZero": false,
+      "list": [],
+      "categoryKeywordList": []
+    },
+    {
+      "id": "Explicator",
+      "iconId": "Explicator",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Positive",
+      "maxStack": 10,
+      "canBeDespelled": false,
+      "destroyableOnRetreat": false,
+      "destroyableOnDie": true,
+      "destroyableOnZero": true,
+      "list": [
+        {
+          "ability": "CriticalDmgUpViaBuffCheckDevideByStack",
+          "value": 0.02,
+          "buffData": {
+            "buffKeyword": "Explicator",
+            "buffOwner": "Self",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ],
+      "categoryKeywordList": []
+    },
+    {
+      "id": "FirePoker",
+      "iconId": "FirePoker",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Positive",
+      "maxStack": 10,
+      "canBeDespelled": false,
+      "destroyableOnRetreat": false,
+      "destroyableOnDie": true,
+      "destroyableOnZero": true,
+      "list": [
+        {
+          "ability": "GiveBuffOnRoundStart",
+          "buffData": {
+            "buffKeyword": "Combustion",
+            "target": "Every",
+            "stack": 5,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "ability": "AtkDamageMultiplierByStack",
+          "value": 0.02
+        }
+      ],
+      "categoryKeywordList": []
+    },
+    {
+      "id": "ExplicatorBloodDinnerField",
+      "iconId": "BloodDinner",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Positive",
+      "maxStack": 10,
+      "canBeDespelled": false,
+      "destroyableOnRetreat": false,
+      "destroyableOnDie": true,
+      "destroyableOnZero": true,
+      "list": [],
+      "categoryKeywordList": []
+    },
+    {
+      "id": "FirePokerScorchField",
+      "iconId": "FireField",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Positive",
+      "maxStack": 10,
+      "canBeDespelled": false,
+      "destroyableOnRetreat": false,
+      "destroyableOnDie": true,
+      "destroyableOnZero": true,
+      "list": [],
+      "categoryKeywordList": []
+    }
+  ]
+}

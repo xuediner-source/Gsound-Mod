@@ -1,0 +1,106 @@
+{
+  "idle": {
+    "file": "idle.png",
+    "source": "idle-ready-green.png",
+    "size": [
+      807,
+      719
+    ],
+    "pivot": [
+      0.6534124750970446,
+      0.016175012870853545
+    ],
+    "head_pixels": 112,
+    "scale": 0.6187845303867403,
+    "source_crop": [
+      26,
+      21,
+      1298,
+      1150
+    ],
+    "source_ground_anchor": [
+      862,
+      1148
+    ],
+    "source_head_height": 181,
+    "ppu": 100
+  },
+  "windup": {
+    "file": "windup.png",
+    "source": "windup-whunt-green.png",
+    "size": [
+      845,
+      734
+    ],
+    "pivot": [
+      0.6142410743966491,
+      0.016838624743593655
+    ],
+    "head_pixels": 112,
+    "scale": 0.6292134831460674,
+    "source_crop": [
+      16,
+      16,
+      1327,
+      1151
+    ],
+    "source_ground_anchor": [
+      825,
+      1147
+    ],
+    "source_head_height": 178,
+    "ppu": 100
+  },
+  "slash": {
+    "file": "slash.png",
+    "source": "slash-whunt-green.png",
+    "size": [
+      1010,
+      497
+    ],
+    "pivot": [
+      0.6906655371419494,
+      0.026651889949321772
+    ],
+    "head_pixels": 112,
+    "scale": 0.5989304812834224,
+    "source_crop": [
+      12,
+      92,
+      1665,
+      889
+    ],
+    "source_ground_anchor": [
+      1160,
+      883
+    ],
+    "source_head_height": 187,
+    "ppu": 100
+  },
+  "followthrough": {
+    "file": "followthrough.png",
+    "source": "followthrough-whunt-green.png",
+    "size": [
+      948,
+      500
+    ],
+    "pivot": [
+      0.3337455744701489,
+      0.055678160919540254
+    ],
+    "head_pixels": 112,
+    "scale": 0.6436781609195402,
+    "source_crop": [
+      16,
+      219,
+      1457,
+      965
+    ],
+    "source_ground_anchor": [
+      492,
+      937
+    ],
+    "source_head_height": 174,
+    "ppu": 100
+  }
+}

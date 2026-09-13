@@ -1,0 +1,841 @@
+{
+  "list": [
+    {
+      "id": 1079721,
+      "skillTier": 1,
+      "skillData": [
+        {
+          "skillTargetType": "FRONT",
+          "iconID": 1079721,
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "attributeType": "VIOLET",
+          "atkType": "SLASH",
+          "defType": "ATTACK",
+          "skillMotion": "S8",
+          "viewType": "BATTLE",
+          "parryingCloseType": "NEAR",
+          "targetNum": 3,
+          "range": 8,
+          "defaultValue": 12,
+          "skillLevelCorrection": 10,
+          "abilityScriptList": [
+            {
+              "scriptName": "IgnoreDefenseSkill"
+            },
+            {
+              "scriptName": "Modular/TIMING:ExpectedBasePower/EXPECTED/LUA:gsound/LUAMAIN:gsound_blank_s1_power"
+            },
+            {
+              "scriptName": "Modular/TIMING:WhenUse/LUA:gsound/LUAMAIN:gsound_blank_s1_start"
+            },
+            {
+              "scriptName": "Modular/TIMING:WhenUse/LUA:gsound/LUAMAIN:gsound_blank_s1_power"
+            },
+            {
+              "scriptName": "Modular/TIMING:EndSkill/LUA:gsound/LUAMAIN:gsound_blank_s1_end"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "grade": 2,
+              "color": "GREY",
+              "scale": 8,
+              "abilityScriptList": [
+                {
+                  "scriptName": "SuperCoin"
+                },
+                {
+                  "scriptName": "Modular/TIMING:OnSucceedAttack/LUA:gsound/LUAMAIN:gsound_blank_s1_coin1"
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "grade": 2,
+              "color": "GREY",
+              "scale": 8,
+              "abilityScriptList": [
+                {
+                  "scriptName": "SuperCoin"
+                },
+                {
+                  "scriptName": "ForceToActivateBuffOSAValueTimes",
+                  "value": 3,
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "stack": 0,
+                    "turn": 1,
+                    "limit": 99
+                  }
+                },
+                {
+                  "scriptName": "ForceToActivateBuffOSAValueTimes",
+                  "value": 3,
+                  "buffData": {
+                    "buffKeyword": "Combustion",
+                    "target": "Target",
+                    "stack": 0,
+                    "turn": 1,
+                    "limit": 99
+                  }
+                },
+                {
+                  "scriptName": "ForceToActivateBuffOSAValueTimes",
+                  "value": 3,
+                  "buffData": {
+                    "buffKeyword": "Sinking",
+                    "target": "Target",
+                    "stack": 0,
+                    "turn": 1,
+                    "limit": 99
+                  }
+                },
+                {
+                  "scriptName": "ForceToActivateBuffOSAValueTimes",
+                  "value": 3,
+                  "buffData": {
+                    "buffKeyword": "Burst",
+                    "target": "Target",
+                    "stack": 0,
+                    "turn": 1,
+                    "limit": 99
+                  }
+                },
+                {
+                  "scriptName": "Modular/TIMING:OnSucceedAttack/LUA:gsound/LUAMAIN:gsound_blank_s1_coin2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1079722,
+      "skillTier": 2,
+      "skillData": [
+        {
+          "skillTargetType": "FRONT",
+          "iconID": 1079722,
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "attributeType": "VIOLET",
+          "atkType": "SLASH",
+          "defType": "ATTACK",
+          "skillMotion": "S9",
+          "viewType": "ENCOUNTER",
+          "parryingCloseType": "NEAR",
+          "targetNum": 5,
+          "range": 8,
+          "defaultValue": 15,
+          "skillLevelCorrection": 10,
+          "abilityScriptList": [
+            {
+              "scriptName": "IgnoreDefenseSkill"
+            },
+            {
+              "scriptName": "CannotReusedSkill"
+            },
+            {
+              "scriptName": "Modular/TIMING:ExpectedBasePower/EXPECTED/LUA:gsound/LUAMAIN:gsound_blank_s2_power"
+            },
+            {
+              "scriptName": "Modular/TIMING:WhenUse/LUA:gsound/LUAMAIN:gsound_blank_s2_start"
+            },
+            {
+              "scriptName": "Modular/TIMING:WhenUse/LUA:gsound/LUAMAIN:gsound_blank_s2_power"
+            },
+            {
+              "scriptName": "Modular/TIMING:WhenUse/LUA:gsound/LUAMAIN:gsound_blank_counter_variant_start"
+            },
+            {
+              "scriptName": "Modular/TIMING:EndSkill/LUA:gsound/LUAMAIN:gsound_blank_counter_variant_end"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "grade": 2,
+              "color": "GREY",
+              "scale": 10,
+              "abilityScriptList": [
+                {
+                  "scriptName": "SuperCoin"
+                },
+                {
+                  "scriptName": "Modular/TIMING:OnSucceedAttack/LUA:gsound/LUAMAIN:gsound_blank_s2_coin1"
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "grade": 2,
+              "color": "GREY",
+              "scale": 10,
+              "abilityScriptList": [
+                {
+                  "scriptName": "SuperCoin"
+                },
+                {
+                  "scriptName": "ForceToActivateBuffOSAValueTimes",
+                  "value": 10,
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "stack": 0,
+                    "turn": 1,
+                    "limit": 99
+                  }
+                },
+                {
+                  "scriptName": "ForceToActivateBuffOSAValueTimes",
+                  "value": 10,
+                  "buffData": {
+                    "buffKeyword": "Combustion",
+                    "target": "Target",
+                    "stack": 0,
+                    "turn": 1,
+                    "limit": 99
+                  }
+                },
+                {
+                  "scriptName": "ForceToActivateBuffOSAValueTimes",
+                  "value": 10,
+                  "buffData": {
+                    "buffKeyword": "Sinking",
+                    "target": "Target",
+                    "stack": 0,
+                    "turn": 1,
+                    "limit": 99
+                  }
+                },
+                {
+                  "scriptName": "ForceToActivateBuffOSAValueTimes",
+                  "value": 10,
+                  "buffData": {
+                    "buffKeyword": "Burst",
+                    "target": "Target",
+                    "stack": 0,
+                    "turn": 1,
+                    "limit": 99
+                  }
+                },
+                {
+                  "scriptName": "Modular/TIMING:OnSucceedAttack/LUA:gsound/LUAMAIN:gsound_blank_s2_coin2"
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "grade": 2,
+              "color": "GREY",
+              "scale": 10,
+              "abilityScriptList": [
+                {
+                  "scriptName": "SuperCoin"
+                },
+                {
+                  "scriptName": "DamageFirstBreakSectionOnSuccessAttackByDamageRatio5"
+                },
+                {
+                  "scriptName": "Modular/TIMING:OnCoinToss/LUA:gsound/LUAMAIN:gsound_blank_s2_coin3_power"
+                },
+                {
+                  "scriptName": "PileUpVibrationOSA_VibrationNesting",
+                  "buffData": {
+                    "buffKeyword": "VibrationContinue",
+                    "target": "Target",
+                    "stack": 0,
+                    "turn": 1,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "Modular/TIMING:OnSucceedAttack/LUA:gsound/LUAMAIN:gsound_blank_s2_coin3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1079723,
+      "skillTier": 3,
+      "skillData": [
+        {
+          "skillTargetType": "FRONT",
+          "iconID": 1079723,
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "attributeType": "VIOLET",
+          "atkType": "SLASH",
+          "defType": "ATTACK",
+          "skillMotion": "S10",
+          "viewType": "ENCOUNTER",
+          "parryingCloseType": "NEAR",
+          "targetNum": 7,
+          "range": 8,
+          "defaultValue": 25,
+          "skillLevelCorrection": 10,
+          "abilityScriptList": [
+            {
+              "scriptName": "IgnoreDefenseSkill"
+            },
+            {
+              "scriptName": "Modular/TIMING:ExpectedBasePower/EXPECTED/LUA:gsound/LUAMAIN:gsound_blank_s3_power"
+            },
+            {
+              "scriptName": "Modular/TIMING:WhenUse/LUA:gsound/LUAMAIN:gsound_blank_s3_start"
+            },
+            {
+              "scriptName": "Modular/TIMING:WhenUse/LUA:gsound/LUAMAIN:gsound_blank_s3_power"
+            },
+            {
+              "scriptName": "Modular/TIMING:WhenUse/LUA:gsound/LUAMAIN:gsound_blank_counter_variant_start"
+            },
+            {
+              "scriptName": "Modular/TIMING:EndSkill/LUA:gsound/LUAMAIN:gsound_blank_s3_end"
+            },
+            {
+              "scriptName": "Modular/TIMING:EndSkill/LUA:gsound/LUAMAIN:gsound_blank_counter_variant_end"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "grade": 2,
+              "color": "GREY",
+              "scale": 15,
+              "abilityScriptList": [
+                {
+                  "scriptName": "SuperCoin"
+                },
+                {
+                  "scriptName": "ForceToActivateBuffOSAValueTimes",
+                  "value": 10,
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "stack": 0,
+                    "turn": 1,
+                    "limit": 99
+                  }
+                },
+                {
+                  "scriptName": "ForceToActivateBuffOSAValueTimes",
+                  "value": 10,
+                  "buffData": {
+                    "buffKeyword": "Combustion",
+                    "target": "Target",
+                    "stack": 0,
+                    "turn": 1,
+                    "limit": 99
+                  }
+                },
+                {
+                  "scriptName": "ForceToActivateBuffOSAValueTimes",
+                  "value": 10,
+                  "buffData": {
+                    "buffKeyword": "Sinking",
+                    "target": "Target",
+                    "stack": 0,
+                    "turn": 1,
+                    "limit": 99
+                  }
+                },
+                {
+                  "scriptName": "ForceToActivateBuffOSAValueTimes",
+                  "value": 10,
+                  "buffData": {
+                    "buffKeyword": "Burst",
+                    "target": "Target",
+                    "stack": 0,
+                    "turn": 1,
+                    "limit": 99
+                  }
+                },
+                {
+                  "scriptName": "Modular/TIMING:OnSucceedAttack/LUA:gsound/LUAMAIN:gsound_blank_s3_coin1"
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "grade": 2,
+              "color": "GREY",
+              "scale": 15,
+              "abilityScriptList": [
+                {
+                  "scriptName": "SuperCoin"
+                },
+                {
+                  "scriptName": "Modular/TIMING:OnSucceedAttack/LUA:gsound/LUAMAIN:gsound_blank_s3_coin2"
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "grade": 2,
+              "color": "GREY",
+              "scale": 15,
+              "abilityScriptList": [
+                {
+                  "scriptName": "SuperCoin"
+                },
+                {
+                  "scriptName": "Modular/TIMING:OnCoinToss/LUA:gsound/LUAMAIN:gsound_blank_s3_coin3_power"
+                },
+                {
+                  "scriptName": "Modular/TIMING:OnSucceedAttack/LUA:gsound/LUAMAIN:gsound_blank_s3_coin3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1079724,
+      "skillTier": 3,
+      "skillData": [
+        {
+          "skillTargetType": "FRONT",
+          "iconID": 1079724,
+          "canTeamKill": false,
+          "canDuel": false,
+          "canChangeTarget": true,
+          "attributeType": "VIOLET",
+          "atkType": "SLASH",
+          "defType": "COUNTER",
+          "skillMotion": "S11",
+          "viewType": "ENCOUNTER",
+          "parryingCloseType": "NEAR",
+          "targetNum": 1,
+          "range": 8,
+          "defaultValue": 18,
+          "skillLevelCorrection": 10,
+          "abilityScriptList": [
+            {
+              "scriptName": "IgnoreDefenseSkill"
+            },
+            {
+              "scriptName": "CannotReusedSkill"
+            },
+            {
+              "scriptName": "Modular/TIMING:ExpectedBasePower/EXPECTED/LUA:gsound/LUAMAIN:gsound_blank_counter_power"
+            },
+            {
+              "scriptName": "Modular/TIMING:WhenUse/LUA:gsound/LUAMAIN:gsound_blank_counter_start"
+            },
+            {
+              "scriptName": "Modular/TIMING:WhenUse/LUA:gsound/LUAMAIN:gsound_blank_counter_power"
+            },
+            {
+              "scriptName": "Modular/TIMING:EndSkill/LUA:gsound/LUAMAIN:gsound_blank_counter_end"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "grade": 2,
+              "color": "GREY",
+              "scale": 12,
+              "abilityScriptList": [
+                {
+                  "scriptName": "SuperCoin"
+                },
+                {
+                  "scriptName": "PileUpVibrationOSA_VibrationNesting",
+                  "buffData": {
+                    "buffKeyword": "VibrationContinue",
+                    "target": "Target",
+                    "stack": 0,
+                    "turn": 1,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "Modular/TIMING:OnSucceedAttack/LUA:gsound/LUAMAIN:gsound_blank_counter_coin1"
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "grade": 2,
+              "color": "GREY",
+              "scale": 12,
+              "abilityScriptList": [
+                {
+                  "scriptName": "SuperCoin"
+                },
+                {
+                  "scriptName": "Modular/TIMING:OnCoinToss/LUA:gsound/LUAMAIN:gsound_blank_counter_coin2_power"
+                },
+                {
+                  "scriptName": "ForceToActivateBuffOSAValueTimes",
+                  "value": 5,
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "stack": 0,
+                    "turn": 1,
+                    "limit": 99
+                  }
+                },
+                {
+                  "scriptName": "ForceToActivateBuffOSAValueTimes",
+                  "value": 5,
+                  "buffData": {
+                    "buffKeyword": "Combustion",
+                    "target": "Target",
+                    "stack": 0,
+                    "turn": 1,
+                    "limit": 99
+                  }
+                },
+                {
+                  "scriptName": "ForceToActivateBuffOSAValueTimes",
+                  "value": 5,
+                  "buffData": {
+                    "buffKeyword": "Sinking",
+                    "target": "Target",
+                    "stack": 0,
+                    "turn": 1,
+                    "limit": 99
+                  }
+                },
+                {
+                  "scriptName": "ForceToActivateBuffOSAValueTimes",
+                  "value": 5,
+                  "buffData": {
+                    "buffKeyword": "Burst",
+                    "target": "Target",
+                    "stack": 0,
+                    "turn": 1,
+                    "limit": 99
+                  }
+                },
+                {
+                  "scriptName": "Modular/TIMING:OnSucceedAttack/LUA:gsound/LUAMAIN:gsound_blank_counter_coin2"
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "grade": 2,
+              "color": "GREY",
+              "scale": 12,
+              "abilityScriptList": [
+                {
+                  "scriptName": "SuperCoin"
+                },
+                {
+                  "scriptName": "Modular/TIMING:OnSucceedAttack/LUA:gsound/LUAMAIN:gsound_blank_counter_coin3"
+                }
+              ]
+            }
+          ],
+          "actionScript": "CounterWithSkillMotion"
+        }
+      ]
+    },
+    {
+      "id": 1079725,
+      "skillTier": 2,
+      "skillData": [
+        {
+          "skillTargetType": "FRONT",
+          "iconID": 1079722,
+          "canTeamKill": false,
+          "canDuel": false,
+          "canChangeTarget": true,
+          "attributeType": "VIOLET",
+          "atkType": "SLASH",
+          "defType": "COUNTER",
+          "skillMotion": "S9",
+          "viewType": "ENCOUNTER",
+          "parryingCloseType": "NEAR",
+          "targetNum": 1,
+          "range": 8,
+          "defaultValue": 15,
+          "skillLevelCorrection": 10,
+          "abilityScriptList": [
+            {
+              "scriptName": "IgnoreDefenseSkill"
+            },
+            {
+              "scriptName": "CannotReusedSkill"
+            },
+            {
+              "scriptName": "Modular/TIMING:ExpectedBasePower/EXPECTED/LUA:gsound/LUAMAIN:gsound_blank_s2_power"
+            },
+            {
+              "scriptName": "Modular/TIMING:WhenUse/LUA:gsound/LUAMAIN:gsound_blank_s2_start"
+            },
+            {
+              "scriptName": "Modular/TIMING:WhenUse/LUA:gsound/LUAMAIN:gsound_blank_s2_power"
+            },
+            {
+              "scriptName": "Modular/TIMING:WhenUse/LUA:gsound/LUAMAIN:gsound_blank_counter_variant_start"
+            },
+            {
+              "scriptName": "Modular/TIMING:EndSkill/LUA:gsound/LUAMAIN:gsound_blank_counter_variant_end"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "grade": 2,
+              "color": "GREY",
+              "scale": 10,
+              "abilityScriptList": [
+                {
+                  "scriptName": "SuperCoin"
+                },
+                {
+                  "scriptName": "Modular/TIMING:OnSucceedAttack/LUA:gsound/LUAMAIN:gsound_blank_s2_coin1"
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "grade": 2,
+              "color": "GREY",
+              "scale": 10,
+              "abilityScriptList": [
+                {
+                  "scriptName": "SuperCoin"
+                },
+                {
+                  "scriptName": "ForceToActivateBuffOSAValueTimes",
+                  "value": 10,
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "stack": 0,
+                    "turn": 1,
+                    "limit": 99
+                  }
+                },
+                {
+                  "scriptName": "ForceToActivateBuffOSAValueTimes",
+                  "value": 10,
+                  "buffData": {
+                    "buffKeyword": "Combustion",
+                    "target": "Target",
+                    "stack": 0,
+                    "turn": 1,
+                    "limit": 99
+                  }
+                },
+                {
+                  "scriptName": "ForceToActivateBuffOSAValueTimes",
+                  "value": 10,
+                  "buffData": {
+                    "buffKeyword": "Sinking",
+                    "target": "Target",
+                    "stack": 0,
+                    "turn": 1,
+                    "limit": 99
+                  }
+                },
+                {
+                  "scriptName": "ForceToActivateBuffOSAValueTimes",
+                  "value": 10,
+                  "buffData": {
+                    "buffKeyword": "Burst",
+                    "target": "Target",
+                    "stack": 0,
+                    "turn": 1,
+                    "limit": 99
+                  }
+                },
+                {
+                  "scriptName": "Modular/TIMING:OnSucceedAttack/LUA:gsound/LUAMAIN:gsound_blank_s2_coin2"
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "grade": 2,
+              "color": "GREY",
+              "scale": 10,
+              "abilityScriptList": [
+                {
+                  "scriptName": "SuperCoin"
+                },
+                {
+                  "scriptName": "DamageFirstBreakSectionOnSuccessAttackByDamageRatio5"
+                },
+                {
+                  "scriptName": "Modular/TIMING:OnCoinToss/LUA:gsound/LUAMAIN:gsound_blank_s2_coin3_power"
+                },
+                {
+                  "scriptName": "PileUpVibrationOSA_VibrationNesting",
+                  "buffData": {
+                    "buffKeyword": "VibrationContinue",
+                    "target": "Target",
+                    "stack": 0,
+                    "turn": 1,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "Modular/TIMING:OnSucceedAttack/LUA:gsound/LUAMAIN:gsound_blank_s2_coin3"
+                }
+              ]
+            }
+          ],
+          "actionScript": "CounterWithSkillMotion"
+        }
+      ],
+      "isHiddenForUI": true
+    },
+    {
+      "id": 1079726,
+      "skillTier": 3,
+      "skillData": [
+        {
+          "skillTargetType": "FRONT",
+          "iconID": 1079723,
+          "canTeamKill": false,
+          "canDuel": false,
+          "canChangeTarget": true,
+          "attributeType": "VIOLET",
+          "atkType": "SLASH",
+          "defType": "COUNTER",
+          "skillMotion": "S10",
+          "viewType": "ENCOUNTER",
+          "parryingCloseType": "NEAR",
+          "targetNum": 1,
+          "range": 8,
+          "defaultValue": 25,
+          "skillLevelCorrection": 10,
+          "abilityScriptList": [
+            {
+              "scriptName": "IgnoreDefenseSkill"
+            },
+            {
+              "scriptName": "Modular/TIMING:ExpectedBasePower/EXPECTED/LUA:gsound/LUAMAIN:gsound_blank_s3_power"
+            },
+            {
+              "scriptName": "Modular/TIMING:WhenUse/LUA:gsound/LUAMAIN:gsound_blank_s3_start"
+            },
+            {
+              "scriptName": "Modular/TIMING:WhenUse/LUA:gsound/LUAMAIN:gsound_blank_s3_power"
+            },
+            {
+              "scriptName": "Modular/TIMING:WhenUse/LUA:gsound/LUAMAIN:gsound_blank_counter_variant_start"
+            },
+            {
+              "scriptName": "Modular/TIMING:EndSkill/LUA:gsound/LUAMAIN:gsound_blank_s3_end"
+            },
+            {
+              "scriptName": "Modular/TIMING:EndSkill/LUA:gsound/LUAMAIN:gsound_blank_counter_variant_end"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "grade": 2,
+              "color": "GREY",
+              "scale": 15,
+              "abilityScriptList": [
+                {
+                  "scriptName": "SuperCoin"
+                },
+                {
+                  "scriptName": "ForceToActivateBuffOSAValueTimes",
+                  "value": 10,
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "stack": 0,
+                    "turn": 1,
+                    "limit": 99
+                  }
+                },
+                {
+                  "scriptName": "ForceToActivateBuffOSAValueTimes",
+                  "value": 10,
+                  "buffData": {
+                    "buffKeyword": "Combustion",
+                    "target": "Target",
+                    "stack": 0,
+                    "turn": 1,
+                    "limit": 99
+                  }
+                },
+                {
+                  "scriptName": "ForceToActivateBuffOSAValueTimes",
+                  "value": 10,
+                  "buffData": {
+                    "buffKeyword": "Sinking",
+                    "target": "Target",
+                    "stack": 0,
+                    "turn": 1,
+                    "limit": 99
+                  }
+                },
+                {
+                  "scriptName": "ForceToActivateBuffOSAValueTimes",
+                  "value": 10,
+                  "buffData": {
+                    "buffKeyword": "Burst",
+                    "target": "Target",
+                    "stack": 0,
+                    "turn": 1,
+                    "limit": 99
+                  }
+                },
+                {
+                  "scriptName": "Modular/TIMING:OnSucceedAttack/LUA:gsound/LUAMAIN:gsound_blank_s3_coin1"
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "grade": 2,
+              "color": "GREY",
+              "scale": 15,
+              "abilityScriptList": [
+                {
+                  "scriptName": "SuperCoin"
+                },
+                {
+                  "scriptName": "Modular/TIMING:OnSucceedAttack/LUA:gsound/LUAMAIN:gsound_blank_s3_coin2"
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "grade": 2,
+              "color": "GREY",
+              "scale": 15,
+              "abilityScriptList": [
+                {
+                  "scriptName": "SuperCoin"
+                },
+                {
+                  "scriptName": "Modular/TIMING:OnCoinToss/LUA:gsound/LUAMAIN:gsound_blank_s3_coin3_power"
+                },
+                {
+                  "scriptName": "Modular/TIMING:OnSucceedAttack/LUA:gsound/LUAMAIN:gsound_blank_s3_coin3"
+                }
+              ]
+            }
+          ],
+          "actionScript": "CounterWithSkillMotion"
+        }
+      ],
+      "isHiddenForUI": true
+    }
+  ]
+}

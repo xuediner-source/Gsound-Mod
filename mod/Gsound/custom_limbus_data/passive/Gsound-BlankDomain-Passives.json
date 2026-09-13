@@ -1,0 +1,28 @@
+{
+  "list": [
+    {
+      "id": 10797006,
+      "attributeStockCondition": [],
+      "requireIDList": [
+        "Modular/TIMING:EncounterStart/LUA:gsound/LUAMAIN:gsound_blank_init",
+        "Modular/TIMING:RoundStart/LUA:gsound/LUAMAIN:gsound_blank_round_start",
+        "Modular/TIMING:AfterSlots/LUA:gsound/LUAMAIN:gsound_blank_after_slots",
+        "Modular/TIMING:BeforeUse/LUA:gsound/LUAMAIN:gsound_blank_before_use",
+        "Modular/TIMING:DefenseSwitch/LUA:gsound/LUAMAIN:gsound_blank_before_use",
+        "Modular/TIMING:EndBattle/LUA:gsound/LUAMAIN:gsound_blank_round_end",
+        "Modular/TIMING:WinDuel/LUA:gsound/LUAMAIN:gsound_blank_clash_end",
+        "Modular/TIMING:DefeatDuel/LUA:gsound/LUAMAIN:gsound_blank_clash_end",
+        "Modular/TIMING:BeforeAttack/LUA:gsound/LUAMAIN:gsound_blank_before_attack",
+        "Modular/TIMING:AfterChangeHP/LUA:gsound/LUAMAIN:gsound_blank_hp_changed"
+      ]
+    },
+    {
+      "id": 10797007,
+      "attributeStockCondition": [],
+      "requireIDList": [
+        "Modular/TIMING:OnSucceedAttack/LUA:gsound/LUAMAIN:gsound_cursed_sword_hit",
+        "Modular/TIMING:EnemyKill/LUA:gsound/LUAMAIN:gsound_cursed_sword_kill"
+      ]
+    }
+  ]
+}

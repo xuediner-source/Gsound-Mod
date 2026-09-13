@@ -1,0 +1,23 @@
+{
+  "BlankDomain": {
+    "id": "BlankDomain",
+    "name": "空白领域",
+    "desc": "自身所有硬币转化为[Unbreakable Coin]\n每次拼点结束时，获得 10 级与 10 层[Breath]\n自身攻击等级与防御等级 +10\n自身造成的伤害 +100%\n自身受到的单次体力伤害不超过最大体力的 10%\n自身不会因体力降低而陷入混乱\n进入本状态后无法恢复为原形态",
+    "summary": "不可逆的最终形态",
+    "flavor": ""
+  },
+  "CursedSpirit": {
+    "id": "CursedSpirit",
+    "name": "咒灵",
+    "desc": "最大层数：100\n每带有 1 层本效果，使自身基础技能造成的伤害 +2%（最多 +200%）\n特定技能会消耗本效果",
+    "summary": "咒灵操术剑所收纳的异常残响",
+    "flavor": ""
+  },
+  "BlankDomainOneDamage": {
+    "id": "BlankDomainOneDamage",
+    "name": "虚化",
+    "desc": "直至当前技能结束，自身受到的单次体力伤害不超过 1",
+    "summary": "短暂从现实中虚化",
+    "flavor": ""
+  }
+}

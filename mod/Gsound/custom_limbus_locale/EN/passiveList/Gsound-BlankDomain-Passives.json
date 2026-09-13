@@ -1,0 +1,18 @@
+{
+  "10797006": {
+    "a": 0,
+    "id": "10797006",
+    "name": "空白领域",
+    "desc": "若自身的“消耗的血宴总数”与[FireField]均达到 999，且本场战斗中已分别使用过“白纸”与“天台”，下回合开始时进入[BlankDomain]\n\n进入[BlankDomain]时：\n- 解除自身的混乱与所有可解除的负面效果\n- 恢复至最大体力与 45 点理智值，并重新生成所有技能槽\n- 将基础技能替换为“转变”“领域展开·空白”与“真数千足·万魂齐喑”\n- 守备技能替换为“万魂反照”，无法再使用“未来”“过去”与“现在”\n- 无法再获得或使用“白纸”与“天台”\n- 不再获得、装填或消耗[SpeechDraft]，不再获得[Explicator]与[FirePoker]\n- 每次拼点结束时，获得 10 级与 10 层[Breath]\n- [BloodDinner]、“消耗的血宴总数”与[FireField]不会因回合经过而重置\n- 自身所有硬币转化为[Unbreakable Coin]\n- 自身攻击等级与防御等级 +10，造成的伤害 +100%\n- 自身受到的单次体力伤害不超过最大体力的 10%，且不会因体力降低而陷入混乱\n- 若本回合装备了守备技能“万魂反照”，则使自身受到单方面攻击的伤害 -50%\n- 进入本状态后无法恢复为原形态",
+    "summary": "满足条件后进入不可逆的最终形态",
+    "flavor": ""
+  },
+  "10797007": {
+    "a": 0,
+    "id": "10797007",
+    "name": "咒灵操术剑",
+    "desc": "[CursedSpirit]的最大层数为 100\n[BlankDomain]状态下，基础技能每枚硬币命中时，施加 10 级与 10 层[Laceration]、[Combustion]、[Sinking]、[Vibration]与[Burst]，并使目标[VibrationExplosion]1次\n每触发 1 次负面状态伤害或[VibrationExplosion]，获得 1 层[CursedSpirit]\n每带有 1 层[CursedSpirit]，基础技能造成的伤害 +2%（最多 +200%）\n击杀目标时，将目标持有的[Laceration]、[Combustion]、[Sinking]、[Vibration]与[Burst]强度及层数平均施加给其他敌方单位；若场上仅剩 1 名敌方单位，改为施加给该单位自身\n掷出消耗[CursedSpirit]的硬币时，即使耗尽所有[CursedSpirit]，该硬币也不会被取消",
+    "summary": "将全场异常状态收纳进剑中的咒灵容器",
+    "flavor": ""
+  }
+}

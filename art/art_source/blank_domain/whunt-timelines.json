@@ -1,0 +1,2550 @@
+[
+  {
+    "name": "Heathclif_WHunt_Ride_S3_Timeline",
+    "path_id": 2873330373341792284,
+    "duration": 1.533333333332,
+    "tracks": [
+      {
+        "index": 0,
+        "path_id": -1811995535058155492,
+        "name": "Animation Track",
+        "clips": [
+          {
+            "index": 0,
+            "start": 1.0666667441527045,
+            "duration": 0.29999999006589256,
+            "asset_path_id": -8853440341864888292,
+            "asset_name": "AnimationPlayableAsset",
+            "animation_path_id": -1955807916075168560,
+            "animation_name": "Heathclif_WHunt_Ride_S3"
+          },
+          {
+            "index": 1,
+            "start": 0.0,
+            "duration": 0.06666666666666667,
+            "asset_path_id": 8402514434922432540,
+            "asset_name": "AnimationPlayableAsset(Clone)",
+            "animation_path_id": -1955807916075168560,
+            "animation_name": "Heathclif_WHunt_Ride_S3"
+          },
+          {
+            "index": 2,
+            "start": 0.48333333333333334,
+            "duration": 0.11666680177052768,
+            "asset_path_id": -8187385879145297892,
+            "asset_name": "AnimationPlayableAsset(Clone)",
+            "animation_path_id": -1955807916075168560,
+            "animation_name": "Heathclif_WHunt_Ride_S3"
+          },
+          {
+            "index": 3,
+            "start": 0.7833334684371943,
+            "duration": 0.20000000993410744,
+            "asset_path_id": 3296783739825408028,
+            "asset_name": "AnimationPlayableAsset(Clone)",
+            "animation_path_id": -1955807916075168560,
+            "animation_name": "Heathclif_WHunt_Ride_S3"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "path_id": 7975222892493654044,
+        "name": "Character Appearance Timeline Track (2)",
+        "clips": []
+      },
+      {
+        "index": 2,
+        "path_id": 436660784094693404,
+        "name": "Skill Give Timing Track (2)",
+        "clips": []
+      },
+      {
+        "index": 3,
+        "path_id": -6458440778270390244,
+        "name": "On Battle Cam Zoom Track (2)",
+        "clips": [
+          {
+            "index": 0,
+            "start": 0.0,
+            "duration": 0.48333333333333334,
+            "asset_path_id": 2701514223542323228,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 1,
+            "start": 0.8666667342185973,
+            "duration": 0.2499999920527139,
+            "asset_path_id": 5325122535045842972,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 2,
+            "start": 1.116666726271311,
+            "duration": 0.4166666070620221,
+            "asset_path_id": -3633601149331126244,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 3,
+            "start": 0.48333333333333334,
+            "duration": 0.3833334008852639,
+            "asset_path_id": 7619362464729843740,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "path_id": -7196109357851686884,
+        "name": "FMOD Custom Track (1)",
+        "clips": [
+          {
+            "index": 0,
+            "start": 0.0,
+            "duration": 0.19999999999999996,
+            "asset_path_id": -5134777682691569636,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 1,
+            "start": 0.43333333333333335,
+            "duration": 0.300000135103861,
+            "asset_path_id": -5172066157653473252,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 2,
+            "start": 0.7833334684371943,
+            "duration": 0.2333331982294723,
+            "asset_path_id": -5846305783084431332,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 3,
+            "start": 1.0333334008852637,
+            "duration": 0.3333333333333333,
+            "asset_path_id": 7694002890034497564,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          }
+        ]
+      },
+      {
+        "index": 5,
+        "path_id": -6376481560044124132,
+        "name": "DoNotAdj",
+        "clips": []
+      },
+      {
+        "index": 6,
+        "path_id": -6332675167118964708,
+        "name": "front",
+        "clips": []
+      },
+      {
+        "index": 7,
+        "path_id": 2397385584017262620,
+        "name": "back",
+        "clips": []
+      },
+      {
+        "index": 8,
+        "path_id": 6846708907275044892,
+        "name": "On Battle Cam Rotate Track (1)",
+        "clips": [
+          {
+            "index": 0,
+            "start": 0.0,
+            "duration": 0.48333333333333334,
+            "asset_path_id": 7953338948942940188,
+            "asset_name": "OnBattleCamRotateClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 1,
+            "start": 0.7833334684371943,
+            "duration": 0.5833332657814027,
+            "asset_path_id": 1506013127093110812,
+            "asset_name": "OnBattleCamRotateClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 2,
+            "start": 0.48333333333333334,
+            "duration": 0.300000135103861,
+            "asset_path_id": -2097095300800067556,
+            "asset_name": "OnBattleCamRotateClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          }
+        ]
+      },
+      {
+        "index": 9,
+        "path_id": 2245477716827883548,
+        "name": "FMOD Custom Track_Voice (1)",
+        "clips": [
+          {
+            "index": 0,
+            "start": 0.48333333333333334,
+            "duration": 0.5833333333333334,
+            "asset_path_id": 1379077770158131228,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Heathclif_WHunt_Ride_S3_Timeline_2",
+    "path_id": 3949527463954906500,
+    "duration": 4.116666618982,
+    "tracks": [
+      {
+        "index": 0,
+        "path_id": 7305286513455627652,
+        "name": "Animation Track",
+        "clips": [
+          {
+            "index": 0,
+            "start": 2.483333285649617,
+            "duration": 0.8333333333333339,
+            "asset_path_id": -5202029173084160636,
+            "asset_name": "AnimationPlayableAsset",
+            "animation_path_id": -1955807916075168560,
+            "animation_name": "Heathclif_WHunt_Ride_S3"
+          },
+          {
+            "index": 1,
+            "start": 0.0,
+            "duration": 0.6333333333333333,
+            "asset_path_id": -6078980230452183676,
+            "asset_name": "AnimationPlayableAsset(Clone)",
+            "animation_path_id": -1955807916075168560,
+            "animation_name": "Heathclif_WHunt_Ride_S3"
+          },
+          {
+            "index": 2,
+            "start": 0.9,
+            "duration": 1.349999952316284,
+            "asset_path_id": -3714944179685589628,
+            "asset_name": "AnimationPlayableAsset(Clone)",
+            "animation_path_id": -1955807916075168560,
+            "animation_name": "Heathclif_WHunt_Ride_S3"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "path_id": -2302227617464418940,
+        "name": "Character Appearance Timeline Track (2)",
+        "clips": []
+      },
+      {
+        "index": 2,
+        "path_id": 6753007294773951876,
+        "name": "Skill Give Timing Track (2)",
+        "clips": []
+      },
+      {
+        "index": 3,
+        "path_id": 6227847295456279940,
+        "name": "On Battle Cam Zoom Track (2)",
+        "clips": [
+          {
+            "index": 0,
+            "start": 0.0,
+            "duration": 0.16666673421859762,
+            "asset_path_id": -8820047033938313852,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 1,
+            "start": 0.16666673421859762,
+            "duration": 0.13333326578140237,
+            "asset_path_id": 7729823897396149636,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 2,
+            "start": 2.683333285649616,
+            "duration": 1.4333333333333353,
+            "asset_path_id": 5594986279086161284,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 3,
+            "start": 0.3,
+            "duration": 0.3333333333333333,
+            "asset_path_id": 7805031638012427652,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 4,
+            "start": 1.0000000675519307,
+            "duration": 0.5666666666666667,
+            "asset_path_id": 7903646980929453444,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 5,
+            "start": 1.6833332856496184,
+            "duration": 0.5666666666666667,
+            "asset_path_id": 2789235076369710468,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 6,
+            "start": 2.483333285649617,
+            "duration": 0.1999999999999993,
+            "asset_path_id": -1784018493019619964,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "path_id": 7478620274439323012,
+        "name": "FMOD Custom Track (2)",
+        "clips": [
+          {
+            "index": 0,
+            "start": 0.1333333333333337,
+            "duration": 0.19999999999999996,
+            "asset_path_id": 8700596938016193924,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 1,
+            "start": 0.9833333333333333,
+            "duration": 0.300000135103861,
+            "asset_path_id": -7478665731089072764,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 2,
+            "start": 1.6833332856496184,
+            "duration": 0.2333331982294723,
+            "asset_path_id": -6624023321872466556,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 3,
+            "start": 2.4833332856496177,
+            "duration": 0.1999999999999993,
+            "asset_path_id": 4067944627867188612,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 4,
+            "start": 2.683333285649617,
+            "duration": 0.9666666666666677,
+            "asset_path_id": 8130790787913579908,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          }
+        ]
+      },
+      {
+        "index": 5,
+        "path_id": 4725959307031379332,
+        "name": "DoNotAdj",
+        "clips": []
+      },
+      {
+        "index": 6,
+        "path_id": -5140881645143425660,
+        "name": "Animation Track (1)",
+        "clips": [
+          {
+            "index": 0,
+            "start": 0.0,
+            "duration": 3.7666665991147346,
+            "asset_path_id": 4908447406406860164,
+            "asset_name": "AnimationPlayableAsset(Clone)(Clone)(Clone)",
+            "animation_path_id": -7254731870841012991,
+            "animation_name": "Heathclif_WHunt_S3_effect"
+          }
+        ]
+      },
+      {
+        "index": 7,
+        "path_id": 6490933936108699012,
+        "name": "Effect Activate Timeline Track",
+        "clips": [
+          {
+            "index": 0,
+            "start": 2.4999999999999996,
+            "duration": 0.1999999999999993,
+            "asset_path_id": -4420448215955309180,
+            "asset_name": "EffectActivateTimelineClip(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          }
+        ]
+      },
+      {
+        "index": 8,
+        "path_id": 3966041694816992644,
+        "name": "front",
+        "clips": []
+      },
+      {
+        "index": 9,
+        "path_id": 7255212001148042628,
+        "name": "back",
+        "clips": []
+      },
+      {
+        "index": 10,
+        "path_id": 6461362500570873220,
+        "name": "On Battle Cam Rotate Track",
+        "clips": [
+          {
+            "index": 0,
+            "start": 0.16666673421859762,
+            "duration": 0.7166666666666667,
+            "asset_path_id": 1899639195228339588,
+            "asset_name": "OnBattleCamRotateClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 1,
+            "start": 2.3512714854441583,
+            "duration": 1.3333333333333333,
+            "asset_path_id": -8550571094237741692,
+            "asset_name": "OnBattleCamRotateClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Heathclif_WHunt_Ride_S3_Timeline_2_1",
+    "path_id": 4499007488923405123,
+    "duration": 9.149999952315,
+    "tracks": [
+      {
+        "index": 0,
+        "path_id": 1838769964126374723,
+        "name": "Animation Track",
+        "clips": [
+          {
+            "index": 0,
+            "start": 1.533333333333334,
+            "duration": 0.6333333333333333,
+            "asset_path_id": -7609852859654993085,
+            "asset_name": "AnimationPlayableAsset(Clone)(Clone)(Clone)",
+            "animation_path_id": -1955807916075168560,
+            "animation_name": "Heathclif_WHunt_Ride_S3"
+          },
+          {
+            "index": 1,
+            "start": 2.433333333333335,
+            "duration": 1.349999952316284,
+            "asset_path_id": 384416129425410883,
+            "asset_name": "AnimationPlayableAsset(Clone)(Clone)(Clone)",
+            "animation_path_id": -1955807916075168560,
+            "animation_name": "Heathclif_WHunt_Ride_S3"
+          },
+          {
+            "index": 2,
+            "start": 4.0166666189829545,
+            "duration": 0.8333333333333339,
+            "asset_path_id": 401402221736430403,
+            "asset_name": "AnimationPlayableAsset(Clone)(Clone)",
+            "animation_path_id": -1955807916075168560,
+            "animation_name": "Heathclif_WHunt_Ride_S3"
+          },
+          {
+            "index": 3,
+            "start": 0.0,
+            "duration": 0.06666666666666667,
+            "asset_path_id": -3405185039509550269,
+            "asset_name": "AnimationPlayableAsset(Clone)(Clone)(Clone)",
+            "animation_path_id": -1955807916075168560,
+            "animation_name": "Heathclif_WHunt_Ride_S3"
+          },
+          {
+            "index": 4,
+            "start": 0.48333333333333295,
+            "duration": 0.11666680177052768,
+            "asset_path_id": 5920996301416172355,
+            "asset_name": "AnimationPlayableAsset(Clone)(Clone)(Clone)",
+            "animation_path_id": -1955807916075168560,
+            "animation_name": "Heathclif_WHunt_Ride_S3"
+          },
+          {
+            "index": 5,
+            "start": 0.7833334684371942,
+            "duration": 0.20000000993410744,
+            "asset_path_id": 8562671485492464451,
+            "asset_name": "AnimationPlayableAsset(Clone)(Clone)(Clone)",
+            "animation_path_id": -1955807916075168560,
+            "animation_name": "Heathclif_WHunt_Ride_S3"
+          },
+          {
+            "index": 6,
+            "start": 1.0666667441527062,
+            "duration": 0.29999999006589256,
+            "asset_path_id": -4563331588772328637,
+            "asset_name": "AnimationPlayableAsset(Clone)(Clone)",
+            "animation_path_id": -1955807916075168560,
+            "animation_name": "Heathclif_WHunt_Ride_S3"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "path_id": 5842206950974950211,
+        "name": "Character Appearance Timeline Track (2)",
+        "clips": []
+      },
+      {
+        "index": 2,
+        "path_id": -818584199525102781,
+        "name": "Skill Give Timing Track (2)",
+        "clips": []
+      },
+      {
+        "index": 3,
+        "path_id": 3660362818542111555,
+        "name": "On Battle Cam Zoom Track (2)",
+        "clips": [
+          {
+            "index": 0,
+            "start": 1.533333333333334,
+            "duration": 0.16666673421859762,
+            "asset_path_id": -3008393495391958205,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 1,
+            "start": 1.700000067551931,
+            "duration": 0.13333326578140237,
+            "asset_path_id": 2599704144790489923,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 2,
+            "start": 1.8333333333333335,
+            "duration": 0.3333333333333333,
+            "asset_path_id": -4875460527146988733,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 3,
+            "start": 2.5333334008852666,
+            "duration": 0.5666666666666667,
+            "asset_path_id": 8052850604520770371,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 4,
+            "start": 3.2166666189829543,
+            "duration": 0.5666666666666667,
+            "asset_path_id": 8641918254065584963,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 5,
+            "start": 4.0166666189829545,
+            "duration": 0.1999999999999993,
+            "asset_path_id": 6077508829603826499,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 6,
+            "start": 4.216666618982954,
+            "duration": 1.4333333333333353,
+            "asset_path_id": -4071897579881362621,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 7,
+            "start": 0.0,
+            "duration": 0.48333333333333334,
+            "asset_path_id": -8239326980680709309,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 8,
+            "start": 0.4833333333333325,
+            "duration": 0.3833334008852639,
+            "asset_path_id": 595157124936371011,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 9,
+            "start": 0.8666667342185974,
+            "duration": 0.2499999920527139,
+            "asset_path_id": -6380603595059950781,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 10,
+            "start": 1.116666726271312,
+            "duration": 0.4166666070620221,
+            "asset_path_id": -8153318179666523325,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "path_id": -1692738789312230589,
+        "name": "FMOD Custom Track (2)",
+        "clips": [
+          {
+            "index": 0,
+            "start": 1.6666666666666692,
+            "duration": 0.19999999999999996,
+            "asset_path_id": 5691723652411099971,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 1,
+            "start": 2.516666666666669,
+            "duration": 0.300000135103861,
+            "asset_path_id": 6537033052484406083,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 2,
+            "start": 3.2166666189829543,
+            "duration": 0.2333331982294723,
+            "asset_path_id": 698801262662388547,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 3,
+            "start": 4.0166666189829545,
+            "duration": 0.1999999999999993,
+            "asset_path_id": -5741901393486410941,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 4,
+            "start": 4.216666618982954,
+            "duration": 0.9666666666666677,
+            "asset_path_id": 5369927658931948355,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 5,
+            "start": 0.0,
+            "duration": 0.19999999999999996,
+            "asset_path_id": -8921783013025510589,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 6,
+            "start": 0.43333333333333357,
+            "duration": 0.300000135103861,
+            "asset_path_id": -6717154071869519037,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 7,
+            "start": 0.783333468437194,
+            "duration": 0.2333331982294723,
+            "asset_path_id": 4872858417297296195,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 8,
+            "start": 1.0333334008852637,
+            "duration": 0.3333333333333333,
+            "asset_path_id": -2547220404388492477,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          }
+        ]
+      },
+      {
+        "index": 5,
+        "path_id": -9206548223158056125,
+        "name": "DoNotAdj",
+        "clips": []
+      },
+      {
+        "index": 6,
+        "path_id": 1751879766033042243,
+        "name": "Animation Track (1)",
+        "clips": [
+          {
+            "index": 0,
+            "start": 1.533333333333334,
+            "duration": 3.7666665991147346,
+            "asset_path_id": -3656005509540410557,
+            "asset_name": "AnimationPlayableAsset(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": -7254731870841012991,
+            "animation_name": "Heathclif_WHunt_S3_effect"
+          },
+          {
+            "index": 1,
+            "start": 0.0,
+            "duration": 1.1166666666666667,
+            "asset_path_id": -381384019457012925,
+            "asset_name": "Recorded (1)",
+            "animation_path_id": 5578770172535049027,
+            "animation_name": "Recorded (1)"
+          }
+        ]
+      },
+      {
+        "index": 7,
+        "path_id": 2191492675035532099,
+        "name": "Effect Activate Timeline Track",
+        "clips": [
+          {
+            "index": 0,
+            "start": 4.033333333333337,
+            "duration": 0.1999999999999993,
+            "asset_path_id": -5466987632143889597,
+            "asset_name": "EffectActivateTimelineClip(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          }
+        ]
+      },
+      {
+        "index": 8,
+        "path_id": 1006720805279304515,
+        "name": "front",
+        "clips": []
+      },
+      {
+        "index": 9,
+        "path_id": 9052198641755949891,
+        "name": "back",
+        "clips": []
+      },
+      {
+        "index": 10,
+        "path_id": -1581843325924799677,
+        "name": "On Battle Cam Rotate Track",
+        "clips": [
+          {
+            "index": 0,
+            "start": 1.700000067551931,
+            "duration": 0.7166666666666667,
+            "asset_path_id": 4335383868530887491,
+            "asset_name": "OnBattleCamRotateClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 1,
+            "start": 3.884604818777491,
+            "duration": 1.3333333333333333,
+            "asset_path_id": 514949639847742275,
+            "asset_name": "OnBattleCamRotateClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 2,
+            "start": 0.0,
+            "duration": 0.48333333333333334,
+            "asset_path_id": 8821159123074026307,
+            "asset_name": "OnBattleCamRotateClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 3,
+            "start": 0.4833333333333334,
+            "duration": 0.300000135103861,
+            "asset_path_id": 7675313974849178435,
+            "asset_name": "OnBattleCamRotateClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 4,
+            "start": 0.7833334684371942,
+            "duration": 0.5833332657814027,
+            "asset_path_id": 3790992802179320643,
+            "asset_name": "OnBattleCamRotateClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          }
+        ]
+      },
+      {
+        "index": 11,
+        "path_id": 6191209706642279235,
+        "name": "FMOD Custom Track_Voice (1)",
+        "clips": [
+          {
+            "index": 0,
+            "start": 0.48333333333333334,
+            "duration": 0.5833333333333334,
+            "asset_path_id": 4769299033630575427,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Heathclif_WHunt_Ride_S4_Timeline",
+    "path_id": -1543048598728277294,
+    "duration": 1.6999999999989999,
+    "tracks": [
+      {
+        "index": 0,
+        "path_id": -6763814284664765742,
+        "name": "Animation Track",
+        "clips": []
+      },
+      {
+        "index": 1,
+        "path_id": -5819120031581797678,
+        "name": "FMOD Custom Track (1)",
+        "clips": [
+          {
+            "index": 0,
+            "start": 0.0,
+            "duration": 0.19999999999999996,
+            "asset_path_id": 7802162514888622802,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 1,
+            "start": 0.43333333333333346,
+            "duration": 0.19999999999999984,
+            "asset_path_id": 5445233251900392146,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 2,
+            "start": 0.6666666666666669,
+            "duration": 0.16666666666666674,
+            "asset_path_id": -7054526474542513454,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 3,
+            "start": 0.8333333333333331,
+            "duration": 0.3333333333333333,
+            "asset_path_id": -139728848161078574,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "path_id": -8713087120078404910,
+        "name": "FMOD Custom Track_Voice",
+        "clips": [
+          {
+            "index": 0,
+            "start": 0.0,
+            "duration": 0.43333333333333346,
+            "asset_path_id": -5875530981805849902,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "path_id": 5251814154747380434,
+        "name": "DoNotAdj",
+        "clips": []
+      },
+      {
+        "index": 4,
+        "path_id": -1928219481350339886,
+        "name": "On Battle Cam Rotate Track",
+        "clips": [
+          {
+            "index": 0,
+            "start": 0.0,
+            "duration": 0.48333333333333334,
+            "asset_path_id": -8833450984910683438,
+            "asset_name": "OnBattleCamRotateClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 1,
+            "start": 0.7833334684371943,
+            "duration": 0.7666666666666665,
+            "asset_path_id": -2278152442225556782,
+            "asset_name": "OnBattleCamRotateClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 2,
+            "start": 0.48333333333333334,
+            "duration": 0.300000135103861,
+            "asset_path_id": -1465401366713662766,
+            "asset_name": "OnBattleCamRotateClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          }
+        ]
+      },
+      {
+        "index": 5,
+        "path_id": -5838991018557570350,
+        "name": "Animation Track (1)",
+        "clips": [
+          {
+            "index": 0,
+            "start": 0.0,
+            "duration": 0.06666666666666667,
+            "asset_path_id": 8540077146101318354,
+            "asset_name": "AnimationPlayableAsset(Clone)(Clone)(Clone)",
+            "animation_path_id": -1955807916075168560,
+            "animation_name": "Heathclif_WHunt_Ride_S3"
+          },
+          {
+            "index": 1,
+            "start": 0.48333333333333334,
+            "duration": 0.11666680177052768,
+            "asset_path_id": 8072360048008299218,
+            "asset_name": "AnimationPlayableAsset(Clone)(Clone)(Clone)",
+            "animation_path_id": -1955807916075168560,
+            "animation_name": "Heathclif_WHunt_Ride_S3"
+          },
+          {
+            "index": 2,
+            "start": 0.7833334684371943,
+            "duration": 0.3333331982294724,
+            "asset_path_id": 1442475043474047698,
+            "asset_name": "AnimationPlayableAsset",
+            "animation_path_id": -4537893367803715645,
+            "animation_name": "Heathclif_WHunt_Ride_S4"
+          }
+        ]
+      },
+      {
+        "index": 6,
+        "path_id": -6816594428754525486,
+        "name": "Character Appearance Timeline Track (2)",
+        "clips": []
+      },
+      {
+        "index": 7,
+        "path_id": 166254666837787346,
+        "name": "Skill Give Timing Track (2)",
+        "clips": []
+      },
+      {
+        "index": 8,
+        "path_id": -8605588373147876654,
+        "name": "On Battle Cam Zoom Track (2)",
+        "clips": [
+          {
+            "index": 0,
+            "start": 0.0,
+            "duration": 0.6666666666666666,
+            "asset_path_id": 8013286994884100818,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 1,
+            "start": 0.6666666666666666,
+            "duration": 0.20000006755193078,
+            "asset_path_id": -7843921906137693486,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 2,
+            "start": 0.8666667342185974,
+            "duration": 0.8333332657814025,
+            "asset_path_id": 8699888196630217426,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          }
+        ]
+      },
+      {
+        "index": 9,
+        "path_id": -1599231239862811950,
+        "name": "front",
+        "clips": []
+      },
+      {
+        "index": 10,
+        "path_id": 4853546607583691474,
+        "name": "back",
+        "clips": []
+      }
+    ]
+  },
+  {
+    "name": "Heathclif_WHunt_Ride_S4_Timeline_2",
+    "path_id": -3354779007925367462,
+    "duration": 3.0499999999989997,
+    "tracks": [
+      {
+        "index": 0,
+        "path_id": -3437893932496466598,
+        "name": "Animation Track",
+        "clips": [
+          {
+            "index": 0,
+            "start": 0.0,
+            "duration": 2.9499999999999997,
+            "asset_path_id": -1650061050923070118,
+            "asset_name": "AnimationPlayableAsset(Clone)(Clone)",
+            "animation_path_id": -4537893367803715645,
+            "animation_name": "Heathclif_WHunt_Ride_S4"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "path_id": 1173078030273793370,
+        "name": "DoNotAdj",
+        "clips": []
+      },
+      {
+        "index": 2,
+        "path_id": -5431185839055909542,
+        "name": "Character Appearance Timeline Track (2)",
+        "clips": []
+      },
+      {
+        "index": 3,
+        "path_id": -2505197630579225254,
+        "name": "Skill Give Timing Track (2)",
+        "clips": []
+      },
+      {
+        "index": 4,
+        "path_id": 5131980829770173786,
+        "name": "On Battle Cam Zoom Track (2)",
+        "clips": [
+          {
+            "index": 0,
+            "start": 0.0,
+            "duration": 0.16666673421859762,
+            "asset_path_id": -6461320367593370278,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 1,
+            "start": 0.16666673421859762,
+            "duration": 0.13333326578140237,
+            "asset_path_id": 3187338947274526042,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 2,
+            "start": 0.3,
+            "duration": 0.5166666666666666,
+            "asset_path_id": 3938102282094562650,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 3,
+            "start": 1.1,
+            "duration": 1.9500000000000006,
+            "asset_path_id": -366000198820704934,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 4,
+            "start": 0.8166666666666667,
+            "duration": 0.28333333333333344,
+            "asset_path_id": -6995019528303882918,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          }
+        ]
+      },
+      {
+        "index": 5,
+        "path_id": 7814650036018990426,
+        "name": "FMOD Custom Track (2)",
+        "clips": [
+          {
+            "index": 0,
+            "start": 0.0,
+            "duration": 0.19999999999999996,
+            "asset_path_id": 7233923437575851354,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 1,
+            "start": 0.2833333333333332,
+            "duration": 0.19999999999999996,
+            "asset_path_id": 1945280017351036250,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 2,
+            "start": 0.9166667342185977,
+            "duration": 0.19999999999999996,
+            "asset_path_id": -6119356589739750054,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 3,
+            "start": 1.1999999999996667,
+            "duration": 0.866666666667,
+            "asset_path_id": 4978662680558947674,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          }
+        ]
+      },
+      {
+        "index": 6,
+        "path_id": 7108260157550677338,
+        "name": "FMOD Custom Track_Voice (1)",
+        "clips": [
+          {
+            "index": 0,
+            "start": 0.0,
+            "duration": 0.43333333333333346,
+            "asset_path_id": 5847639956199034202,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          }
+        ]
+      },
+      {
+        "index": 7,
+        "path_id": 1194669379934211418,
+        "name": "Animation Track (1)",
+        "clips": [
+          {
+            "index": 0,
+            "start": 0.0,
+            "duration": 2.8000000317891436,
+            "asset_path_id": -6482423902017303206,
+            "asset_name": "AnimationPlayableAsset(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": -7254731870841012991,
+            "animation_name": "Heathclif_WHunt_S3_effect"
+          }
+        ]
+      },
+      {
+        "index": 8,
+        "path_id": -3104261626705556134,
+        "name": "front",
+        "clips": []
+      },
+      {
+        "index": 9,
+        "path_id": 2706881008448097626,
+        "name": "back",
+        "clips": []
+      },
+      {
+        "index": 10,
+        "path_id": 2736315806962011482,
+        "name": "On Battle Cam Rotate Track (1)",
+        "clips": [
+          {
+            "index": 0,
+            "start": 0.16666673421859762,
+            "duration": 0.7666665991147357,
+            "asset_path_id": 342390976822627674,
+            "asset_name": "OnBattleCamRotateClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 1,
+            "start": 0.9333333333333333,
+            "duration": 2.0166666666666666,
+            "asset_path_id": 5032550213931683162,
+            "asset_name": "OnBattleCamRotateClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Heathclif_WHunt_S3_Timeline",
+    "path_id": 8222612733025799740,
+    "duration": 1.533333333332,
+    "tracks": [
+      {
+        "index": 0,
+        "path_id": 5700763105860472380,
+        "name": "Animation Track",
+        "clips": [
+          {
+            "index": 0,
+            "start": 1.0666667441527045,
+            "duration": 0.29999999006589256,
+            "asset_path_id": 8873118199051865660,
+            "asset_name": "AnimationPlayableAsset",
+            "animation_path_id": 8200576666968897586,
+            "animation_name": "Heathclif_WHunt_S3"
+          },
+          {
+            "index": 1,
+            "start": 0.0,
+            "duration": 0.06666666666666667,
+            "asset_path_id": -1956139831048384964,
+            "asset_name": "AnimationPlayableAsset(Clone)",
+            "animation_path_id": 8200576666968897586,
+            "animation_name": "Heathclif_WHunt_S3"
+          },
+          {
+            "index": 2,
+            "start": 0.48333333333333334,
+            "duration": 0.11666680177052768,
+            "asset_path_id": 3545070407553863228,
+            "asset_name": "AnimationPlayableAsset(Clone)",
+            "animation_path_id": 8200576666968897586,
+            "animation_name": "Heathclif_WHunt_S3"
+          },
+          {
+            "index": 3,
+            "start": 0.7833334684371943,
+            "duration": 0.20000000993410744,
+            "asset_path_id": 6677959530835824188,
+            "asset_name": "AnimationPlayableAsset(Clone)",
+            "animation_path_id": 8200576666968897586,
+            "animation_name": "Heathclif_WHunt_S3"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "path_id": -9059206195421032900,
+        "name": "Character Appearance Timeline Track (2)",
+        "clips": []
+      },
+      {
+        "index": 2,
+        "path_id": -8323505578284855748,
+        "name": "Skill Give Timing Track (2)",
+        "clips": []
+      },
+      {
+        "index": 3,
+        "path_id": -1184911938621649348,
+        "name": "On Battle Cam Zoom Track (2)",
+        "clips": [
+          {
+            "index": 0,
+            "start": 0.0,
+            "duration": 0.6666666666666666,
+            "asset_path_id": -8803257060219204036,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 1,
+            "start": 0.6666666666666666,
+            "duration": 0.20000006755193078,
+            "asset_path_id": 6535728284842217020,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 2,
+            "start": 0.8666667342185973,
+            "duration": 0.2499999920527139,
+            "asset_path_id": 6989007571627888188,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 3,
+            "start": 1.116666726271311,
+            "duration": 0.4166666070620221,
+            "asset_path_id": 6099875338930966076,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "path_id": 8647584478467739196,
+        "name": "FMOD Custom Track (1)",
+        "clips": [
+          {
+            "index": 0,
+            "start": 0.0,
+            "duration": 0.19999999999999996,
+            "asset_path_id": 5092147222203420220,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 1,
+            "start": 0.43333333333333335,
+            "duration": 0.300000135103861,
+            "asset_path_id": -324542437808910788,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 2,
+            "start": 0.7833334684371943,
+            "duration": 0.2333331982294723,
+            "asset_path_id": 5136046089529282108,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 3,
+            "start": 1.0333334008852637,
+            "duration": 0.3333333333333333,
+            "asset_path_id": -2841679430304772548,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          }
+        ]
+      },
+      {
+        "index": 5,
+        "path_id": 6100821067819535932,
+        "name": "FMOD Custom Track_Voice",
+        "clips": [
+          {
+            "index": 0,
+            "start": 0.48333333333333334,
+            "duration": 0.5833333333333334,
+            "asset_path_id": 4821360544554438204,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          }
+        ]
+      },
+      {
+        "index": 6,
+        "path_id": -4226306181727564228,
+        "name": "DoNotAdj",
+        "clips": []
+      },
+      {
+        "index": 7,
+        "path_id": 6095668718397574716,
+        "name": "On Battle Cam Rotate Track",
+        "clips": [
+          {
+            "index": 0,
+            "start": 0.0,
+            "duration": 0.6666666666666666,
+            "asset_path_id": -2405300823497355716,
+            "asset_name": "OnBattleCamRotateClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 1,
+            "start": 0.7833334684371943,
+            "duration": 0.5833332657814027,
+            "asset_path_id": 8126129997696486972,
+            "asset_name": "OnBattleCamRotateClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          }
+        ]
+      },
+      {
+        "index": 8,
+        "path_id": -4765347947501236676,
+        "name": "front",
+        "clips": []
+      },
+      {
+        "index": 9,
+        "path_id": -2979120024694469060,
+        "name": "back",
+        "clips": []
+      }
+    ]
+  },
+  {
+    "name": "Heathclif_WHunt_S3_Timeline_2",
+    "path_id": -4582636926726165926,
+    "duration": 5.3499999999989996,
+    "tracks": [
+      {
+        "index": 0,
+        "path_id": 4526642632911432282,
+        "name": "Animation Track",
+        "clips": [
+          {
+            "index": 0,
+            "start": 2.4999999999999996,
+            "duration": 0.8333333333333339,
+            "asset_path_id": -2227853366051329446,
+            "asset_name": "AnimationPlayableAsset",
+            "animation_path_id": 8200576666968897586,
+            "animation_name": "Heathclif_WHunt_S3"
+          },
+          {
+            "index": 1,
+            "start": 0.0,
+            "duration": 0.6666666666666666,
+            "asset_path_id": -1946637538171016614,
+            "asset_name": "AnimationPlayableAsset(Clone)",
+            "animation_path_id": 8200576666968897586,
+            "animation_name": "Heathclif_WHunt_S3"
+          },
+          {
+            "index": 2,
+            "start": 0.9333333333333333,
+            "duration": 1.3333333333333333,
+            "asset_path_id": 5277122067014494810,
+            "asset_name": "AnimationPlayableAsset(Clone)",
+            "animation_path_id": 8200576666968897586,
+            "animation_name": "Heathclif_WHunt_S3"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "path_id": 1744838368792554074,
+        "name": "Character Appearance Timeline Track (2)",
+        "clips": []
+      },
+      {
+        "index": 2,
+        "path_id": -187209279912662438,
+        "name": "Skill Give Timing Track (2)",
+        "clips": []
+      },
+      {
+        "index": 3,
+        "path_id": 1071239722563480154,
+        "name": "On Battle Cam Zoom Track (2)",
+        "clips": [
+          {
+            "index": 0,
+            "start": 0.0,
+            "duration": 0.16666673421859762,
+            "asset_path_id": 2131162358425397850,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 1,
+            "start": 0.16666673421859762,
+            "duration": 0.13333326578140237,
+            "asset_path_id": 5042862023376644698,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 2,
+            "start": 2.699999999999999,
+            "duration": 1.433333333333335,
+            "asset_path_id": 1056085027985107546,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 3,
+            "start": 0.3,
+            "duration": 0.5166666666666666,
+            "asset_path_id": -731150290649077158,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 4,
+            "start": 0.9333334008852641,
+            "duration": 0.5666666666666667,
+            "asset_path_id": -2771721766957995430,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 5,
+            "start": 1.7,
+            "duration": 0.5666666666666667,
+            "asset_path_id": 7829545220583205466,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 6,
+            "start": 2.4999999999999996,
+            "duration": 0.1999999999999993,
+            "asset_path_id": -3502023388076692902,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "path_id": -6326523781829350822,
+        "name": "FMOD Custom Track (1)",
+        "clips": [
+          {
+            "index": 0,
+            "start": 0.1333333333333337,
+            "duration": 0.19999999999999996,
+            "asset_path_id": -3616506927046448550,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 1,
+            "start": 0.9333333333333333,
+            "duration": 0.300000135103861,
+            "asset_path_id": -5393666049860359590,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 2,
+            "start": 1.7,
+            "duration": 0.2333331982294723,
+            "asset_path_id": 9189274267587652186,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 3,
+            "start": 2.4999999999999996,
+            "duration": 0.1999999999999993,
+            "asset_path_id": -8938700368156874150,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 4,
+            "start": 2.699999999999999,
+            "duration": 0.9666666666666677,
+            "asset_path_id": 4486272752904383066,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          }
+        ]
+      },
+      {
+        "index": 5,
+        "path_id": -6114148002812974502,
+        "name": "DoNotAdj",
+        "clips": []
+      },
+      {
+        "index": 6,
+        "path_id": -6600352598679016870,
+        "name": "On Battle Cam Rotate Track",
+        "clips": [
+          {
+            "index": 0,
+            "start": 0.16666673421859762,
+            "duration": 0.7166666666666667,
+            "asset_path_id": 2505328667710401114,
+            "asset_name": "OnBattleCamRotateClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 1,
+            "start": 2.2666666666666666,
+            "duration": 1.5666666666666662,
+            "asset_path_id": -9104673274480612774,
+            "asset_name": "OnBattleCamRotateClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          }
+        ]
+      },
+      {
+        "index": 7,
+        "path_id": 2838247406203185754,
+        "name": "Animation Track (1)",
+        "clips": [
+          {
+            "index": 0,
+            "start": 0.0,
+            "duration": 4.133333333333334,
+            "asset_path_id": 5690530493300484698,
+            "asset_name": "AnimationPlayableAsset(Clone)(Clone)",
+            "animation_path_id": -7254731870841012991,
+            "animation_name": "Heathclif_WHunt_S3_effect"
+          }
+        ]
+      },
+      {
+        "index": 8,
+        "path_id": -7206945713182266790,
+        "name": "front",
+        "clips": []
+      },
+      {
+        "index": 9,
+        "path_id": 6939321519400233562,
+        "name": "back",
+        "clips": []
+      }
+    ]
+  },
+  {
+    "name": "Heathclif_WHunt_S3_Timeline_2_1",
+    "path_id": -1815420153503676384,
+    "duration": 4.799999999999,
+    "tracks": [
+      {
+        "index": 0,
+        "path_id": 2395347742363289632,
+        "name": "Animation Track",
+        "clips": [
+          {
+            "index": 0,
+            "start": 4.033333333333331,
+            "duration": 0.8333333333333339,
+            "asset_path_id": 5722462712989681696,
+            "asset_name": "AnimationPlayableAsset",
+            "animation_path_id": 8200576666968897586,
+            "animation_name": "Heathclif_WHunt_S3"
+          },
+          {
+            "index": 1,
+            "start": 1.533333333333335,
+            "duration": 0.6666666666666666,
+            "asset_path_id": 8121760413779429408,
+            "asset_name": "AnimationPlayableAsset(Clone)",
+            "animation_path_id": 8200576666968897586,
+            "animation_name": "Heathclif_WHunt_S3"
+          },
+          {
+            "index": 2,
+            "start": 2.4666666666666655,
+            "duration": 1.3333333333333333,
+            "asset_path_id": -1900953368528287712,
+            "asset_name": "AnimationPlayableAsset(Clone)",
+            "animation_path_id": 8200576666968897586,
+            "animation_name": "Heathclif_WHunt_S3"
+          },
+          {
+            "index": 3,
+            "start": 0.0,
+            "duration": 0.06666666666666667,
+            "asset_path_id": -8212179429192562656,
+            "asset_name": "AnimationPlayableAsset(Clone)(Clone)(Clone)",
+            "animation_path_id": 8200576666968897586,
+            "animation_name": "Heathclif_WHunt_S3"
+          },
+          {
+            "index": 4,
+            "start": 0.48333333333333334,
+            "duration": 0.11666680177052768,
+            "asset_path_id": 3774330790906431520,
+            "asset_name": "AnimationPlayableAsset(Clone)(Clone)(Clone)",
+            "animation_path_id": 8200576666968897586,
+            "animation_name": "Heathclif_WHunt_S3"
+          },
+          {
+            "index": 5,
+            "start": 0.7833334684371943,
+            "duration": 0.20000000993410744,
+            "asset_path_id": 9097873234244667424,
+            "asset_name": "AnimationPlayableAsset(Clone)(Clone)(Clone)",
+            "animation_path_id": 8200576666968897586,
+            "animation_name": "Heathclif_WHunt_S3"
+          },
+          {
+            "index": 6,
+            "start": 1.0666667441527045,
+            "duration": 0.29999999006589256,
+            "asset_path_id": -6809305330707920864,
+            "asset_name": "AnimationPlayableAsset(Clone)(Clone)",
+            "animation_path_id": 8200576666968897586,
+            "animation_name": "Heathclif_WHunt_S3"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "path_id": -5380062913961654240,
+        "name": "Character Appearance Timeline Track (2)",
+        "clips": []
+      },
+      {
+        "index": 2,
+        "path_id": 2939601236455917600,
+        "name": "Skill Give Timing Track (2)",
+        "clips": []
+      },
+      {
+        "index": 3,
+        "path_id": 645263142621677600,
+        "name": "On Battle Cam Zoom Track (2)",
+        "clips": [
+          {
+            "index": 0,
+            "start": 1.533333333333335,
+            "duration": 0.16666673421859762,
+            "asset_path_id": -5263596555752110048,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 1,
+            "start": 1.7000000675519327,
+            "duration": 0.13333326578140237,
+            "asset_path_id": 5163100955715962912,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 2,
+            "start": 4.233333333333331,
+            "duration": 1.433333333333335,
+            "asset_path_id": -5186989441880553440,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 3,
+            "start": 1.8333333333333344,
+            "duration": 0.5166666666666666,
+            "asset_path_id": 7131699268003432480,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 4,
+            "start": 2.4666667342185966,
+            "duration": 0.5666666666666667,
+            "asset_path_id": -6967221973191358432,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 5,
+            "start": 3.233333333333334,
+            "duration": 0.5666666666666667,
+            "asset_path_id": -7977793309962467296,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 6,
+            "start": 4.033333333333331,
+            "duration": 0.1999999999999993,
+            "asset_path_id": -4947764479416072160,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 7,
+            "start": 0.0,
+            "duration": 0.6666666666666666,
+            "asset_path_id": -6948505865421387744,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 8,
+            "start": 0.6666666666666672,
+            "duration": 0.20000006755193078,
+            "asset_path_id": 9007961299731286048,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 9,
+            "start": 0.8666667342185976,
+            "duration": 0.2499999920527139,
+            "asset_path_id": -7283889423219488736,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 10,
+            "start": 1.116666726271313,
+            "duration": 0.4166666070620221,
+            "asset_path_id": 3615848353830602784,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "path_id": -3185175166883657696,
+        "name": "FMOD Custom Track (1)",
+        "clips": [
+          {
+            "index": 0,
+            "start": 1.666666666666669,
+            "duration": 0.19999999999999996,
+            "asset_path_id": -5782812369422972896,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 1,
+            "start": 2.4666666666666655,
+            "duration": 0.300000135103861,
+            "asset_path_id": 4216523509259241504,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 2,
+            "start": 3.233333333333334,
+            "duration": 0.2333331982294723,
+            "asset_path_id": -9219418884015454176,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 3,
+            "start": 4.033333333333333,
+            "duration": 0.1999999999999993,
+            "asset_path_id": -3476747786296686560,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 4,
+            "start": 4.2333333333333325,
+            "duration": 0.9666666666666677,
+            "asset_path_id": -6462736886611245024,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 5,
+            "start": 0.0,
+            "duration": 0.19999999999999996,
+            "asset_path_id": 5712889527255304224,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 6,
+            "start": 0.4333333333333337,
+            "duration": 0.300000135103861,
+            "asset_path_id": -6749601228901709792,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 7,
+            "start": 0.7833334684371948,
+            "duration": 0.2333331982294723,
+            "asset_path_id": -4921563270749026272,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 8,
+            "start": 1.0333334008852635,
+            "duration": 0.3333333333333333,
+            "asset_path_id": -963801722002667488,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          }
+        ]
+      },
+      {
+        "index": 5,
+        "path_id": 3044232007268042784,
+        "name": "DoNotAdj",
+        "clips": []
+      },
+      {
+        "index": 6,
+        "path_id": -6502240638941460448,
+        "name": "On Battle Cam Rotate Track",
+        "clips": [
+          {
+            "index": 0,
+            "start": 1.7000000675519327,
+            "duration": 0.7166666666666667,
+            "asset_path_id": -159951601382651872,
+            "asset_name": "OnBattleCamRotateClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 1,
+            "start": 3.7999999999999994,
+            "duration": 1.5666666666666662,
+            "asset_path_id": -7014933657900677088,
+            "asset_name": "OnBattleCamRotateClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 2,
+            "start": 0.0,
+            "duration": 0.6666666666666666,
+            "asset_path_id": 2844674928644065312,
+            "asset_name": "OnBattleCamRotateClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 3,
+            "start": 0.7833334684371946,
+            "duration": 0.5833332657814027,
+            "asset_path_id": -663921423649667040,
+            "asset_name": "OnBattleCamRotateClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          }
+        ]
+      },
+      {
+        "index": 7,
+        "path_id": -2162270614815242208,
+        "name": "Animation Track (1)",
+        "clips": [
+          {
+            "index": 0,
+            "start": 1.533333333333335,
+            "duration": 4.133333333333334,
+            "asset_path_id": -72210758411810784,
+            "asset_name": "AnimationPlayableAsset(Clone)(Clone)",
+            "animation_path_id": -7254731870841012991,
+            "animation_name": "Heathclif_WHunt_S3_effect"
+          }
+        ]
+      },
+      {
+        "index": 8,
+        "path_id": -3992929728190216160,
+        "name": "front",
+        "clips": []
+      },
+      {
+        "index": 9,
+        "path_id": -6365075572025260000,
+        "name": "back",
+        "clips": []
+      },
+      {
+        "index": 10,
+        "path_id": -5322521905068046304,
+        "name": "FMOD Custom Track_Voice",
+        "clips": [
+          {
+            "index": 0,
+            "start": 0.48333333333333334,
+            "duration": 0.5833333333333334,
+            "asset_path_id": -5457503238814889952,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Heathclif_WHunt_S4_Timeline",
+    "path_id": 6618153483536284851,
+    "duration": 1.6999999999989999,
+    "tracks": [
+      {
+        "index": 0,
+        "path_id": -2213935150197457741,
+        "name": "Animation Track",
+        "clips": []
+      },
+      {
+        "index": 1,
+        "path_id": -550662611797099341,
+        "name": "FMOD Custom Track (1)",
+        "clips": [
+          {
+            "index": 0,
+            "start": 0.8333333333333334,
+            "duration": 0.3333333333333333,
+            "asset_path_id": -823992548757553997,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 1,
+            "start": 0.43333333333333346,
+            "duration": 0.19999999999999984,
+            "asset_path_id": 4382526941491018931,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 2,
+            "start": 0.0,
+            "duration": 0.19999999999999996,
+            "asset_path_id": -3465407824768287565,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 3,
+            "start": 0.6666666666666666,
+            "duration": 0.16666666666666674,
+            "asset_path_id": -4578823700755333965,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "path_id": -4486774480758850381,
+        "name": "FMOD Custom Track_Voice",
+        "clips": [
+          {
+            "index": 0,
+            "start": 0.0,
+            "duration": 0.43333333333333346,
+            "asset_path_id": 1583959115114069171,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "path_id": -8678306808850760525,
+        "name": "DoNotAdj",
+        "clips": []
+      },
+      {
+        "index": 4,
+        "path_id": 6995071289958972595,
+        "name": "Animation Track (1)",
+        "clips": [
+          {
+            "index": 0,
+            "start": 0.0,
+            "duration": 0.06666666666666667,
+            "asset_path_id": -7413768369099653965,
+            "asset_name": "AnimationPlayableAsset(Clone)(Clone)(Clone)",
+            "animation_path_id": 8200576666968897586,
+            "animation_name": "Heathclif_WHunt_S3"
+          },
+          {
+            "index": 1,
+            "start": 0.48333333333333334,
+            "duration": 0.11666680177052768,
+            "asset_path_id": -260603729540563789,
+            "asset_name": "AnimationPlayableAsset(Clone)(Clone)(Clone)",
+            "animation_path_id": 8200576666968897586,
+            "animation_name": "Heathclif_WHunt_S3"
+          },
+          {
+            "index": 2,
+            "start": 0.7833334684371943,
+            "duration": 0.3333331982294724,
+            "asset_path_id": -8187946679434101581,
+            "asset_name": "AnimationPlayableAsset",
+            "animation_path_id": 3185266301275586523,
+            "animation_name": "Heathclif_WHunt_S4"
+          }
+        ]
+      },
+      {
+        "index": 5,
+        "path_id": 837394469482380467,
+        "name": "Character Appearance Timeline Track (2)",
+        "clips": []
+      },
+      {
+        "index": 6,
+        "path_id": 3369968731594013875,
+        "name": "Skill Give Timing Track (2)",
+        "clips": []
+      },
+      {
+        "index": 7,
+        "path_id": 6755640708244683955,
+        "name": "On Battle Cam Zoom Track (2)",
+        "clips": [
+          {
+            "index": 0,
+            "start": 0.0,
+            "duration": 0.6666666666666666,
+            "asset_path_id": -1879430645450425165,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 1,
+            "start": 0.6666666666666666,
+            "duration": 0.20000006755193078,
+            "asset_path_id": 825086868421000371,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 2,
+            "start": 0.8666667342185974,
+            "duration": 0.8333332657814025,
+            "asset_path_id": 2132119577631571123,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          }
+        ]
+      },
+      {
+        "index": 8,
+        "path_id": 1507912771555605683,
+        "name": "front",
+        "clips": []
+      },
+      {
+        "index": 9,
+        "path_id": 4058249558063168691,
+        "name": "back",
+        "clips": []
+      },
+      {
+        "index": 10,
+        "path_id": 2349569779724500147,
+        "name": "On Battle Cam Rotate Track (1)",
+        "clips": [
+          {
+            "index": 0,
+            "start": 0.0,
+            "duration": 0.48333333333333334,
+            "asset_path_id": 1214343281593990323,
+            "asset_name": "OnBattleCamRotateClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 1,
+            "start": 0.48333333333333334,
+            "duration": 0.300000135103861,
+            "asset_path_id": -8185230470832735053,
+            "asset_name": "OnBattleCamRotateClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 2,
+            "start": 0.7833334684371943,
+            "duration": 0.7666666666666665,
+            "asset_path_id": 3490141047127915699,
+            "asset_name": "OnBattleCamRotateClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Heathclif_WHunt_S4_Timeline_2",
+    "path_id": -646317406095265016,
+    "duration": 3.0499999999989997,
+    "tracks": [
+      {
+        "index": 0,
+        "path_id": -3158789433502387448,
+        "name": "Animation Track",
+        "clips": [
+          {
+            "index": 0,
+            "start": 0.0,
+            "duration": 2.9499999999999997,
+            "asset_path_id": -3733928088876535032,
+            "asset_name": "AnimationPlayableAsset(Clone)(Clone)",
+            "animation_path_id": 3185266301275586523,
+            "animation_name": "Heathclif_WHunt_S4"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "path_id": 5231963947462963976,
+        "name": "FMOD Custom Track (1)",
+        "clips": []
+      },
+      {
+        "index": 2,
+        "path_id": -5581135395758591224,
+        "name": "FMOD Custom Track_Voice",
+        "clips": []
+      },
+      {
+        "index": 3,
+        "path_id": -3593712780663508216,
+        "name": "DoNotAdj",
+        "clips": []
+      },
+      {
+        "index": 4,
+        "path_id": 2308663753145660168,
+        "name": "On Battle Cam Rotate Track",
+        "clips": [
+          {
+            "index": 0,
+            "start": 0.0,
+            "duration": 0.11666666666666678,
+            "asset_path_id": 7054837675787957000,
+            "asset_name": "OnBattleCamRotateClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 1,
+            "start": 0.16666673421859762,
+            "duration": 0.7666666666666665,
+            "asset_path_id": 8414903694416425736,
+            "asset_name": "OnBattleCamRotateClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          }
+        ]
+      },
+      {
+        "index": 5,
+        "path_id": 2971965968428053256,
+        "name": "Character Appearance Timeline Track (2)",
+        "clips": []
+      },
+      {
+        "index": 6,
+        "path_id": -2894038489269325048,
+        "name": "Skill Give Timing Track (2)",
+        "clips": []
+      },
+      {
+        "index": 7,
+        "path_id": -878389300921617656,
+        "name": "On Battle Cam Zoom Track (2)",
+        "clips": [
+          {
+            "index": 0,
+            "start": 0.0,
+            "duration": 0.16666673421859762,
+            "asset_path_id": -276773840619883768,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 1,
+            "start": 0.16666673421859762,
+            "duration": 0.13333326578140237,
+            "asset_path_id": -7409925860571663608,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 2,
+            "start": 0.3,
+            "duration": 0.5166666666666666,
+            "asset_path_id": 1675243588477530888,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 3,
+            "start": 1.1,
+            "duration": 1.9500000000000006,
+            "asset_path_id": 213218204754391816,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 4,
+            "start": 0.8166666666666667,
+            "duration": 0.28333333333333344,
+            "asset_path_id": -1277022613218643192,
+            "asset_name": "OnBattleCamZoomClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          }
+        ]
+      },
+      {
+        "index": 8,
+        "path_id": -8348642456368172280,
+        "name": "FMOD Custom Track (2)",
+        "clips": [
+          {
+            "index": 0,
+            "start": 0.016666666666666663,
+            "duration": 0.19999999999999996,
+            "asset_path_id": 3395653534689407752,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 1,
+            "start": 0.3,
+            "duration": 0.19999999999999996,
+            "asset_path_id": -5493447114182151416,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 2,
+            "start": 0.9333334008852641,
+            "duration": 0.19999999999999996,
+            "asset_path_id": 9056279449858814728,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 3,
+            "start": 1.2166666666663335,
+            "duration": 0.866666666667,
+            "asset_path_id": 2068212982247404296,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          }
+        ]
+      },
+      {
+        "index": 9,
+        "path_id": -2202668186492521720,
+        "name": "FMOD Custom Track_Voice (1)",
+        "clips": [
+          {
+            "index": 0,
+            "start": 0.0,
+            "duration": 0.43333333333333346,
+            "asset_path_id": -5954618763302849784,
+            "asset_name": "FMODEventPlayable(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          }
+        ]
+      },
+      {
+        "index": 10,
+        "path_id": 3128896201011901192,
+        "name": "Animation Track (1)",
+        "clips": [
+          {
+            "index": 0,
+            "start": 0.0,
+            "duration": 2.8000000317891436,
+            "asset_path_id": 6174680156237148936,
+            "asset_name": "AnimationPlayableAsset(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": -7254731870841012991,
+            "animation_name": "Heathclif_WHunt_S3_effect"
+          }
+        ]
+      },
+      {
+        "index": 11,
+        "path_id": 2638670832356963080,
+        "name": "front",
+        "clips": []
+      },
+      {
+        "index": 12,
+        "path_id": 5275518294464803592,
+        "name": "back",
+        "clips": []
+      },
+      {
+        "index": 13,
+        "path_id": -7057148680259489016,
+        "name": "On Battle Cam Rotate Track (1)",
+        "clips": [
+          {
+            "index": 0,
+            "start": 0.16666673421859762,
+            "duration": 0.7666665991147357,
+            "asset_path_id": -6699003960617192696,
+            "asset_name": "OnBattleCamRotateClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          },
+          {
+            "index": 1,
+            "start": 0.9333333333333333,
+            "duration": 2.0166666666666666,
+            "asset_path_id": 4768054587210543880,
+            "asset_name": "OnBattleCamRotateClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+            "animation_path_id": 0,
+            "animation_name": ""
+          }
+        ]
+      }
+    ]
+  }
+]

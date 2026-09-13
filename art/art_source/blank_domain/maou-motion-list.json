@@ -1,0 +1,207 @@
+[
+  {
+    "detail": 4,
+    "motion": "Damaged",
+    "timeline_assets": []
+  },
+  {
+    "detail": 0,
+    "motion": "Default",
+    "timeline_assets": []
+  },
+  {
+    "detail": 2,
+    "motion": "Evade",
+    "timeline_assets": []
+  },
+  {
+    "detail": 3,
+    "motion": "Guard",
+    "timeline_assets": []
+  },
+  {
+    "detail": 5,
+    "motion": "Move",
+    "timeline_assets": []
+  },
+  {
+    "detail": 7,
+    "motion": "S1",
+    "timeline_assets": [
+      {
+        "file_id": 0,
+        "path_id": 7408427017818772682,
+        "name": "MaouHeathclif_Ride_S1_Timeline_1"
+      }
+    ]
+  },
+  {
+    "detail": 8,
+    "motion": "S2",
+    "timeline_assets": [
+      {
+        "file_id": 0,
+        "path_id": 5623724334438212162,
+        "name": "MaouHeathclif_Ride_S2_Timeline_1"
+      },
+      {
+        "file_id": 0,
+        "path_id": 14121920150003396,
+        "name": "MaouHeathclif_Ride_S2_Timeline_2"
+      },
+      {
+        "file_id": 0,
+        "path_id": -6651062976583400391,
+        "name": "MaouHeathclif_Ride_S2_Timeline_3"
+      }
+    ]
+  },
+  {
+    "detail": 17,
+    "motion": "Parrying",
+    "timeline_assets": [
+      {
+        "file_id": 0,
+        "path_id": 1713276536974344242,
+        "name": "MaouHeathclif_Ride_Parrying_Timeline_1"
+      },
+      {
+        "file_id": 0,
+        "path_id": 4864528234903780118,
+        "name": "MaouHeathclif_Ride_Parrying_Timeline_2"
+      },
+      {
+        "file_id": 0,
+        "path_id": 2262820513718488536,
+        "name": "MaouHeathclif_Ride_Parrying_Timeline_3"
+      }
+    ]
+  },
+  {
+    "detail": 18,
+    "motion": "Idle",
+    "timeline_assets": []
+  },
+  {
+    "detail": 1,
+    "motion": "Dead",
+    "timeline_assets": []
+  },
+  {
+    "detail": 9,
+    "motion": "S3",
+    "timeline_assets": [
+      {
+        "file_id": 0,
+        "path_id": 4095289842301155581,
+        "name": "MaouHeathclif_Ride_S4_Timeline"
+      }
+    ]
+  },
+  {
+    "detail": 10,
+    "motion": "S4",
+    "timeline_assets": [
+      {
+        "file_id": 0,
+        "path_id": 3210527275315432659,
+        "name": "MaouHeathclif_Ride_S3_Timeline_2"
+      }
+    ]
+  },
+  {
+    "detail": 11,
+    "motion": "S5",
+    "timeline_assets": [
+      {
+        "file_id": 0,
+        "path_id": 86741706005243458,
+        "name": "MaouHeathclif_Ride_S5_Timeline_1"
+      },
+      {
+        "file_id": 0,
+        "path_id": 2378353546586511346,
+        "name": "MaouHeathclif_Main_S5_Timeline_2"
+      },
+      {
+        "file_id": 0,
+        "path_id": -8487859545112678557,
+        "name": "MaouHeathclif_Main_S5_Timeline_3"
+      }
+    ]
+  },
+  {
+    "detail": 12,
+    "motion": "S6",
+    "timeline_assets": [
+      {
+        "file_id": 0,
+        "path_id": -5678366778038766423,
+        "name": "MaouHeathclif_Ride_S6_Timeline 1"
+      },
+      {
+        "file_id": 0,
+        "path_id": 3210527275315432659,
+        "name": "MaouHeathclif_Ride_S3_Timeline_2"
+      }
+    ]
+  },
+  {
+    "detail": 13,
+    "motion": "S7",
+    "timeline_assets": [
+      {
+        "file_id": 0,
+        "path_id": 8964010667083249151,
+        "name": "MaouHeathclif_Ride_S7_Timeline_1"
+      },
+      {
+        "file_id": 0,
+        "path_id": -7872830179829668031,
+        "name": "MaouHeathclif_Ride_S7_Timeline_2"
+      },
+      {
+        "file_id": 0,
+        "path_id": -1665706553302082772,
+        "name": "MaouHeathclif_Ride_S7_Timeline_3"
+      }
+    ]
+  },
+  {
+    "detail": 14,
+    "motion": "S8",
+    "timeline_assets": [
+      {
+        "file_id": 0,
+        "path_id": -2397887058148580597,
+        "name": "MaouHeathclif_Ride_S6_Timeline_1"
+      },
+      {
+        "file_id": 0,
+        "path_id": 690838302559003517,
+        "name": "MaouHeathclif_Main_S6_Timeline_2"
+      },
+      {
+        "file_id": 0,
+        "path_id": -6458881966889250939,
+        "name": "MaouHeathclif_Main_S6_Timeline_3"
+      },
+      {
+        "file_id": 0,
+        "path_id": 2495691356854459727,
+        "name": "MaouHeathclif_Main_S6_Timeline_4"
+      }
+    ]
+  },
+  {
+    "detail": 15,
+    "motion": "S9",
+    "timeline_assets": [
+      {
+        "file_id": 0,
+        "path_id": -7158552241985689190,
+        "name": "MaouHeathclif_Ride_S9_Timeline_1"
+      }
+    ]
+  }
+]
